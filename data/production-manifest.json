@@ -1,0 +1,1412 @@
+{
+  "version": 3,
+  "status": "rendered_demo_proposal",
+  "description": "실제 렌더러의 영역별 문구·주석·좌표·모션. 조건부 표시 문구 양쪽 포함.",
+  "cuts": [
+    {
+      "id": "S1-3.2.1",
+      "semanticId": "s1:agent_with_two_circles:3.2.1",
+      "sourceRow": 19,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 5%; top: 25%; width: 37%; height: 46%; visibility: visible;",
+          "copy": "Limited-time reward event / Reward Plaza R-04 / Open 18:00–19:30 / Entry open"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 64%; top: 22%; width: 30%; height: 12%; visibility: visible;",
+          "copy": "Reward Plaza R-04"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse",
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-3.2.2",
+      "semanticId": "s1:full_map:3.2.2",
+      "sourceRow": 20,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 5%; top: 25%; width: 37%; height: 46%; visibility: visible;",
+          "copy": "Vehicle arrived / Pickup point / P-02 / Ready to board"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-3.2.3",
+      "semanticId": "s1:vehicle_hud:3.2.3",
+      "sourceRow": 21,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 5%; top: 25%; width: 37%; height: 46%; visibility: visible;",
+          "copy": "Boarding complete / Destination / Reward Plaza / Distance / 1.2 / km / Autonomous mode"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-3.3.1",
+      "semanticId": "s1:vehicle_hud:3.3.1",
+      "sourceRow": 22,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 5%; top: 20%; width: 33%; height: 58%; visibility: visible;",
+          "copy": "Inbound flow / +37% / vs. previous 15 min / Pedestrians / 128 / EVs / 24"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-3.3.2",
+      "semanticId": "s1:vehicle_hud:3.3.2",
+      "sourceRow": 23,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Destination · Reward Plaza"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 4%; top: 19%; width: 34%; height: 36%; visibility: visible;",
+          "copy": "Arrival in / 4 / min / 20 / sec / Arrival time / 18:00 / Estimated stay / 90 / min"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 4%; top: 61%; width: 34%; height: 30%; visibility: visible;",
+          "copy": "Charging plan / Current SOC / 43% / Target SOC / 72% / Departure / 19:30"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-4.1.1",
+      "semanticId": "s1:plaza_hud:4.1.1",
+      "sourceRow": 24,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Plaza energy model"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 65%; top: 20%; width: 31%; height: 58%; visibility: visible;",
+          "copy": "Plaza energy model / MPU-01 / R-04 / Connected / Energy model online"
+        }
+      ],
+      "motion": [
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-4.1.2",
+      "semanticId": "s1:plaza_hud:4.1.2",
+      "sourceRow": 25,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Capacity exceeded"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 64%; top: 17%; width: 33%; height: 73%; visibility: visible;",
+          "copy": "Capacity exceeded / Demand / 1.46 / MW / Available / 0.84 / MW / Deficit / 0.62 / MW / Capacity exceeded / Available · 0.84 MW / Demand · 1.46 MW / Power balancing in progress"
+        }
+      ],
+      "motion": [
+        "pulse",
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-4.1.3",
+      "semanticId": "s1:plaza_hud:4.1.3",
+      "sourceRow": 26,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Power support request"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 65%; top: 22%; width: 31%; height: 61%; visibility: visible;",
+          "copy": "Power support request / Required / 620 / kW / Broadcast active / Responses / 03"
+        }
+      ],
+      "motion": [
+        "wave",
+        "wave",
+        "wave",
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-4.2.1",
+      "semanticId": "s1:plaza_hud:4.2.1",
+      "sourceRow": 27,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Mobile power unit"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 65%; top: 16%; width: 31%; height: 75%; visibility: visible;",
+          "copy": "Mobile power unit / MPU-01 / MPU-01 / Docked / Connector ready / Available support / 200 / kW"
+        }
+      ],
+      "motion": [
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-4.2.2",
+      "semanticId": "s1:plaza_hud:4.2.2",
+      "sourceRow": 28,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Source matching · 03/03"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 7%; top: 37%; width: 15%; height: 5%; visibility: visible;",
+          "copy": "ESS · +240 kW"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 44%; top: 37%; width: 16%; height: 5%; visibility: visible;",
+          "copy": "V2G · +180 kW"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 20%; top: 81%; width: 21%; height: 5%; visibility: visible;",
+          "copy": "Mobile unit · +200 kW"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 62%; top: 16%; width: 35%; height: 76%; visibility: visible;",
+          "copy": "Source matching · 03/03 / Building ESS / +240 / kW / V2G pool / +180 / kW / Mobile unit / +200 / kW / Total support / +620 / kW / V2G-07 departure / 19:10 / Minimum departure SOC / 70%"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-4.3.1",
+      "semanticId": "s1:plaza_hud:4.3.1",
+      "sourceRow": 29,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Temporary grid · Active"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 7%; top: 37%; width: 15%; height: 5%; visibility: visible;",
+          "copy": "ESS · +240 kW"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 44%; top: 37%; width: 16%; height: 5%; visibility: visible;",
+          "copy": "V2G · +180 kW"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 20%; top: 81%; width: 21%; height: 5%; visibility: visible;",
+          "copy": "Mobile unit · +200 kW"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 64%; top: 17%; width: 33%; height: 73%; visibility: visible;",
+          "copy": "Temporary grid · Active / Demand / 1.46 / MW / Connected capacity / 1.46 / MW / Power balanced / Power balanced / Connected capacity · 1.46 MW / Demand · 1.46 MW / Charging schedule / Confirmed"
+        }
+      ],
+      "motion": [
+        "pulse",
+        "pulse",
+        "flow",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-5.1",
+      "semanticId": "s1:vehicle_hud:5.1",
+      "sourceRow": 30,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 5%; top: 25%; width: 37%; height: 46%; visibility: visible;",
+          "copy": "Destination reached / Reward Plaza R-04 / Vehicle stopped / Ready to exit"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S1-5.2",
+      "semanticId": "s1:vehicle_hud:5.2",
+      "sourceRow": 31,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 5%; top: 25%; width: 37%; height: 46%; visibility: visible;",
+          "copy": "Control delegated / Next / Charging zone C-03 / Charging schedule / Confirmed / Ready by / 19:30"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse",
+        "speed",
+        "speed-bar"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S2-3.1",
+      "semanticId": "s2:greeting",
+      "sourceRow": 36,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Connected"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 27%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 34%; width: 31%; height: 61%; visibility: visible;",
+          "copy": ""
+        }
+      ],
+      "motion": [
+        "pulse",
+        "breath"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": false,
+        "condition": false,
+        "briefing": false,
+        "afternoonRoom": "A",
+        "delivery": null,
+        "equipment": null
+      }
+    },
+    {
+      "id": "S2-3.2",
+      "semanticId": "s2:parking-charging",
+      "sourceRow": 37,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 27%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 34%; width: 31%; height: 61%; visibility: visible;",
+          "copy": "Mobility status / Vehicle / EV-12 / Parking Robot / Parking complete / ACR / Charging in progress / SOC / 42% / Ready by / 18:00 / Parking Robot ✓ / ACR ↗"
+        }
+      ],
+      "motion": [
+        "pulse",
+        "breath",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": false,
+        "briefing": false,
+        "afternoonRoom": "A",
+        "delivery": null,
+        "equipment": null
+      }
+    },
+    {
+      "id": "S2-3.3",
+      "semanticId": "s2:condition-check",
+      "sourceRow": 38,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 31%; visibility: visible;",
+          "copy": "Condition check / Good / As usual / A little tired / Take it easy / Condition saved"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 37%; width: 31%; height: 30%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 6,
+          "bounds": "left: 66%; top: 70%; width: 31%; height: 25%; visibility: visible;",
+          "copy": "Mobility status / EV-12 · Parking complete / ACR · Charging in progress 42% / Ready by · 18:00"
+        }
+      ],
+      "motion": [
+        "pulse",
+        "breath",
+        "scan-dom",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": false,
+        "afternoonRoom": "A",
+        "delivery": null,
+        "equipment": null
+      }
+    },
+    {
+      "id": "S2-3.4",
+      "semanticId": "s2:daily-briefing",
+      "sourceRow": 39,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": "Today’s tasks / 09:00 / Sample records / 14:00 / Plant inspection / Afternoon location / Room A"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": "Plant sample / Plant sample / PS-014"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 24%; visibility: visible;",
+          "copy": "Condition / Take it easy / A little tired · Condition saved"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 37%; width: 31%; height: 30%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 6,
+          "bounds": "left: 66%; top: 70%; width: 31%; height: 25%; visibility: visible;",
+          "copy": "Mobility status / EV-12 · Parking complete / ACR · Charging in progress 42% / Ready by · 18:00"
+        }
+      ],
+      "motion": [
+        "pulse",
+        "breath",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "A",
+        "delivery": null,
+        "equipment": null
+      }
+    },
+    {
+      "id": "S2-4.1",
+      "semanticId": "s2:afternoon-location-change",
+      "sourceRow": 40,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": "Today’s tasks / 09:00 / Sample records / 14:00 / Plant inspection / Afternoon location / Room A / Afternoon location / Room B"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": "Afternoon operation update / Room A / Room B / Receiving / Workbench / Room A / Room B / Receiving / Workbench / Room A / Robot priority / Room B / Inspection ready / Afternoon location / Room A → Room B / Schedule / Unchanged"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 24%; visibility: visible;",
+          "copy": "Condition / Take it easy / A little tired · Condition saved"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 37%; width: 31%; height: 30%; visibility: visible;",
+          "copy": ""
+        },
+        {
+          "annotation": 6,
+          "bounds": "left: 66%; top: 70%; width: 31%; height: 25%; visibility: visible;",
+          "copy": "Mobility status / EV-12 · Parking complete / ACR · Charging in progress 42% / Ready by · 18:00"
+        }
+      ],
+      "motion": [
+        "voice",
+        "pulse",
+        "breath",
+        "pulse",
+        "pulse",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": null,
+        "equipment": null
+      }
+    },
+    {
+      "id": "S2-4.2",
+      "semanticId": "s2:sample-received",
+      "sourceRow": 41,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": "Today’s tasks / 09:00 / Sample records / 14:00 / Plant inspection / Afternoon location / Room B"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": "Afternoon workspace / Room A / Room B / Receiving / Workbench / Afternoon location / Room B / Inspection / 14:00"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 24%; visibility: visible;",
+          "copy": "Condition / Take it easy / A little tired · Condition saved"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 31%; width: 31%; height: 64%; visibility: visible;",
+          "copy": "Sample received / Sample arrived / Sample / PS-014 / Location / Receiving / Confirmed by / Spot / EV-12 · Parking complete / ACR · Charging in progress 42% / Ready by · 18:00"
+        }
+      ],
+      "motion": [
+        "voice",
+        "pulse",
+        "breath",
+        "pulse",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": null,
+        "equipment": null
+      }
+    },
+    {
+      "id": "S2-4.3",
+      "semanticId": "s2:delivery-booking",
+      "sourceRow": 42,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": "Today’s tasks / 09:00 / Sample records / 14:00 / Plant inspection / Afternoon location / Room B"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": "Afternoon workspace / Room A / Room B / Receiving / Workbench / Afternoon location / Room B / Inspection / 14:00"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 24%; visibility: visible;",
+          "copy": "Condition / Take it easy / A little tired · Condition saved"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 31%; width: 31%; height: 64%; visibility: visible;",
+          "copy": "Delivery scheduled / DAL-e Delivery / Pickup / Receiving / Drop-off / Room B / Inspection / 14:00 / Booking / Confirmed / EV-12 · Parking complete / ACR · Charging in progress 42% / Ready by · 18:00"
+        }
+      ],
+      "motion": [
+        "voice",
+        "pulse",
+        "breath",
+        "pulse",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": null
+      }
+    },
+    {
+      "id": "S2-4.5",
+      "semanticId": "s2:equipment-proposal",
+      "sourceRow": 43,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": "Today’s tasks / 09:00 / Sample records / 14:00 / Plant inspection / Afternoon location / Room B"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": "Afternoon workspace / Room A / Room B / Receiving / Workbench / Afternoon location / Room B / Inspection / 14:00"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 24%; visibility: visible;",
+          "copy": "Condition / Take it easy / A little tired · Condition saved"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 31%; width: 31%; height: 64%; visibility: visible;",
+          "copy": "Lifting support / X-ble Waist / Task / Sample lift / Prepare equipment? / Prepare / Later / Sample case → Workbench / Delivery · Scheduled / EV-12 · Parking complete / ACR · Charging in progress 42% / Ready by · 18:00"
+        }
+      ],
+      "motion": [
+        "voice",
+        "pulse",
+        "lift",
+        "pulse-dom",
+        "pulse",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": null
+      }
+    },
+    {
+      "id": "S2-4.6",
+      "semanticId": "s2:equipment-request",
+      "sourceRow": 44,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": "Today’s tasks / 09:00 / Sample records / 14:00 / Plant inspection / Afternoon location / Room B"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": "Afternoon workspace / Room A / Room B / Receiving / Workbench / Afternoon location / Room B / Inspection / 14:00"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 24%; visibility: visible;",
+          "copy": "Condition / Take it easy / A little tired · Condition saved"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 31%; width: 31%; height: 64%; visibility: visible;",
+          "copy": "Equipment requested / X-ble Waist / Preparation / Requested / Fitting check / 13:45 / For / 14:00 inspection / Delivery · Scheduled / EV-12 · Parking complete / ACR · Charging in progress 42% / Ready by · 18:00"
+        }
+      ],
+      "motion": [
+        "voice",
+        "pulse",
+        "breath",
+        "pulse-dom",
+        "pulse",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": "requested"
+      }
+    },
+    {
+      "id": "S2-5.1",
+      "semanticId": "s2:workday-ready",
+      "sourceRow": 45,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": "Today’s tasks / 09:00 / Sample records / 14:00 / Plant inspection / Afternoon location / Room B"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": "Afternoon workspace / Room A / Room B / Receiving / Workbench / Afternoon location / Room B / Inspection / 14:00"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 24%; visibility: visible;",
+          "copy": "Condition / Take it easy / A little tired · Condition saved"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 31%; width: 31%; height: 64%; visibility: visible;",
+          "copy": "Workday coordinated / Afternoon location / Room B / Sample / At receiving / Delivery / Scheduled / Equipment / Requested / EV-12 · Parking complete / ACR · Charging in progress 42% / Ready by · 18:00"
+        }
+      ],
+      "motion": [
+        "voice",
+        "pulse",
+        "breath",
+        "pulse",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": "requested"
+      }
+    },
+    {
+      "id": "S2-5.2",
+      "semanticId": "s2:morning-records",
+      "sourceRow": 46,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible;",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible;",
+          "copy": "Current task / Sample records / Upcoming / 14:00 inspection / Afternoon location / Room B"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible;",
+          "copy": "Sample records / Record / PS-009 / Type / Leaf sample / Open record"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 24%; visibility: visible;",
+          "copy": "Condition / Take it easy / A little tired · Condition saved"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 31%; width: 31%; height: 64%; visibility: visible;",
+          "copy": "Afternoon preparation / Inspection / 14:00 · Room B / Delivery / Scheduled / Equipment / Requested / EV-12 · Parking complete / ACR · Charging in progress 42% / Ready by · 18:00"
+        }
+      ],
+      "motion": [
+        "voice",
+        "pulse",
+        "breath",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": "requested"
+      }
+    },
+    {
+      "id": "S2-5.3",
+      "semanticId": "s2:morning-start",
+      "sourceRow": 47,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 36%; top: 4%; width: 28%; height: 91%; visibility: visible; opacity: 1; transform: rotate(0deg) scale(1);",
+          "copy": "Work mirror / Agent V · Background mode"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 4%; width: 31%; height: 36%; visibility: visible; opacity: 1; transform: scale(1);",
+          "copy": "Morning task started / Sample records / Open / Next check / 13:45 / Afternoon / Inspection scheduled"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 3%; top: 43%; width: 31%; height: 52%; visibility: visible; opacity: 1; transform: scale(1);",
+          "copy": "Afternoon workspace / Room A / Room B / Receiving / Workbench / Afternoon location / Room B / Inspection / 14:00"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 66%; top: 4%; width: 31%; height: 24%; visibility: visible; opacity: 1; transform: scale(1);",
+          "copy": "Condition / Take it easy / A little tired · Condition saved"
+        },
+        {
+          "annotation": 5,
+          "bounds": "left: 66%; top: 31%; width: 31%; height: 64%; visibility: visible; opacity: 1; transform: scale(1);",
+          "copy": "Morning task started / Delivery / Scheduled / Equipment / Requested / Next check / 13:45 / EV-12 · Parking complete / ACR · Charging in progress 42% / Ready by · 18:00"
+        },
+        {
+          "annotation": 6,
+          "bounds": "left: 36%; top: 35%; width: 28%; height: 35%; visibility: visible;",
+          "copy": "OS / Agent V · Background mode"
+        }
+      ],
+      "motion": [
+        "voice",
+        "pulse",
+        "breath",
+        "pulse",
+        "charge"
+      ],
+      "loopSeconds": 10,
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": "requested"
+      }
+    },
+    {
+      "id": "S3-3.1",
+      "semanticId": "s3:walking_pov:3.1",
+      "sourceRow": 52,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 10%; width: 36%; height: 34%; visibility: visible;",
+          "copy": "SHUCLE · Arrived / City access point / C-02 / Next / Common Park P-03"
+        }
+      ],
+      "motion": [
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S3-3.2",
+      "semanticId": "s3:walking_pov:3.2",
+      "sourceRow": 53,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 10%; width: 36%; height: 34%; visibility: visible;",
+          "copy": "Common Park P-03 / Popular layer / Activity / Shared space / Open"
+        }
+      ],
+      "motion": [
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S3-3.3",
+      "semanticId": "s3:walking_pov:3.3",
+      "sourceRow": 54,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 10%; width: 36%; height: 34%; visibility: visible;",
+          "copy": "Physical space confirmed / Layer ready / Base space / P-03"
+        }
+      ],
+      "motion": [
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S3-4.1",
+      "semanticId": "s3:park_layers:4.1",
+      "sourceRow": 55,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 10%; width: 36%; height: 34%; visibility: visible;",
+          "copy": "Activity layer · Active / Virtual stage / Connected / Program / Park session"
+        }
+      ],
+      "motion": [
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S3-4.2",
+      "semanticId": "s3:park_layers:4.2",
+      "sourceRow": 56,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 65%; top: 14%; width: 31%; height: 48%; visibility: visible;",
+          "copy": "Park session / Personal audio / On / Prefer a quieter space? / Switch to Quiet"
+        }
+      ],
+      "motion": [
+        "voice",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S3-4.3",
+      "semanticId": "s3:park_layers:4.3",
+      "sourceRow": 57,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 10%; width: 36%; height: 34%; visibility: visible;",
+          "copy": "Layer transition / Activity → Quiet / Physical space / Unchanged"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 68%; top: 8%; width: 25%; height: 10%; visibility: visible;",
+          "copy": "Activity / Quiet"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S3-4.4",
+      "semanticId": "s3:park_layers:4.4",
+      "sourceRow": 58,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 10%; width: 36%; height: 34%; visibility: visible;",
+          "copy": "Quiet layer · Active / Walking path / Aligned / Rest at your own pace"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S3-5.1",
+      "semanticId": "s3:park_layers:5.1",
+      "sourceRow": 59,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 10%; width: 36%; height: 42%; visibility: visible;",
+          "copy": "PBV rest space available / PBV-07 / Walk / 120 / m / Private lounge / Available"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S3-5.2",
+      "semanticId": "s3:walking_pov:5.2",
+      "sourceRow": 60,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 10%; width: 40%; height: 42%; visibility: visible;",
+          "copy": "Rest mode ready / Session / 20 / min / Return route prepared / Home / 7.2 / km / 18 / min"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S3-5.3",
+      "semanticId": "s3:pbv_interior:5.3",
+      "sourceRow": 61,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 5%; top: 13%; width: 37%; height: 40%; visibility: visible;",
+          "copy": "Rest session · Active / 20 min"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 5%; top: 13%; width: 38%; height: 53%; visibility: visible;",
+          "copy": "Rest session · Complete / Return home / Route ready / 7.2 / km / ETA / 18 / min"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 57%; top: 45%; width: 36%; height: 39%; visibility: visible;",
+          "copy": "PBV-07 / Home"
+        }
+      ],
+      "motion": [
+        "pulse",
+        "flow"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S4-3.1",
+      "semanticId": "s4:operator_console:3.1",
+      "sourceRow": 66,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "LM-01 · Operation overview"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 4%; top: 17%; width: 92%; height: 32%; visibility: visible;",
+          "copy": "Visitors today / 1,284 / New visitors / 38% / Cafe occupancy / 82% / Exhibition engagement / 74% / Average stay / 47 / min"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 65%; top: 54%; width: 31%; height: 32%; visibility: visible;",
+          "copy": "Service status / Energy / Normal / Mobility / Normal / Service / Normal"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 4%; top: 88%; width: 80%; height: 7%; visibility: visible;",
+          "copy": "Today's operation complete"
+        }
+      ],
+      "motion": [
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S4-3.2",
+      "semanticId": "s4:operator_map:3.2",
+      "sourceRow": 67,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Next site options · 03"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 4%; top: 24%; width: 92%; height: 59%; visibility: visible;",
+          "copy": "01 / Transit District / Visitor reach ↑↑ / Revenue ↑ / New citizens ↑ / 02 / Residential District / Exhibition / Cafe / Lounge / Community use ↑↑ / Average stay ↑ / Revenue → / 03 / Culture District / Cultural engagement ↑↑ / Visitor diversity ↑↑ / New program potential ↑"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S4-3.3",
+      "semanticId": "s4:operator_map:3.3",
+      "sourceRow": 68,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Culture District · Selected"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 4%; top: 19%; width: 58%; height: 65%; visibility: visible;",
+          "copy": "Culture District · Selected / Today's mix / 40 / Cafe / 35 / Exhibition / 25 / Lounge / Tomorrow's mix / 20 / Cafe / 55 / Exhibition / 25 / Lounge"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 66%; top: 26%; width: 30%; height: 48%; visibility: visible;",
+          "copy": "Culture District / Exhibition / Cafe / Lounge / Site / C-03"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S4-4.1",
+      "semanticId": "s4:asset_split:4.1",
+      "sourceRow": 69,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Relocation inventory"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 61%; top: 18%; width: 35%; height: 70%; visibility: visible;",
+          "copy": "Relocation inventory / Small assets / Exhibits / Plants / Equipment / Assigned to / MobED + Spot / Structural modules / Exhibition / Cafe / Lounge / Assigned to / Heavy transport platform"
+        }
+      ],
+      "motion": [
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S4-4.2",
+      "semanticId": "s4:spot_split_view:4.2",
+      "sourceRow": 70,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Spot · Route survey planned"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 5%; top: 79%; width: 55%; height: 16%; visibility: visible;",
+          "copy": "To check / Width / Slope / Surface / Restricted sections / To exclude"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 65%; top: 68%; width: 31%; height: 27%; visibility: visible;",
+          "copy": "Route survey / Route / LM-01 → C-03 / Distance / 3.8 / km"
+        }
+      ],
+      "motion": [
+        "float",
+        "scan",
+        "flow",
+        "survey",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S4-4.3",
+      "semanticId": "s4:robot_dispatch:4.3",
+      "sourceRow": 71,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Asset dispatch"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 3%; top: 20%; width: 29%; height: 68%; visibility: visible;",
+          "copy": "Asset queue / 01 / Exhibition asset / 02 / Plants / 03 / Equipment"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 69%; top: 20%; width: 28%; height: 68%; visibility: visible;",
+          "copy": "Route assignment / MobED / Flat route / Level control / Active / Spot / Steps / Uneven terrain / Structural modules / Overnight low-speed transport"
+        }
+      ],
+      "motion": [
+        "flow",
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S4-4.4",
+      "semanticId": "s4:transport_schedule:4.4",
+      "sourceRow": 72,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Overnight relocation"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 4%; top: 18%; width: 40%; height: 51%; visibility: visible;",
+          "copy": "Infrastructure / Power / Connection reserved / Water / Connection reserved / Data / Connection reserved"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 55%; top: 18%; width: 41%; height: 51%; visibility: visible;",
+          "copy": "City review / Road authority / Review pending / Traffic control / Review pending / HTWO energy support / Scheduled / Move window / 00:20–03:10"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 4%; top: 74%; width: 92%; height: 22%; visibility: visible;",
+          "copy": "Today / 22:30 / Small asset move / Today / 23:40 / Module release / Next day / 00:20 / Transport / Next day / 03:10 / Reconnect / Next day / 06:00 / System check / Next day / 09:00 / Open"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S4-4.5",
+      "semanticId": "s4:approval_summary:4.5",
+      "sourceRow": 73,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Relocation plan"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 5%; top: 22%; width: 51%; height: 60%; visibility: visible;",
+          "copy": "01 / Pack / 02 / Robot delivery / 03 / Module transport / 04 / Reconnect / 05 / Reconfigure / 06 / Open"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 61%; top: 19%; width: 35%; height: 65%; visibility: visible;",
+          "copy": "Plan status / Route plan / Complete / Energy support / Scheduled / New site / Reserved / City network / Registration planned / City approval pending"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S4-5.1",
+      "semanticId": "s4:next_day_schedule:5.1",
+      "sourceRow": 74,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Relocation scheduled"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 5%; top: 21%; width: 39%; height: 64%; visibility: visible;",
+          "copy": "Relocation scheduled / Execution / Subject to approval / Overnight execution / Next opening / 09:00 / Culture District / C-03"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 61%; top: 29%; width: 35%; height: 52%; visibility: visible;",
+          "copy": "Tomorrow / Opening check / Exhibition setup / Visitor forecast"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    },
+    {
+      "id": "S4-5.2",
+      "semanticId": "s4:commute_preview:5.2",
+      "sourceRow": 75,
+      "panels": [
+        {
+          "annotation": 1,
+          "bounds": "left: 4%; top: 4%; width: 86%; height: 10%; visibility: visible;",
+          "copy": "Commute brief · Scheduled"
+        },
+        {
+          "annotation": 2,
+          "bounds": "left: 5%; top: 23%; width: 38%; height: 54%; visibility: visible;",
+          "copy": "Tomorrow / Commute brief / Scheduled / Work board / Scheduled / Home → New landmark C-03"
+        },
+        {
+          "annotation": 3,
+          "bounds": "left: 63%; top: 24%; width: 33%; height: 51%; visibility: visible;",
+          "copy": "New site preview / Visitor forecast / 1,400 / First task / Opening check at 08:30"
+        },
+        {
+          "annotation": 4,
+          "bounds": "left: 7%; top: 84%; width: 86%; height: 12%; visibility: visible;",
+          "copy": "Today's operation complete / See you tomorrow"
+        }
+      ],
+      "motion": [
+        "flow",
+        "pulse"
+      ],
+      "loopSeconds": 10,
+      "state": null
+    }
+  ]
+}

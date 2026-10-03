@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "status": "user_requested_demo_copy",
   "notice": "UI 시연용 데이터",
   "assets": {
@@ -201,7 +201,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:agent_with_two_circles:3.2.1"
     },
     "S1-3.2.2": {
       "displayCopy": [
@@ -217,7 +218,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:full_map:3.2.2"
     },
     "S1-3.2.3": {
       "displayCopy": [
@@ -234,7 +236,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:vehicle_hud:3.2.3"
     },
     "S1-3.3.1": {
       "displayCopy": [
@@ -252,7 +255,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:vehicle_hud:3.3.1"
     },
     "S1-3.3.2": {
       "displayCopy": [
@@ -271,7 +275,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:vehicle_hud:3.3.2"
     },
     "S1-4.1.1": {
       "displayCopy": [
@@ -282,12 +287,13 @@
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "",
+      "note": "최신 I열 V.O 미기입. 앞 컷 대사를 이어받지 않음.",
       "sequenceReveal": [
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:plaza_hud:4.1.1"
     },
     "S1-4.1.2": {
       "displayCopy": [
@@ -305,7 +311,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:plaza_hud:4.1.2"
     },
     "S1-4.1.3": {
       "displayCopy": [
@@ -322,7 +329,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:plaza_hud:4.1.3"
     },
     "S1-4.2.1": {
       "displayCopy": [
@@ -335,12 +343,13 @@
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "공동 V.O의 분할과 총 9초 수용 가능 여부는 음원으로 확인해야 합니다.",
+      "note": "I27:I28 병합 V.O 확인. 컷별 표시 구간은 편집 제안이며 원문 전체를 별도 보존.",
       "sequenceReveal": [
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:plaza_hud:4.2.1"
     },
     "S1-4.2.2": {
       "displayCopy": [
@@ -355,12 +364,13 @@
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "공동 V.O의 분할과 총 9초 수용 가능 여부는 음원으로 확인해야 합니다.",
+      "note": "I27:I28 병합 V.O 확인. 컷별 표시 구간은 편집 제안이며 원문 전체를 별도 보존.",
       "sequenceReveal": [
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:plaza_hud:4.2.2"
     },
     "S1-4.3.1": {
       "displayCopy": [
@@ -378,7 +388,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:plaza_hud:4.3.1"
     },
     "S1-5.1": {
       "displayCopy": [
@@ -395,7 +406,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:vehicle_hud:5.1"
     },
     "S1-5.2": {
       "displayCopy": [
@@ -412,14 +424,13 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s1:vehicle_hud:5.2"
     },
     "S2-3.1": {
       "displayCopy": [
         "Work mirror",
-        "Agent V · Connected",
-        "Personal workday · Initializing",
-        "Briefing · Pending"
+        "Agent V · Connected"
       ],
       "loopSeconds": 10,
       "entrySeconds": 4,
@@ -431,11 +442,34 @@
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s2:greeting"
     },
     "S2-3.2": {
       "displayCopy": [
-        "How are you feeling?",
+        "Mobility status",
+        "Vehicle · EV-12",
+        "Parking Robot · Parking complete",
+        "ACR · Charging in progress",
+        "SOC · 42%",
+        "Ready by · 18:00"
+      ],
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "note": "",
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "semanticId": "s2:parking-charging"
+    },
+    "S2-3.3": {
+      "displayCopy": [
+        "Condition check",
         "Good",
         "As usual",
         "A little tired",
@@ -450,16 +484,17 @@
         0,
         0,
         0,
-        0.35,
+        0,
         0
-      ]
+      ],
+      "semanticId": "s2:condition-check"
     },
-    "S2-3.3": {
+    "S2-3.4": {
       "displayCopy": [
-        "Today",
+        "Today’s tasks",
         "09:00 · Sample records",
         "14:00 · Plant inspection",
-        "Location · Room A",
+        "Afternoon location · Room A",
         "Plant sample · PS-014"
       ],
       "loopSeconds": 10,
@@ -468,39 +503,19 @@
       "note": "",
       "sequenceReveal": [
         0,
-        0.35,
-        0.7,
+        0,
+        0,
         0,
         0
-      ]
-    },
-    "S2-3.5": {
-      "displayCopy": [
-        "Mobility status",
-        "Vehicle · EV-12",
-        "Parking robot · Parked",
-        "ACR · Charging",
-        "SOC · 42%",
-        "Ready by · 18:00"
       ],
-      "loopSeconds": 10,
-      "entrySeconds": 4,
-      "transitionAt": 2.6,
-      "note": "",
-      "sequenceReveal": [
-        0,
-        0,
-        0,
-        0,
-        0.35
-      ]
+      "semanticId": "s2:daily-briefing"
     },
     "S2-4.1": {
       "displayCopy": [
         "Afternoon operation update",
         "Room A · Robot priority",
         "Room B · Inspection ready",
-        "Location · Room A → Room B",
+        "Afternoon location · Room A → Room B",
         "Schedule · Unchanged"
       ],
       "loopSeconds": 10,
@@ -509,15 +524,16 @@
       "note": "",
       "sequenceReveal": [
         0,
-        0.7,
+        0,
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s2:afternoon-location-change"
     },
     "S2-4.2": {
       "displayCopy": [
-        "Receiving update",
+        "Sample received",
         "Sample arrived",
         "Sample · PS-014",
         "Location · Receiving",
@@ -526,18 +542,19 @@
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "",
+      "note": "I열 존댓말과 알림음을 원문대로 보존. 4.3의 도착 확인 대사와 중복되어 제작 확인 필요.",
       "sequenceReveal": [
         0,
         0,
         0,
         0,
-        0.35
-      ]
+        0
+      ],
+      "semanticId": "s2:sample-received"
     },
     "S2-4.3": {
       "displayCopy": [
-        "Delivery booking",
+        "Delivery scheduled",
         "DAL-e Delivery",
         "Pickup · Receiving",
         "Drop-off · Room B",
@@ -547,14 +564,15 @@
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "",
+      "note": "4.2와 샘플 도착 확인 대사가 중복됨. 원문을 임의로 생략하지 않음.",
       "sequenceReveal": [
         0,
         0,
         0,
         0,
-        0.35
-      ]
+        0
+      ],
+      "semanticId": "s2:delivery-booking"
     },
     "S2-4.5": {
       "displayCopy": [
@@ -574,12 +592,13 @@
         0,
         0,
         0,
-        0.35
-      ]
+        0
+      ],
+      "semanticId": "s2:equipment-proposal"
     },
     "S2-4.6": {
       "displayCopy": [
-        "Equipment request",
+        "Equipment requested",
         "X-ble Waist",
         "Preparation · Requested",
         "Fitting check · 13:45",
@@ -594,18 +613,17 @@
         0,
         0,
         0,
-        0.35
-      ]
+        0
+      ],
+      "semanticId": "s2:equipment-request"
     },
     "S2-5.1": {
       "displayCopy": [
         "Workday coordinated",
-        "Location · Room B",
+        "Afternoon location · Room B",
         "Sample · At receiving",
-        "Delivery · Booked",
-        "Equipment · Requested",
-        "Parking · Complete",
-        "ACR · Charging 42%"
+        "Delivery · Scheduled",
+        "Equipment · Requested"
       ],
       "loopSeconds": 10,
       "entrySeconds": 4,
@@ -616,14 +634,15 @@
         0,
         0,
         0,
-        0.35
-      ]
+        0
+      ],
+      "semanticId": "s2:workday-ready"
     },
     "S2-5.2": {
       "displayCopy": [
         "Current task",
         "Sample records",
-        "Record · PS-014",
+        "Record · PS-009",
         "Type · Leaf sample",
         "Open record",
         "Upcoming · 14:00 inspection"
@@ -637,12 +656,13 @@
         0,
         0,
         0,
-        0.35
-      ]
+        0
+      ],
+      "semanticId": "s2:morning-records"
     },
     "S2-5.3": {
       "displayCopy": [
-        "Task started",
+        "Morning task started",
         "Sample records · Open",
         "Agent V · Background mode",
         "Next check · 13:45",
@@ -651,14 +671,15 @@
       "loopSeconds": 10,
       "entrySeconds": 0,
       "transitionAt": 4,
-      "note": "",
+      "note": "다른 S2 컷과 달리 존댓말 원문을 유지.",
       "sequenceReveal": [
         0,
         0,
         0,
         0,
-        0.35
-      ]
+        0
+      ],
+      "semanticId": "s2:morning-start"
     },
     "S3-3.1": {
       "displayCopy": [
@@ -674,7 +695,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s3:walking_pov:3.1"
     },
     "S3-3.2": {
       "displayCopy": [
@@ -685,12 +707,13 @@
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "",
+      "note": "I53:I54 병합 V.O 확인. 동일 병합 대사를 두 컷에서 공유 표시하며 별도 대사로 확정하지 않음. 최신 I53은 “곳은”으로 시작함. J열의 “이곳은”으로 자동 보충하지 않음.",
       "sequenceReveal": [
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s3:walking_pov:3.2"
     },
     "S3-3.3": {
       "displayCopy": [
@@ -701,12 +724,13 @@
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "",
+      "note": "I53:I54 병합 V.O 확인. 동일 병합 대사를 두 컷에서 공유 표시하며 별도 대사로 확정하지 않음. 최신 I53은 “곳은”으로 시작함. J열의 “이곳은”으로 자동 보충하지 않음.",
       "sequenceReveal": [
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s3:walking_pov:3.3"
     },
     "S3-4.1": {
       "displayCopy": [
@@ -722,7 +746,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s3:park_layers:4.1"
     },
     "S3-4.2": {
       "displayCopy": [
@@ -734,12 +759,13 @@
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "",
+      "note": "최신 I56의 “금 더” 표기를 그대로 보존.",
       "sequenceReveal": [
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s3:park_layers:4.2"
     },
     "S3-4.3": {
       "displayCopy": [
@@ -755,7 +781,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s3:park_layers:4.3"
     },
     "S3-4.4": {
       "displayCopy": [
@@ -771,7 +798,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s3:park_layers:4.4"
     },
     "S3-5.1": {
       "displayCopy": [
@@ -788,7 +816,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s3:park_layers:5.1"
     },
     "S3-5.2": {
       "displayCopy": [
@@ -805,7 +834,8 @@
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s3:walking_pov:5.2"
     },
     "S3-5.3": {
       "displayCopy": [
@@ -819,12 +849,13 @@
       "loopSeconds": 10,
       "entrySeconds": 0,
       "transitionAt": 2.6,
-      "note": "휴식 20분 이후 귀가로 전환하는 시간을 루프 안에서 생략한 시연입니다.",
+      "note": "",
       "sequenceReveal": [
         0,
         0,
         0
-      ]
+      ],
+      "semanticId": "s3:pbv_interior:5.3"
     },
     "S4-3.1": {
       "displayCopy": [
@@ -846,7 +877,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s4:operator_console:3.1"
     },
     "S4-3.2": {
       "displayCopy": [
@@ -863,7 +895,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s4:operator_map:3.2"
     },
     "S4-3.3": {
       "displayCopy": [
@@ -880,7 +913,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s4:operator_map:3.3"
     },
     "S4-4.1": {
       "displayCopy": [
@@ -898,15 +932,16 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s4:asset_split:4.1"
     },
     "S4-4.2": {
       "displayCopy": [
-        "Spot · Route survey",
+        "Spot · Route survey planned",
         "Route · LM-01 → C-03",
         "Distance · 3.8 km",
-        "Checking · Width / Slope / Surface",
-        "Restricted sections · Excluded"
+        "To check · Width / Slope / Surface",
+        "Restricted sections · To exclude"
       ],
       "loopSeconds": 10,
       "entrySeconds": 4,
@@ -916,7 +951,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s4:spot_split_view:4.2"
     },
     "S4-4.3": {
       "displayCopy": [
@@ -925,7 +961,8 @@
         "03 · Equipment",
         "MobED · Flat route",
         "Level control · Active",
-        "Spot · Steps / Uneven terrain"
+        "Spot · Steps / Uneven terrain",
+        "Structural modules · Overnight low-speed transport"
       ],
       "loopSeconds": 10,
       "entrySeconds": 4,
@@ -935,7 +972,8 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s4:robot_dispatch:4.3"
     },
     "S4-4.4": {
       "displayCopy": [
@@ -950,12 +988,13 @@
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "",
+      "note": "L72 승인 완료 체크와 I73 교통 승인 후 이동 발화 사이 상태 충돌 가능성. UI는 승인 조건부 시연안이며 원문은 그대로 보존. I72는 “ 거점의”로 시작하며 J열의 “새 거점의”와 다름. I열을 보존하고 임의 보충하지 않음.",
       "sequenceReveal": [
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s4:transport_schedule:4.4"
     },
     "S4-4.5": {
       "displayCopy": [
@@ -963,23 +1002,24 @@
         "Route plan · Complete",
         "Energy support · Scheduled",
         "New site · Reserved",
-        "City approval · Pending",
-        "Ready for operator approval"
+        "City network · Registration planned",
+        "City approval pending"
       ],
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "",
+      "note": "L72 승인 완료 체크와 I73 교통 승인 후 이동 발화 사이 상태 충돌 가능성. UI는 승인 조건부 시연안이며 원문은 그대로 보존.",
       "sequenceReveal": [
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s4:approval_summary:4.5"
     },
     "S4-5.1": {
       "displayCopy": [
         "Relocation scheduled",
-        "Required approvals · Confirmed",
+        "Execution · Subject to approval",
         "Overnight execution",
         "Next opening · 09:00",
         "Culture District · C-03",
@@ -990,12 +1030,13 @@
       "loopSeconds": 10,
       "entrySeconds": 4,
       "transitionAt": 2.6,
-      "note": "",
+      "note": "L72 승인 완료 체크와 I73 교통 승인 후 이동 발화 사이 상태 충돌 가능성. UI는 승인 조건부 시연안이며 원문은 그대로 보존.",
       "sequenceReveal": [
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s4:next_day_schedule:5.1"
     },
     "S4-5.2": {
       "displayCopy": [
@@ -1015,10 +1056,11 @@
         0,
         0.35,
         0.7
-      ]
+      ],
+      "semanticId": "s4:commute_preview:5.2"
     }
   },
-  "editorialNote": "시연용 편집 제안: S4-4.4 도로·교통 검토 중 → 4.5 도시·운영자 승인 대기 → 5.1 필요한 승인이 확인된 이후의 예약 상태. 원문과 V.O는 보존하며 별도 승인 행동이나 컷을 추가하지 않음. 08:30 및 1,400은 내일 업무 프리뷰 시연값.",
+  "editorialNote": "최신 원문 L72의 승인 완료 체크와 I73의 승인 대기 발화는 서로 충돌합니다. 승인 상태는 제작 확인이 필요하며, 현재 UI는 승인을 확정하지 않는 시연용 보류안입니다. 5.1도 승인 조건부 예약으로 표시합니다.",
   "vehicleSpeed": {
     "S1-3.2.1": [
       22,
@@ -1087,5 +1129,16 @@
       0,
       0
     ]
-  }
+  },
+  "source": {
+    "basis": "live_google_sheet",
+    "spreadsheetId": "1RFT9nO8Lk-dK6t1i6wsmANPwc3p607FG2N3Jmg9gQaQ",
+    "url": "https://docs.google.com/spreadsheets/d/1RFT9nO8Lk-dK6t1i6wsmANPwc3p607FG2N3Jmg9gQaQ/edit#gid=446341671",
+    "sheet": "전면 스토리보드",
+    "sheetId": 446341671,
+    "retrievedAt": "2026-10-03T22:05:01.346Z",
+    "sha256": "37b08d322954539a07128f2f811f55ec574e20de68c152c16db9c99c6be231d2",
+    "mergeVerification": "동일 시점 XLSX 내보내기의 병합 범위 확인; 모든 문자열을 커넥터 읽기와 대조하여 일치"
+  },
+  "proposalNotice": "원문에 없는 영문 UI·수치·속도 프로파일·모션 타이밍은 시연용 제안. 원문 V.O와 구분."
 }

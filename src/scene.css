@@ -11,3 +11,12 @@ header{height:42px;padding:0 22px;gap:22px}.brand{font-size:25px;gap:12px}.brand
 
 /* Persistent vehicle HUD; updated by the shared playback clock. */
 .vehicle-speed{position:absolute;left:43%;bottom:1.4%;width:14%;text-align:center;color:var(--red,#ef625b);background:radial-gradient(ellipse,rgba(12,12,12,.94) 0%,rgba(12,12,12,.7) 55%,transparent 75%);padding:.3cqw 0;pointer-events:none}.speed-value{font-size:3.5cqw;line-height:1;font-weight:750;font-variant-numeric:tabular-nums;letter-spacing:-.08cqw}.speed-unit{font-size:1cqw;line-height:1.4}.speed-state{font-size:.8cqw;letter-spacing:.16cqw;margin-top:.2cqw}.speed-track{height:.15cqw;background:#444;width:65%;margin:.35cqw auto 0}.speed-track span{display:block;height:100%;background:currentColor;transform-origin:left}
+
+.slot-outline{border:1px solid #555;border-radius:1cqw;background:#ffffff02}.compact-mobility{padding:1cqw}.compact-mobility .service-history{margin:0;border:0;padding:0}.compact-mobility h2{font-size:1.25cqw}.mobility-summary span{font-size:.86cqw}.mobility-devices{display:flex;gap:.6cqw;font-size:.85cqw;border-top:1px solid #555;padding-top:.5cqw}.carry-tag,.lift-task{font-size:.95cqw;padding:.5cqw;border:1px dashed #666;border-radius:.4cqw}.location-change{min-height:3.8cqw}.workspace-panel .compact-fields{gap:.3cqw}.workspace-panel .compact-fields .field{padding-top:.3cqw}.ending .closing-slot{opacity:0;transform:scale(.78)}.ending .closing-mirror{opacity:.05;transform:rotate(2deg) scale(.94)}#vo{white-space:pre-wrap;overflow-wrap:anywhere}#vo-directions{font-size:11px;color:#aaa;margin-top:5px}#vo-directions:empty{display:none}.source-link{font-size:11px}.compat-notice{font-size:12px;color:#bbb;padding:8px 0}.compat-notice:empty{display:none}
+
+.received-sample{position:absolute;right:5%;top:12%;width:25%;height:22%;object-fit:contain}.closing-slot,.closing-mirror{transition:opacity .8s ease,transform .8s ease}@media(prefers-reduced-motion:reduce){.closing-slot,.closing-mirror{transition:none}}
+
+#vo,#vo-directions{grid-column:2}.received-sample{top:43%;height:20%}@media(max-width:850px){#vo,#vo-directions{grid-column:1}}
+
+/* Closing transition uses the common playhead, including pause and seek. */
+.closing-slot,.closing-mirror{transition:none}

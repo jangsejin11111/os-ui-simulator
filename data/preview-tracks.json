@@ -1,6 +1,6 @@
 {
   "status": "proposed_preview_only",
-  "description": "시안용 등장·동작 큐. 원문 세부 시간 아님. start/complete/end는 0–1 공통 playhead.",
+  "description": "v03 실제 렌더러 공통 시계 및 컷별 상태의 내보내기. 타이밍은 시연용 제안.",
   "regions": {
     "full": [
       0,
@@ -155,741 +155,1552 @@
   },
   "cuts": {
     "S1-3.2.1": {
-      "agent": {
-        "start": 0,
-        "complete": 1
-      },
-      "plaza_scan": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "city_map": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s1:agent_with_two_circles:3.2.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-3.2.2": {
-      "city_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "vehicle_marker": {
-        "start": 0,
-        "complete": 0.7,
-        "motionStart": 0.35
-      },
-      "status": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s1:full_map:3.2.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-3.2.3": {
-      "lidar_road": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s1:vehicle_hud:3.2.3",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-3.3.1": {
-      "lidar_road": {
-        "start": 0,
-        "complete": 1
-      },
-      "city_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "citizen_ev_nodes": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s1:vehicle_hud:3.3.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-3.3.2": {
-      "lidar_road": {
-        "start": 0,
-        "complete": 1
-      },
-      "data_card": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "city_map": {
-        "start": 0,
-        "complete": 1
-      }
+      "semanticId": "s1:vehicle_hud:3.3.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-4.1.1": {
-      "plaza_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "game_layer": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "citizen_ev_nodes": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s1:plaza_hud:4.1.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-4.1.2": {
-      "plaza_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "request_badges": {
-        "start": 0,
-        "complete": 1
-      },
-      "demand_chart": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s1:plaza_hud:4.1.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-4.1.3": {
-      "plaza_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "radial_request": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s1:plaza_hud:4.1.3",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-4.2.1": {
-      "plaza_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "mobile_charger": {
-        "start": 0,
-        "complete": 1,
-        "textWindows": [
-          [
-            0,
-            1.01
-          ],
-          [
-            0.35,
-            1.01
-          ]
-        ]
-      },
-      "connector_lights": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s1:plaza_hud:4.2.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-4.2.2": {
-      "plaza_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "supply_nodes": {
-        "start": 0,
-        "complete": 1
-      },
-      "data_card": {
-        "start": 0,
-        "complete": 1
-      },
-      "candidate_paths": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s1:plaza_hud:4.2.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-4.3.1": {
-      "plaza_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "confirmed_paths": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "status": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s1:plaza_hud:4.3.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-5.1": {
-      "lidar_road": {
-        "start": 0,
-        "complete": 1
-      },
-      "game_layer": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s1:vehicle_hud:5.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S1-5.2": {
-      "lidar_road": {
-        "start": 0,
-        "complete": 1
-      },
-      "delegation_border": {
-        "start": 0,
-        "complete": 1
-      },
-      "vehicle_marker": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "confirmed_paths": {
-        "start": 0,
-        "complete": 1
-      }
+      "semanticId": "s1:vehicle_hud:5.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S2-3.1": {
-      "agent": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "empty_slots": {
-        "start": 0,
-        "complete": 1
+      "semanticId": "s2:greeting",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": false,
+        "condition": false,
+        "briefing": false,
+        "afternoonRoom": "A",
+        "delivery": null,
+        "equipment": null
       }
     },
     "S2-3.2": {
-      "body_scan": {
-        "start": 0,
-        "complete": 1
-      },
-      "condition_card": {
-        "start": 0,
-        "complete": 1,
-        "textWindows": [
-          [
-            0,
-            0.7
-          ],
-          [
-            0.7,
-            1.01
-          ]
-        ]
+      "semanticId": "s2:parking-charging",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": false,
+        "briefing": false,
+        "afternoonRoom": "A",
+        "delivery": null,
+        "equipment": null
       }
     },
     "S2-3.3": {
-      "body_breath": {
-        "start": 0,
-        "complete": 1
-      },
-      "schedule": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "plant_thumbnail": {
-        "start": 0.7,
-        "complete": 1
-      },
-      "condition_card": {
-        "start": 0,
-        "complete": 1
+      "semanticId": "s2:condition-check",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": false,
+        "afternoonRoom": "A",
+        "delivery": null,
+        "equipment": null
       }
     },
-    "S2-3.5": {
-      "body_breath": {
-        "start": 0,
-        "complete": 1
-      },
-      "schedule": {
-        "start": 0,
-        "complete": 1
-      },
-      "vehicle_service": {
-        "start": 0,
-        "complete": 1,
-        "textWindows": [
-          [
-            0.35,
-            1.01
-          ],
-          [
-            0.7,
-            1.01
-          ]
-        ]
+    "S2-3.4": {
+      "semanticId": "s2:daily-briefing",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "A",
+        "delivery": null,
+        "equipment": null
       }
     },
     "S2-4.1": {
-      "body_breath": {
-        "start": 0,
-        "complete": 1
-      },
-      "schedule": {
-        "start": 0.7,
-        "complete": 1
-      },
-      "zone_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "agent_wave": {
-        "start": 0,
-        "complete": 1
+      "semanticId": "s2:afternoon-location-change",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "오후 검수 장소 A → B 전환; 오전 기록·검수 시각 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": null,
+        "equipment": null
       }
     },
     "S2-4.2": {
-      "body_breath": {
-        "start": 0,
-        "complete": 1
-      },
-      "zone_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "receiving_card": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "agent_wave": {
-        "start": 0,
-        "complete": 1
+      "semanticId": "s2:sample-received",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": null,
+        "equipment": null
       }
     },
     "S2-4.3": {
-      "body_breath": {
-        "start": 0,
-        "complete": 1
-      },
-      "zone_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "delivery_booking": {
-        "start": 0,
-        "complete": 1
-      },
-      "candidate_paths": {
-        "start": 0.7,
-        "complete": 1
-      },
-      "agent_wave": {
-        "start": 0,
-        "complete": 1
+      "semanticId": "s2:delivery-booking",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": null
       }
     },
     "S2-4.5": {
-      "body_lift": {
-        "start": 0,
-        "complete": 1
-      },
-      "equipment_outline": {
-        "start": 0.7,
-        "complete": 1
-      },
-      "equipment_proposal": {
-        "start": 0.7,
-        "complete": 1
-      },
-      "case_to_workbench": {
-        "start": 0,
-        "complete": 1
-      },
-      "agent_wave": {
-        "start": 0,
-        "complete": 1
+      "semanticId": "s2:equipment-proposal",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": null
       }
     },
     "S2-4.6": {
-      "body_breath": {
-        "start": 0,
-        "complete": 1
-      },
-      "equipment_outline": {
-        "start": 0,
-        "complete": 1
-      },
-      "equipment_status": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "agent_wave": {
-        "start": 0,
-        "complete": 1
+      "semanticId": "s2:equipment-request",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "요청 상태 유지; 착용 완료로 전환하지 않음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": "requested"
       }
     },
     "S2-5.1": {
-      "body_breath": {
-        "start": 0,
-        "complete": 1
-      },
-      "schedule": {
-        "start": 0,
-        "complete": 1
-      },
-      "zone_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "condition_card": {
-        "start": 0,
-        "complete": 1
-      },
-      "service_summary": {
-        "start": 0,
-        "complete": 1
-      },
-      "agent_wave": {
-        "start": 0,
-        "complete": 1
+      "semanticId": "s2:workday-ready",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": "requested"
       }
     },
     "S2-5.2": {
-      "body_breath": {
-        "start": 0,
-        "complete": 1
-      },
-      "schedule": {
-        "start": 0,
-        "complete": 1
-      },
-      "plant_records": {
-        "start": 0,
-        "complete": 1
-      },
-      "agent_wave": {
-        "start": 0,
-        "complete": 1
+      "semanticId": "s2:morning-records",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": "requested"
       }
     },
     "S2-5.3": {
-      "body_dissolve": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0,
-        "complete": 1
-      },
-      "agent_wave": {
-        "start": 0,
-        "complete": 1
-      },
-      "os_logo": {
-        "start": 0.7,
-        "complete": 1
+      "semanticId": "s2:morning-start",
+      "loopSeconds": 10,
+      "entrySeconds": 0,
+      "transitionAt": 4,
+      "sequenceReveal": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "주변 슬롯 축소·점군 약화 후 OS 전환",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": {
+        "vehicle": true,
+        "condition": true,
+        "briefing": true,
+        "afternoonRoom": "B",
+        "delivery": "scheduled",
+        "equipment": "requested"
       }
     },
     "S3-3.1": {
-      "street": {
-        "start": 0,
-        "complete": 1
-      },
-      "shucle_stop": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s3:walking_pov:3.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S3-3.2": {
-      "park": {
-        "start": 0,
-        "complete": 1
-      },
-      "walking_path": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s3:walking_pov:3.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S3-3.3": {
-      "park": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0,
-        "complete": 1
-      }
+      "semanticId": "s3:walking_pov:3.3",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S3-4.1": {
-      "park": {
-        "start": 0,
-        "complete": 1
-      },
-      "virtual_stage": {
-        "start": 0,
-        "complete": 1
-      },
-      "spotlight": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "status": {
-        "start": 0,
-        "complete": 1
-      }
+      "semanticId": "s3:park_layers:4.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S3-4.2": {
-      "park": {
-        "start": 0,
-        "complete": 1
-      },
-      "virtual_stage": {
-        "start": 0,
-        "complete": 1
-      },
-      "performance_card": {
-        "start": 0.7,
-        "complete": 1
-      },
-      "audio_wave": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s3:park_layers:4.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S3-4.3": {
-      "park": {
-        "start": 0,
-        "complete": 1
-      },
-      "quiet_garden": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "walking_path": {
-        "start": 0.7,
-        "complete": 1
-      },
-      "status": {
-        "start": 0,
-        "complete": 1
-      }
+      "semanticId": "s3:park_layers:4.3",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S3-4.4": {
-      "park": {
-        "start": 0,
-        "complete": 1
-      },
-      "quiet_garden": {
-        "start": 0,
-        "complete": 1
-      },
-      "walking_path": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0,
-        "complete": 1
-      }
+      "semanticId": "s3:park_layers:4.4",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S3-5.1": {
-      "quiet_garden": {
-        "start": 0,
-        "complete": 1
-      },
-      "pbv": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "status": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s3:park_layers:5.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S3-5.2": {
-      "pbv": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s3:walking_pov:5.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S3-5.3": {
-      "pbv_interior": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0,
-        "complete": 1,
-        "textWindows": [
-          [
-            0,
-            0.35
-          ],
-          [
-            0.35,
-            1.01
-          ],
-          [
-            0.7,
-            1.01
-          ]
-        ]
-      },
-      "route_map": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s3:pbv_interior:5.3",
+      "loopSeconds": 10,
+      "entrySeconds": 0,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0,
+        0
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S4-3.1": {
-      "landmark_interior": {
-        "start": 0,
-        "complete": 1
-      },
-      "metrics_grid": {
-        "start": 0,
-        "complete": 1
-      },
-      "status": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s4:operator_console:3.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S4-3.2": {
-      "city_map": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "report_compact": {
-        "start": 0,
-        "complete": 1
-      },
-      "candidate_cards": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s4:operator_map:3.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S4-3.3": {
-      "candidate_selected": {
-        "start": 0,
-        "complete": 1
-      },
-      "allocation_chart": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s4:operator_map:3.3",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S4-4.1": {
-      "module_blocks": {
-        "start": 0,
-        "complete": 1
-      },
-      "classification": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s4:asset_split:4.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S4-4.2": {
-      "spot_lidar_pov": {
-        "start": 0,
-        "complete": 1
-      },
-      "route_map": {
-        "start": 0,
-        "complete": 1,
-        "motionStart": 0.35
-      },
-      "route_checks": {
-        "start": 0,
-        "complete": 1
-      }
+      "semanticId": "s4:spot_split_view:4.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S4-4.3": {
-      "asset_queue": {
-        "start": 0,
-        "complete": 1
-      },
-      "route_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "robot_routes": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s4:robot_dispatch:4.3",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S4-4.4": {
-      "city_map": {
-        "start": 0,
-        "complete": 1
-      },
-      "infra_nodes": {
-        "start": 0,
-        "complete": 1
-      },
-      "approval_status": {
-        "start": 0.7,
-        "complete": 1
-      },
-      "timeline": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "energy_support": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s4:transport_schedule:4.4",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S4-4.5": {
-      "flow": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "status": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "goals": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "approval": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s4:approval_summary:4.5",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "도시 운영망 등록 중·승인 대기 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S4-5.1": {
-      "status": {
-        "start": 0,
-        "complete": 1
-      },
-      "tomorrow_card": {
-        "start": 0.35,
-        "complete": 1
-      }
+      "semanticId": "s4:next_day_schedule:5.1",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     },
     "S4-5.2": {
-      "scheduled_cards": {
-        "start": 0,
-        "complete": 1
-      },
-      "route_map": {
-        "start": 0.35,
-        "complete": 1
-      },
-      "preview": {
-        "start": 0.35,
-        "complete": 1,
-        "end": 0.7
-      },
-      "status": {
-        "start": 0.7,
-        "complete": 1
-      }
+      "semanticId": "s4:commute_preview:5.2",
+      "loopSeconds": 10,
+      "entrySeconds": 4,
+      "transitionAt": 2.6,
+      "sequenceReveal": [
+        0,
+        0.35,
+        0.7
+      ],
+      "cues": [
+        {
+          "atNormalized": 0,
+          "action": "핵심 문구·해당 컷의 누적 상태 즉시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "현재 컷의 스캔·경로·파장 등 보조 모션 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "핵심 상태 유지; 자동 컷 이동 없음",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "state": null
     }
   }
 }

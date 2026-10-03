@@ -1,0 +1,2693 @@
+{
+  "spreadsheetId": "1RFT9nO8Lk-dK6t1i6wsmANPwc3p607FG2N3Jmg9gQaQ",
+  "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1RFT9nO8Lk-dK6t1i6wsmANPwc3p607FG2N3Jmg9gQaQ/edit",
+  "properties": {
+    "title": "ZER01NE PRODUCTION",
+    "locale": "ko_KR",
+    "timeZone": "Asia/Seoul"
+  },
+  "sheets": [
+    {
+      "properties": {
+        "sheetId": 446341671,
+        "title": "전면 스토리보드",
+        "index": 0,
+        "sheetType": "GRID",
+        "gridProperties": {
+          "rowCount": 1010,
+          "columnCount": 31,
+          "frozenRowCount": 3
+        }
+      },
+      "data": [
+        {
+          "startColumn": 1,
+          "rowData": [
+            {
+              "values": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {
+                  "formattedValue": "링크",
+                  "userEnteredValue": {
+                    "stringValue": "링크"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "N",
+                  "userEnteredValue": {
+                    "stringValue": "N"
+                  }
+                },
+                {
+                  "formattedValue": "Scene",
+                  "userEnteredValue": {
+                    "stringValue": "Scene"
+                  }
+                },
+                {
+                  "formattedValue": "SN",
+                  "userEnteredValue": {
+                    "stringValue": "SN"
+                  }
+                },
+                {
+                  "formattedValue": "Dur",
+                  "userEnteredValue": {
+                    "stringValue": "Dur"
+                  }
+                },
+                {
+                  "formattedValue": "화면 예시",
+                  "userEnteredValue": {
+                    "stringValue": "화면 예시"
+                  }
+                },
+                {
+                  "formattedValue": "화면 구성",
+                  "userEnteredValue": {
+                    "stringValue": "화면 구성"
+                  }
+                },
+                {
+                  "formattedValue": "필요 에셋",
+                  "userEnteredValue": {
+                    "stringValue": "필요 에셋"
+                  }
+                },
+                {
+                  "formattedValue": "V.O (메타휴먼 녹화 필요 > 배경색 표시)",
+                  "userEnteredValue": {
+                    "stringValue": "V.O (메타휴먼 녹화 필요 > 배경색 표시)"
+                  }
+                },
+                {
+                  "formattedValue": "참고",
+                  "userEnteredValue": {
+                    "stringValue": "참고"
+                  }
+                },
+                {
+                  "formattedValue": "영문 자막",
+                  "userEnteredValue": {
+                    "stringValue": "영문 자막"
+                  }
+                },
+                {
+                  "formattedValue": "UI",
+                  "userEnteredValue": {
+                    "stringValue": "UI"
+                  }
+                }
+              ]
+            },
+            {},
+            {
+              "values": [
+                {
+                  "formattedValue": "0",
+                  "userEnteredValue": {
+                    "numberValue": 0
+                  }
+                },
+                {
+                  "formattedValue": "#1 THE CITY IS ALREADY RUNNING",
+                  "userEnteredValue": {
+                    "stringValue": "#1 THE CITY IS ALREADY RUNNING"
+                  }
+                },
+                {
+                  "formattedValue": "1.1.1",
+                  "userEnteredValue": {
+                    "stringValue": "1.1.1"
+                  }
+                },
+                {
+                  "formattedValue": "10s",
+                  "userEnteredValue": {
+                    "stringValue": "10s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "음성 파형 > 로딩 > OS 로고",
+                  "userEnteredValue": {
+                    "stringValue": "음성 파형 > 로딩 > OS 로고"
+                  }
+                },
+                {},
+                {},
+                {},
+                {},
+                {
+                  "formattedValue": "- 프로그레스바\n- OS 로고",
+                  "userEnteredValue": {
+                    "stringValue": "- 프로그레스바\n- OS 로고"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.1.2",
+                  "userEnteredValue": {
+                    "stringValue": "1.1.2"
+                  }
+                },
+                {
+                  "formattedValue": "6s",
+                  "userEnteredValue": {
+                    "stringValue": "6s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- CH: 백라이트, 얼굴에 그림자 > 전면 조명 들어오고 >  눈을 뜬다. 시선을 좌우로 돌리면서 배경 스캔을 작동시킨다.\n\n- BG: 로고에서 라이다로 전환",
+                  "userEnteredValue": {
+                    "stringValue": "- CH: 백라이트, 얼굴에 그림자 > 전면 조명 들어오고 >  눈을 뜬다. 시선을 좌우로 돌리면서 배경 스캔을 작동시킨다.\n\n- BG: 로고에서 라이다로 전환"
+                  }
+                },
+                {
+                  "formattedValue": "- 메타휴먼A\n- 현대로비 라이다 데이터",
+                  "userEnteredValue": {
+                    "stringValue": "- 메타휴먼A\n- 현대로비 라이다 데이터"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.1.3",
+                  "userEnteredValue": {
+                    "stringValue": "1.1.3"
+                  }
+                },
+                {
+                  "formattedValue": "40s",
+                  "userEnteredValue": {
+                    "stringValue": "40s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- CH: 에이전트가 렌즈 너머 관객을 인지하고 인사한다. 현대차 로비에 대한 짧은 설명 진행.\n- BG: 라이다 데이터 사이 카메라 무빙 샷 > 로비 다가가면 네거티브로 전환",
+                  "userEnteredValue": {
+                    "stringValue": "- CH: 에이전트가 렌즈 너머 관객을 인지하고 인사한다. 현대차 로비에 대한 짧은 설명 진행.\n- BG: 라이다 데이터 사이 카메라 무빙 샷 > 로비 다가가면 네거티브로 전환"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "당신이 있는 이곳은 서울특별시 서초구 헌릉로 12. 현대차그룹 양재사옥 1층 로비에 위치한 오픈 스테이지입니다. 저는 당신을 위한 H 스마트시티의 상시 에이전트, 브이입니다. 여러 곳에서 도착하는 소식을 살피고, 필요한 일을 서로 연결하는 것이 저의 일이죠.",
+                  "userEnteredValue": {
+                    "stringValue": "당신이 있는 이곳은 서울특별시 서초구 헌릉로 12. 현대차그룹 양재사옥 1층 로비에 위치한 오픈 스테이지입니다. 저는 당신을 위한 H 스마트시티의 상시 에이전트, 브이입니다. 여러 곳에서 도착하는 소식을 살피고, 필요한 일을 서로 연결하는 것이 저의 일이죠."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.1.4",
+                  "userEnteredValue": {
+                    "stringValue": "1.1.4"
+                  }
+                },
+                {
+                  "formattedValue": "10s",
+                  "userEnteredValue": {
+                    "stringValue": "10s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "에이전트가 눈을 깜박인다. 카메라가 동공으로 급접근, 동공 원형 하이라이트가 DAL-e Gardner 센서 렌즈로 이어진다.",
+                  "userEnteredValue": {
+                    "stringValue": "에이전트가 눈을 깜박인다. 카메라가 동공으로 급접근, 동공 원형 하이라이트가 DAL-e Gardner 센서 렌즈로 이어진다."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "당신이 보고 있지 않을 때에도, 저는 계속 이곳을 관찰하고 필요한 행동을 배정합니다.",
+                  "userEnteredValue": {
+                    "stringValue": "당신이 보고 있지 않을 때에도, 저는 계속 이곳을 관찰하고 필요한 행동을 배정합니다."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 원형 마스크(달리 가드너)",
+                  "userEnteredValue": {
+                    "stringValue": "- 원형 마스크(달리 가드너)"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.1.5",
+                  "userEnteredValue": {
+                    "stringValue": "1.1.5"
+                  }
+                },
+                {
+                  "formattedValue": "30s",
+                  "userEnteredValue": {
+                    "stringValue": "30s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 렌즈 속의 식물의 상태 매크로 연출\n- 달리가드너 2D맵 연출 (물 주러 가는 경로)",
+                  "userEnteredValue": {
+                    "stringValue": "- 렌즈 속의 식물의 상태 매크로 연출\n- 달리가드너 2D맵 연출 (물 주러 가는 경로)"
+                  }
+                },
+                {
+                  "formattedValue": "- 식물 잎 포인트 클라우드",
+                  "userEnteredValue": {
+                    "stringValue": "- 식물 잎 포인트 클라우드"
+                  }
+                },
+                {
+                  "formattedValue": "달이 가드너가 식물과 화단의 위치를 살피고 있네요. 정해진 관수 조건에 맞춰, 로봇팔의 위치와 각도를 조절해 물을 공급하죠.",
+                  "userEnteredValue": {
+                    "stringValue": "달이 가드너가 식물과 화단의 위치를 살피고 있네요. 정해진 관수 조건에 맞춰, 로봇팔의 위치와 각도를 조절해 물을 공급하죠."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 식물 상태 / 수분 공급 / 해결 과정 전 UI",
+                  "userEnteredValue": {
+                    "stringValue": "- 식물 상태 / 수분 공급 / 해결 과정 전 UI"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.2.1",
+                  "userEnteredValue": {
+                    "stringValue": "1.2.1"
+                  }
+                },
+                {
+                  "formattedValue": "3s",
+                  "userEnteredValue": {
+                    "stringValue": "3s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "완료후 식물 > 완료링 후 > 배송 요청 화면 (렌즈 속에 아이콘 같은 거)",
+                  "userEnteredValue": {
+                    "stringValue": "완료후 식물 > 완료링 후 > 배송 요청 화면 (렌즈 속에 아이콘 같은 거)"
+                  }
+                },
+                {
+                  "formattedValue": "- 2D",
+                  "userEnteredValue": {
+                    "stringValue": "- 2D"
+                  }
+                },
+                {
+                  "formattedValue": "\n지금 배송 요청 신호가 들어왔네요. 목적지를 확인해볼까요?",
+                  "userEnteredValue": {
+                    "stringValue": "\n지금 배송 요청 신호가 들어왔네요. 목적지를 확인해볼까요?"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.2.2",
+                  "userEnteredValue": {
+                    "stringValue": "1.2.2"
+                  }
+                },
+                {
+                  "formattedValue": "8s",
+                  "userEnteredValue": {
+                    "stringValue": "8s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- BG: 현대본사 라이다 탑뷰\n- 렌즈: 현대 로비 라이다 데이터 1인칭 무빙샷 (네거티브/광각렌즈 효과) - 딜리버리 시점",
+                  "userEnteredValue": {
+                    "stringValue": "- BG: 현대본사 라이다 탑뷰\n- 렌즈: 현대 로비 라이다 데이터 1인칭 무빙샷 (네거티브/광각렌즈 효과) - 딜리버리 시점"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "좋아요. 엘리베이터와 달이 딜리버리를 하나의 경로로 연결하겠습니다. 지금 음료를 싣고 목적지로 향하는 중이네요.",
+                  "userEnteredValue": {
+                    "stringValue": "좋아요. 엘리베이터와 달이 딜리버리를 하나의 경로로 연결하겠습니다. 지금 음료를 싣고 목적지로 향하는 중이네요."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 2D 맵",
+                  "userEnteredValue": {
+                    "stringValue": "- 2D 맵"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.2.3",
+                  "userEnteredValue": {
+                    "stringValue": "1.2.3"
+                  }
+                },
+                {
+                  "formattedValue": "5s",
+                  "userEnteredValue": {
+                    "stringValue": "5s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 카메라 바로 아래 자기 트레이에서 직원이 커피를 집어간다. 손 너머로 Spot이 보인다.\n- 2D맵의 경로가 점멸하면서 완료 링이 뜬다",
+                  "userEnteredValue": {
+                    "stringValue": "- 카메라 바로 아래 자기 트레이에서 직원이 커피를 집어간다. 손 너머로 Spot이 보인다.\n- 2D맵의 경로가 점멸하면서 완료 링이 뜬다"
+                  }
+                },
+                {
+                  "formattedValue": "- 휴먼 손 + 로봇 트레이 열리면 서 상자 나오는",
+                  "userEnteredValue": {
+                    "stringValue": "- 휴먼 손 + 로봇 트레이 열리면 서 상자 나오는"
+                  }
+                },
+                {
+                  "formattedValue": "수령자가 드디어 트레이에서 음료를 받아가고 있어요.",
+                  "userEnteredValue": {
+                    "stringValue": "수령자가 드디어 트레이에서 음료를 받아가고 있어요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.3.1",
+                  "userEnteredValue": {
+                    "stringValue": "1.3.1"
+                  }
+                },
+                {
+                  "formattedValue": "3s",
+                  "userEnteredValue": {
+                    "stringValue": "3s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "원형 화면 안에서 커피를 받는 손이 빠지고, 멀리 걷는 스팟으로 초점 이동.",
+                  "userEnteredValue": {
+                    "stringValue": "원형 화면 안에서 커피를 받는 손이 빠지고, 멀리 걷는 스팟으로 초점 이동."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": " 저기, 사옥을 순찰하는 보안 로봇 Spot도 보이나요?",
+                  "userEnteredValue": {
+                    "stringValue": " 저기, 사옥을 순찰하는 보안 로봇 Spot도 보이나요?"
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 원형 마스크(스팟)",
+                  "userEnteredValue": {
+                    "stringValue": "- 원형 마스크(스팟)"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.3.2",
+                  "userEnteredValue": {
+                    "stringValue": "1.3.2"
+                  }
+                },
+                {
+                  "formattedValue": "15s",
+                  "userEnteredValue": {
+                    "stringValue": "15s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "영상이 가운데 타일로 축소되며 NARCHON의 3×3 로봇 CCTV 관제 화면이 드러난다.  타일에는 현장 영상, 회전하는 로봇 3D 모델, 간단한 상태 정보가 섞여 있다.",
+                  "userEnteredValue": {
+                    "stringValue": "영상이 가운데 타일로 축소되며 NARCHON의 3×3 로봇 CCTV 관제 화면이 드러난다.  타일에는 현장 영상, 회전하는 로봇 3D 모델, 간단한 상태 정보가 섞여 있다."
+                  }
+                },
+                {
+                  "formattedValue": "- 스팟 걸어다닌 뷰\n- 주차장 로봇/ 달리가드너 등 전자레인지샷\n- 사람 감지하는 샷\n- 빈 현대사옥 공간 (백룸)\n--\n가드너가 보는 화면 (식물 수분 분석 화면)\n딜리버리가 보는 화면 (손 커피 화면 및 스팟이 뒤에 걸려있어야함)\n주차로봇을 비추는 화면 \n그냥 현대 \n",
+                  "userEnteredValue": {
+                    "stringValue": "- 스팟 걸어다닌 뷰\n- 주차장 로봇/ 달리가드너 등 전자레인지샷\n- 사람 감지하는 샷\n- 빈 현대사옥 공간 (백룸)\n--\n가드너가 보는 화면 (식물 수분 분석 화면)\n딜리버리가 보는 화면 (손 커피 화면 및 스팟이 뒤에 걸려있어야함)\n주차로봇을 비추는 화면 \n그냥 현대 \n"
+                  }
+                },
+                {
+                  "formattedValue": "저는 여기서 로봇들이 어디에 있고, 어떤 일을 하고 있는지 함께 확인할 수 있어요.",
+                  "userEnteredValue": {
+                    "stringValue": "저는 여기서 로봇들이 어디에 있고, 어떤 일을 하고 있는지 함께 확인할 수 있어요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.3.3",
+                  "userEnteredValue": {
+                    "stringValue": "1.3.3"
+                  }
+                },
+                {
+                  "formattedValue": "10s",
+                  "userEnteredValue": {
+                    "stringValue": "10s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "3×3 안의 주차 구역 로봇 3D 모델 타일에 선택 표시가 들어온다. 모델은 제자리에서 천천히 회전. 화면 전체는 확대하지 않는다.",
+                  "userEnteredValue": {
+                    "stringValue": "3×3 안의 주차 구역 로봇 3D 모델 타일에 선택 표시가 들어온다. 모델은 제자리에서 천천히 회전. 화면 전체는 확대하지 않는다."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "주차 구역의 로봇은 지금 뭘 하고 있을까요? 화면에서 한 번 살펴볼게요.",
+                  "userEnteredValue": {
+                    "stringValue": "주차 구역의 로봇은 지금 뭘 하고 있을까요? 화면에서 한 번 살펴볼게요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.3.4",
+                  "userEnteredValue": {
+                    "stringValue": "1.3.4"
+                  }
+                },
+                {
+                  "formattedValue": "8s",
+                  "userEnteredValue": {
+                    "stringValue": "8s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "선택한 모델 바로 옆 타일이 활동 상태 카드로 바뀐다. 현재 임무 / 위치 / 배터리 세 줄만 순서대로 켜진다. 3×3 틀은 계속 유지.",
+                  "userEnteredValue": {
+                    "stringValue": "선택한 모델 바로 옆 타일이 활동 상태 카드로 바뀐다. 현재 임무 / 위치 / 배터리 세 줄만 순서대로 켜진다. 3×3 틀은 계속 유지."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "음... 지금은 대기 중이네요. 현재 위치와 배터리 상태까지 확인했어요.",
+                  "userEnteredValue": {
+                    "stringValue": "음... 지금은 대기 중이네요. 현재 위치와 배터리 상태까지 확인했어요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "1.3.5",
+                  "userEnteredValue": {
+                    "stringValue": "1.3.5"
+                  }
+                },
+                {
+                  "formattedValue": "4s",
+                  "userEnteredValue": {
+                    "stringValue": "4s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "선택 표시가 꺼지고 상태 카드가 원래 타일로 돌아간다. 3×3이 계속 작동하는 화면 위로 OS 로고가 페이드 인.",
+                  "userEnteredValue": {
+                    "stringValue": "선택 표시가 꺼지고 상태 카드가 원래 타일로 돌아간다. 3×3이 계속 작동하는 화면 위로 OS 로고가 페이드 인."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "좋아요. 계속 다음 요청을 기다려볼게요.",
+                  "userEnteredValue": {
+                    "stringValue": "좋아요. 계속 다음 요청을 기다려볼게요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "1",
+                  "userEnteredValue": {
+                    "numberValue": 1
+                  }
+                },
+                {
+                  "formattedValue": "#2 ENTERING YOUR SECTOR",
+                  "userEnteredValue": {
+                    "stringValue": "#2 ENTERING YOUR SECTOR"
+                  }
+                },
+                {
+                  "formattedValue": "2.1",
+                  "userEnteredValue": {
+                    "numberValue": 2.1
+                  }
+                },
+                {
+                  "formattedValue": "4s",
+                  "userEnteredValue": {
+                    "stringValue": "4s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "관객의 시민권, Agent ID, 개인 문양에 연결된 음성과 파형이 뜨면서 접속을 알린다.",
+                  "userEnteredValue": {
+                    "stringValue": "관객의 시민권, Agent ID, 개인 문양에 연결된 음성과 파형이 뜨면서 접속을 알린다."
+                  }
+                },
+                {
+                  "formattedValue": "- 관객한테 개인문양도 1/4인지?",
+                  "userEnteredValue": {
+                    "stringValue": "- 관객한테 개인문양도 1/4인지?"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "2.2",
+                  "userEnteredValue": {
+                    "numberValue": 2.2
+                  }
+                },
+                {
+                  "formattedValue": "12s",
+                  "userEnteredValue": {
+                    "stringValue": "12s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "카메라가 로비에서 빠르게 뒤로 빠진다. 본사 건물은 노드 하나로 작아지고, 주변 도로와 건물, 이동 데이터가 거기에 붙는다. \n> 시점이 상공까지 올라가 스마트시티를 위에서 내려다본다. 수많은 구역 가운데 관객에게 배정된 생활권이 밝아지고, 나머지는 다시 흑백 처리된다.",
+                  "userEnteredValue": {
+                    "stringValue": "카메라가 로비에서 빠르게 뒤로 빠진다. 본사 건물은 노드 하나로 작아지고, 주변 도로와 건물, 이동 데이터가 거기에 붙는다. \n> 시점이 상공까지 올라가 스마트시티를 위에서 내려다본다. 수많은 구역 가운데 관객에게 배정된 생활권이 밝아지고, 나머지는 다시 흑백 처리된다."
+                  }
+                },
+                {
+                  "formattedValue": "- 광장 지역",
+                  "userEnteredValue": {
+                    "stringValue": "- 광장 지역"
+                  }
+                },
+                {
+                  "formattedValue": "당신은 일상 속에서도 모험을 꿈꾸며, 새로운 곳을 찾아다니는군요. 좋아요, 당신의 H스마트시티 생활권을 이곳에 열어드릴게요. ",
+                  "userEnteredValue": {
+                    "stringValue": "당신은 일상 속에서도 모험을 꿈꾸며, 새로운 곳을 찾아다니는군요. 좋아요, 당신의 H스마트시티 생활권을 이곳에 열어드릴게요. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.2.1",
+                  "userEnteredValue": {
+                    "stringValue": "3.2.1"
+                  }
+                },
+                {
+                  "formattedValue": "10s",
+                  "userEnteredValue": {
+                    "stringValue": "10s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- BG: 생활권 줌인\n- CH: 에이전트가 관객을 향해 인사\n>> - CH: 에이전트가 UI에 반응\n- 한산한 광장 실루엣 + 리워드 파장 팝업",
+                  "userEnteredValue": {
+                    "stringValue": "- BG: 생활권 줌인\n- CH: 에이전트가 관객을 향해 인사\n>> - CH: 에이전트가 UI에 반응\n- 한산한 광장 실루엣 + 리워드 파장 팝업"
+                  }
+                },
+                {
+                  "formattedValue": "- 메타휴먼 B",
+                  "userEnteredValue": {
+                    "stringValue": "- 메타휴먼 B"
+                  }
+                },
+                {
+                  "formattedValue": "방금 오늘만 열리는 리워드 장소를 찾았어요! 아직은 조용하지만, 곧 많은 스마트 시티즌들이 이곳으로 향할 거에요. 함께 가볼까요? ",
+                  "userEnteredValue": {
+                    "stringValue": "방금 오늘만 열리는 리워드 장소를 찾았어요! 아직은 조용하지만, 곧 많은 스마트 시티즌들이 이곳으로 향할 거에요. 함께 가볼까요? "
+                  },
+                  "note": "이때부터는 목소리 바꿈"
+                },
+                {
+                  "formattedValue": "[friendly] [speak clearly]  \n방금 오늘만 열리는 리워드 장소를 찾았어요! 아직은 조용하지만, 곧 많은 스마트 시티즌들이 이곳으로 향할 거예요. 함께 가볼까요?\n\n[2초 뒤]  \n차량이 도착했어요! 이동하는 동안 광장의 현 상황도 함께 확인할게요!\n\n[3초 뒤]  \n[dramatically]  \n같은 장소로 향하는 시민과 차량이 빠르게 늘고 있어요. 도착할 때 필요한 전력도 이동하는 동안 맞춰둘게요.\n\n[5초 뒤]  \n[panicking]  \n음… 지금 상태로는 광장의 전력 운영과 도착 차량의 충전을 함께 감당하기 어렵겠어요.\n\n[delighted]  \n마침 광장이 주변의 시민들에게 도움을 요청하고 있네요.\n\n이동식 충전 설비도 광장으로 들어오고 있어요.\n\n건물 ESS와 V2G 차량의 여유 전력도 확인할게요. 각 차량의 출발 시간에 맞는 전력만 연결하겠습니다.\n\n[5초 뒤]  \n좋아요. 필요한 전력을 하나로 연결해 임시 전력망 구성을 끝냈어요. 차량마다 출발 시간에 맞춰 충전을 준비할게요!\n\n[3초 뒤]  \n이제 리워드 광장에 도착했어요.\n\n[curiously]  \n차량 충전은 제가 이어서 관리할게요. 바로 일정을 시작하세요!",
+                  "userEnteredValue": {
+                    "stringValue": "[friendly] [speak clearly]  \n방금 오늘만 열리는 리워드 장소를 찾았어요! 아직은 조용하지만, 곧 많은 스마트 시티즌들이 이곳으로 향할 거예요. 함께 가볼까요?\n\n[2초 뒤]  \n차량이 도착했어요! 이동하는 동안 광장의 현 상황도 함께 확인할게요!\n\n[3초 뒤]  \n[dramatically]  \n같은 장소로 향하는 시민과 차량이 빠르게 늘고 있어요. 도착할 때 필요한 전력도 이동하는 동안 맞춰둘게요.\n\n[5초 뒤]  \n[panicking]  \n음… 지금 상태로는 광장의 전력 운영과 도착 차량의 충전을 함께 감당하기 어렵겠어요.\n\n[delighted]  \n마침 광장이 주변의 시민들에게 도움을 요청하고 있네요.\n\n이동식 충전 설비도 광장으로 들어오고 있어요.\n\n건물 ESS와 V2G 차량의 여유 전력도 확인할게요. 각 차량의 출발 시간에 맞는 전력만 연결하겠습니다.\n\n[5초 뒤]  \n좋아요. 필요한 전력을 하나로 연결해 임시 전력망 구성을 끝냈어요. 차량마다 출발 시간에 맞춰 충전을 준비할게요!\n\n[3초 뒤]  \n이제 리워드 광장에 도착했어요.\n\n[curiously]  \n차량 충전은 제가 이어서 관리할게요. 바로 일정을 시작하세요!"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.2.2",
+                  "userEnteredValue": {
+                    "stringValue": "3.2.2"
+                  }
+                },
+                {
+                  "formattedValue": "5s",
+                  "userEnteredValue": {
+                    "stringValue": "5s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 2D맵 평면뷰\n- 시민의 위치로 이동하는 차량 기호",
+                  "userEnteredValue": {
+                    "stringValue": "- 2D맵 평면뷰\n- 시민의 위치로 이동하는 차량 기호"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "차량이 도착했어요!",
+                  "userEnteredValue": {
+                    "stringValue": "차량이 도착했어요!"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.2.3",
+                  "userEnteredValue": {
+                    "stringValue": "3.2.3"
+                  }
+                },
+                {
+                  "formattedValue": "5s",
+                  "userEnteredValue": {
+                    "stringValue": "5s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 도착 후, 차량 HUD 1인칭 시점으로 전환",
+                  "userEnteredValue": {
+                    "stringValue": "- 도착 후, 차량 HUD 1인칭 시점으로 전환"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "이동하는 동안 광장의 현 상황도 함께 확인할게요! ",
+                  "userEnteredValue": {
+                    "stringValue": "이동하는 동안 광장의 현 상황도 함께 확인할게요! "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.3.1",
+                  "userEnteredValue": {
+                    "stringValue": "3.3.1"
+                  }
+                },
+                {
+                  "formattedValue": "4s",
+                  "userEnteredValue": {
+                    "stringValue": "4s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 차량 이동 POV, 창밖 점군 데이터 컬러 변화\n- 2D 맵에서 다른 시민, EV 노드가 하나씩 늘어난다",
+                  "userEnteredValue": {
+                    "stringValue": "- 차량 이동 POV, 창밖 점군 데이터 컬러 변화\n- 2D 맵에서 다른 시민, EV 노드가 하나씩 늘어난다"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "같은 장소로 향하는 시민과 차량이 빠르게 늘고 있어요. ",
+                  "userEnteredValue": {
+                    "stringValue": "같은 장소로 향하는 시민과 차량이 빠르게 늘고 있어요. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.3.2",
+                  "userEnteredValue": {
+                    "stringValue": "3.3.2"
+                  }
+                },
+                {
+                  "formattedValue": "4s",
+                  "userEnteredValue": {
+                    "stringValue": "4s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 차량 예정 도착 시간, 현재 충전 잔량, 예상 체류 시간 데이터 패킷 정리 그래피",
+                  "userEnteredValue": {
+                    "stringValue": "- 차량 예정 도착 시간, 현재 충전 잔량, 예상 체류 시간 데이터 패킷 정리 그래피"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "도착할 때 필요한 전력도 이동하는 동안 맞춰둘게요.",
+                  "userEnteredValue": {
+                    "stringValue": "도착할 때 필요한 전력도 이동하는 동안 맞춰둘게요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#4 WHEN THE CITY CALLS",
+                  "userEnteredValue": {
+                    "stringValue": "#4 WHEN THE CITY CALLS"
+                  }
+                },
+                {
+                  "formattedValue": "4.1.1",
+                  "userEnteredValue": {
+                    "stringValue": "4.1.1"
+                  }
+                },
+                {
+                  "formattedValue": "3s",
+                  "userEnteredValue": {
+                    "stringValue": "3s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- HUD 레이아웃은 유지\n- 광장 라이다 평면뷰 > 카메라 무빙\n- 게임 레이어가 열림\n- 이후 시민과 EV 노드가 빠르게 모인다.",
+                  "userEnteredValue": {
+                    "stringValue": "- HUD 레이아웃은 유지\n- 광장 라이다 평면뷰 > 카메라 무빙\n- 게임 레이어가 열림\n- 이후 시민과 EV 노드가 빠르게 모인다."
+                  }
+                },
+                {
+                  "formattedValue": "- 도시 라이다데이터 탑뷰에서 카메라 이동하는 영상들 여러개 BG로 두기",
+                  "userEnteredValue": {
+                    "stringValue": "- 도시 라이다데이터 탑뷰에서 카메라 이동하는 영상들 여러개 BG로 두기"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.1.2",
+                  "userEnteredValue": {
+                    "stringValue": "4.1.2"
+                  }
+                },
+                {
+                  "formattedValue": "10s",
+                  "userEnteredValue": {
+                    "stringValue": "10s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 광장 라이다 평면뷰) 광장 내부 에너지 충전 요청 팝업이 연쇄적으로 켜진다.\n- 2D) 수요곡선이 평소 공급선을 넘기고 화면이 빨갛게 경고.",
+                  "userEnteredValue": {
+                    "stringValue": "- 광장 라이다 평면뷰) 광장 내부 에너지 충전 요청 팝업이 연쇄적으로 켜진다.\n- 2D) 수요곡선이 평소 공급선을 넘기고 화면이 빨갛게 경고."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "음... 지금 상태로는 광장의 전력 운영과 도착 차량의 충전을 함께 감당하기 어렵겠어요. ",
+                  "userEnteredValue": {
+                    "stringValue": "음... 지금 상태로는 광장의 전력 운영과 도착 차량의 충전을 함께 감당하기 어렵겠어요. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.1.3",
+                  "userEnteredValue": {
+                    "stringValue": "4.1.3"
+                  }
+                },
+                {
+                  "formattedValue": "8s",
+                  "userEnteredValue": {
+                    "stringValue": "8s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 광장 라이다 맵) 탑뷰) 빨간 원형 파장",
+                  "userEnteredValue": {
+                    "stringValue": "- 광장 라이다 맵) 탑뷰) 빨간 원형 파장"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "마침 광장이 주변의 시민들에게 도움을 요청하고 있네요. ",
+                  "userEnteredValue": {
+                    "stringValue": "마침 광장이 주변의 시민들에게 도움을 요청하고 있네요. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.2.1",
+                  "userEnteredValue": {
+                    "stringValue": "4.2.1"
+                  }
+                },
+                {
+                  "formattedValue": "4s",
+                  "userEnteredValue": {
+                    "stringValue": "4s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 광장 라이다 맵) 탑뷰) 미래형 고용량 이동식 충전 설비가 광장 가장자리 도착한다\n- 바퀴 정지 클로즈업, 커넥터 등 켜지는 과정 클로즈샷",
+                  "userEnteredValue": {
+                    "stringValue": "- 광장 라이다 맵) 탑뷰) 미래형 고용량 이동식 충전 설비가 광장 가장자리 도착한다\n- 바퀴 정지 클로즈업, 커넥터 등 켜지는 과정 클로즈샷"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "이동식 충전 설비도 광장으로 들어오고 있어요.\n\n건물 ESS와 V2G 차량의 여유 전력도 확인할게요. 각 차량의 출발 시간에 맞는 전력만 연결하겠습니다.",
+                  "userEnteredValue": {
+                    "stringValue": "이동식 충전 설비도 광장으로 들어오고 있어요.\n\n건물 ESS와 V2G 차량의 여유 전력도 확인할게요. 각 차량의 출발 시간에 맞는 전력만 연결하겠습니다."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.2.2",
+                  "userEnteredValue": {
+                    "stringValue": "4.2.2"
+                  }
+                },
+                {
+                  "formattedValue": "5s",
+                  "userEnteredValue": {
+                    "stringValue": "5s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 공급처 (건물 ESS + V2G EV)와 출발 예정 차량들이 서로 연결되는 모습\n- 각각 고유한 점군 형상 컬러강조하고, 공금 가능량과 시간, 잔량 등 팝업되고 연결 제안선 (경우의 수들)이 나타남",
+                  "userEnteredValue": {
+                    "stringValue": "- 공급처 (건물 ESS + V2G EV)와 출발 예정 차량들이 서로 연결되는 모습\n- 각각 고유한 점군 형상 컬러강조하고, 공금 가능량과 시간, 잔량 등 팝업되고 연결 제안선 (경우의 수들)이 나타남"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.3.1",
+                  "userEnteredValue": {
+                    "stringValue": "4.3.1"
+                  }
+                },
+                {
+                  "formattedValue": "5s",
+                  "userEnteredValue": {
+                    "stringValue": "5s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 광장 중심으로 임시 전력망 조성되는 모습, \n- 제안선 사라지고, 실제 전력 경로만 굵고 안정된 선으로 강조",
+                  "userEnteredValue": {
+                    "stringValue": "- 광장 중심으로 임시 전력망 조성되는 모습, \n- 제안선 사라지고, 실제 전력 경로만 굵고 안정된 선으로 강조"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "좋아요. 필요한 전력을 하나로 연결해 임시 전력망 구성을 끝냈어요. 차량마다 출발 시간에 맞춰 충전을 준비할게요!",
+                  "userEnteredValue": {
+                    "stringValue": "좋아요. 필요한 전력을 하나로 연결해 임시 전력망 구성을 끝냈어요. 차량마다 출발 시간에 맞춰 충전을 준비할게요!"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#5 INTO THE FIELD",
+                  "userEnteredValue": {
+                    "stringValue": "#5 INTO THE FIELD"
+                  }
+                },
+                {
+                  "formattedValue": "5.1",
+                  "userEnteredValue": {
+                    "numberValue": 5.1
+                  }
+                },
+                {
+                  "formattedValue": "3s",
+                  "userEnteredValue": {
+                    "stringValue": "3s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 어둡고 비어있던 광장 라이다 도로뷰가 활성화되면서, 게임 레이어가 등장한다.\n- 시민 하차 표시로 HUD가 바뀐다",
+                  "userEnteredValue": {
+                    "stringValue": "- 어둡고 비어있던 광장 라이다 도로뷰가 활성화되면서, 게임 레이어가 등장한다.\n- 시민 하차 표시로 HUD가 바뀐다"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "이제 리워드 광장에 도착했어요. ",
+                  "userEnteredValue": {
+                    "stringValue": "이제 리워드 광장에 도착했어요. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "5.2",
+                  "userEnteredValue": {
+                    "numberValue": 5.2
+                  }
+                },
+                {
+                  "formattedValue": "5s",
+                  "userEnteredValue": {
+                    "stringValue": "5s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 1인칭 차량뷰의 메쉬 오버레이가 꺼지고, 라이다뷰만 남는다.\n- 차량의 대리권한 테두리가 켜지고, 충전지점으로 이동한다",
+                  "userEnteredValue": {
+                    "stringValue": "- 1인칭 차량뷰의 메쉬 오버레이가 꺼지고, 라이다뷰만 남는다.\n- 차량의 대리권한 테두리가 켜지고, 충전지점으로 이동한다"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "차량 충전은 제가 이어서 관리할게요. 바로 일정을 시작하세요!",
+                  "userEnteredValue": {
+                    "stringValue": "차량 충전은 제가 이어서 관리할게요. 바로 일정을 시작하세요!"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#6 RETURN TO SYSTEM",
+                  "userEnteredValue": {
+                    "stringValue": "#6 RETURN TO SYSTEM"
+                  }
+                },
+                {
+                  "formattedValue": "6.1",
+                  "userEnteredValue": {
+                    "numberValue": 6.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "5.2의 화면 프레임이 작아짐, 좌측으로 밀리면서 메타휴먼A가 우측에서 등장. 대화 중에 5.2 화면이 티브이 꺼지듯 '팟!' 꺼짐",
+                  "userEnteredValue": {
+                    "stringValue": "5.2의 화면 프레임이 작아짐, 좌측으로 밀리면서 메타휴먼A가 우측에서 등장. 대화 중에 5.2 화면이 티브이 꺼지듯 '팟!' 꺼짐"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "어땠나요. 당신의 시민권으로 접속한 H 스마트시티의 한 장면이었어요.",
+                  "userEnteredValue": {
+                    "stringValue": "어땠나요. 당신의 시민권으로 접속한 H 스마트시티의 한 장면이었어요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "6.2",
+                  "userEnteredValue": {
+                    "numberValue": 6.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "메타휴먼 중앙으로 오면서, 메타휴먼 레이어 위로 osososos.net 하이라이트된 텍스트로 등장",
+                  "userEnteredValue": {
+                    "stringValue": "메타휴먼 중앙으로 오면서, 메타휴먼 레이어 위로 osososos.net 하이라이트된 텍스트로 등장"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "당신의 스마트시티즌은 포스트 릴리즈에서도 계속됩니다.",
+                  "userEnteredValue": {
+                    "stringValue": "당신의 스마트시티즌은 포스트 릴리즈에서도 계속됩니다."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "2",
+                  "userEnteredValue": {
+                    "numberValue": 2
+                  }
+                },
+                {
+                  "formattedValue": "#2 ENTERING YOUR SECTOR",
+                  "userEnteredValue": {
+                    "stringValue": "#2 ENTERING YOUR SECTOR"
+                  }
+                },
+                {
+                  "formattedValue": "2.1",
+                  "userEnteredValue": {
+                    "numberValue": 2.1
+                  }
+                },
+                {
+                  "formattedValue": "4s",
+                  "userEnteredValue": {
+                    "stringValue": "4s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "관객의 시민권, Agent ID, 개인 문양에 연결된 음성과 파형이 뜨면서 접속을 알린다.",
+                  "userEnteredValue": {
+                    "stringValue": "관객의 시민권, Agent ID, 개인 문양에 연결된 음성과 파형이 뜨면서 접속을 알린다."
+                  }
+                },
+                {
+                  "formattedValue": "- 관객한테 개인문양도 1/4인지?",
+                  "userEnteredValue": {
+                    "stringValue": "- 관객한테 개인문양도 1/4인지?"
+                  }
+                },
+                {
+                  "formattedValue": "시민권이 확인되었습니다.\nH 스마트시티에 접속합니다.",
+                  "userEnteredValue": {
+                    "stringValue": "시민권이 확인되었습니다.\nH 스마트시티에 접속합니다."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "2.3",
+                  "userEnteredValue": {
+                    "numberValue": 2.3
+                  }
+                },
+                {
+                  "formattedValue": "12s",
+                  "userEnteredValue": {
+                    "stringValue": "12s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "카메라가 로비에서 빠르게 뒤로 빠진다. 본사 건물은 노드 하나로 작아지고, 주변 도로와 건물, 이동 데이터가 거기에 붙는다. \n> 시점이 상공까지 올라가 스마트시티를 위에서 내려다본다. 수많은 구역 가운데 관객에게 배정된 생활권이 밝아지고, 나머지는 다시 흑백 처리된다.",
+                  "userEnteredValue": {
+                    "stringValue": "카메라가 로비에서 빠르게 뒤로 빠진다. 본사 건물은 노드 하나로 작아지고, 주변 도로와 건물, 이동 데이터가 거기에 붙는다. \n> 시점이 상공까지 올라가 스마트시티를 위에서 내려다본다. 수많은 구역 가운데 관객에게 배정된 생활권이 밝아지고, 나머지는 다시 흑백 처리된다."
+                  }
+                },
+                {
+                  "formattedValue": "- 물류센터의 식물 관리팀?",
+                  "userEnteredValue": {
+                    "stringValue": "- 물류센터의 식물 관리팀?"
+                  }
+                },
+                {
+                  "formattedValue": "당신은 에이전트와 함께 호흡을 맞추며 익숙한 하루를 이어가는군요. 좋아요, 당신의 H스마트시티 생활권을 이곳에 열어드릴게요. ",
+                  "userEnteredValue": {
+                    "stringValue": "당신은 에이전트와 함께 호흡을 맞추며 익숙한 하루를 이어가는군요. 좋아요, 당신의 H스마트시티 생활권을 이곳에 열어드릴게요. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#3 HELLO, AGENT",
+                  "userEnteredValue": {
+                    "stringValue": "#3 HELLO, AGENT"
+                  }
+                },
+                {
+                  "formattedValue": "3.1",
+                  "userEnteredValue": {
+                    "numberValue": 3.1
+                  }
+                },
+                {
+                  "formattedValue": "7s",
+                  "userEnteredValue": {
+                    "stringValue": "7s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 작업미러: 화면 중앙 / 세로 라운드 미러 테두리가 켜지고, 에이전트가 있음.  \n- 빈 슬롯: 주변부 / 네 슬롯은 얇은 윤곽만 표시. ",
+                  "userEnteredValue": {
+                    "stringValue": "- 작업미러: 화면 중앙 / 세로 라운드 미러 테두리가 켜지고, 에이전트가 있음.  \n- 빈 슬롯: 주변부 / 네 슬롯은 얇은 윤곽만 표시. "
+                  }
+                },
+                {
+                  "formattedValue": "공통 미러 프레임 / 메타휴먼 C",
+                  "userEnteredValue": {
+                    "stringValue": "공통 미러 프레임 / 메타휴먼 C"
+                  }
+                },
+                {
+                  "formattedValue": "좋은 아침이야! ",
+                  "userEnteredValue": {
+                    "stringValue": "좋은 아침이야! "
+                  }
+                },
+                {
+                  "formattedValue": "[friendly] [speak clearly] 좋은 아침이야! [2초 뒤] 방금 타고 온 차량은 Parking Robot이 주차를 마쳤고, ACR이 충전을 시작했어. 평소 업무가 끝나는 시간에 맞춰 다시 준비해둘게.  [2초 뒤] 오늘 당신의 컨디션은 어때? [3초 뒤] [panicking] 조금 피곤해보이네? [2초 뒤] 오케이~ 작은 것부터 차근차근 준비를 함께 할게! [3초 뒤] [dramatically] 음~ 오전에는 샘플 기록을 확인하고, 오후 두 시에는 새로 들어온 식물 샘플을 살펴볼 거야. [3초 뒤] 오후에는 A구역이 자율 로봇 우선 운영 구역으로 바뀐대! 샘플 검수는 바로 옆 B구역에서 그대로 이어갈 수 있게 준비할게. [3초 뒤] 방금 입고구역을 순찰하던 Spot이 오늘 살펴볼 샘플 용기의 도착을 확인했어. 검수시간에 맞춰, 달리 딜리버리가, 도착한 제품을 B검수실로 가져가도록 설정해둘게. [2초 뒤]  [panicking] 오후에 샘플 케이스를 작업대에 올리는 일이 있어. 평소처럼 허리 부담을 덜어줄 X-ble Waist도 준비해둘까? [delighted] 좋았어. 장비를 요청했어. 작업 전에 착용 상태만 확인하면 돼. [1초 뒤] 업무 일정에 맞춰 샘플 배송과 장비 준비까지 연결해뒀어. [2초 뒤] [curiously] 이제 오전 일을 시작하면 돼! [1초 뒤] 늘 하던 대로, 샘플 기록부터 확인해 볼까?",
+                  "userEnteredValue": {
+                    "stringValue": "[friendly] [speak clearly] 좋은 아침이야! [2초 뒤] 방금 타고 온 차량은 Parking Robot이 주차를 마쳤고, ACR이 충전을 시작했어. 평소 업무가 끝나는 시간에 맞춰 다시 준비해둘게.  [2초 뒤] 오늘 당신의 컨디션은 어때? [3초 뒤] [panicking] 조금 피곤해보이네? [2초 뒤] 오케이~ 작은 것부터 차근차근 준비를 함께 할게! [3초 뒤] [dramatically] 음~ 오전에는 샘플 기록을 확인하고, 오후 두 시에는 새로 들어온 식물 샘플을 살펴볼 거야. [3초 뒤] 오후에는 A구역이 자율 로봇 우선 운영 구역으로 바뀐대! 샘플 검수는 바로 옆 B구역에서 그대로 이어갈 수 있게 준비할게. [3초 뒤] 방금 입고구역을 순찰하던 Spot이 오늘 살펴볼 샘플 용기의 도착을 확인했어. 검수시간에 맞춰, 달리 딜리버리가, 도착한 제품을 B검수실로 가져가도록 설정해둘게. [2초 뒤]  [panicking] 오후에 샘플 케이스를 작업대에 올리는 일이 있어. 평소처럼 허리 부담을 덜어줄 X-ble Waist도 준비해둘까? [delighted] 좋았어. 장비를 요청했어. 작업 전에 착용 상태만 확인하면 돼. [1초 뒤] 업무 일정에 맞춰 샘플 배송과 장비 준비까지 연결해뒀어. [2초 뒤] [curiously] 이제 오전 일을 시작하면 돼! [1초 뒤] 늘 하던 대로, 샘플 기록부터 확인해 볼까?"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "https://jangsejin11111.github.io/smartcity/scenario2-hud/?slide=12",
+                  "userEnteredValue": {
+                    "stringValue": "https://jangsejin11111.github.io/smartcity/scenario2-hud/?slide=12"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.2",
+                  "userEnteredValue": {
+                    "numberValue": 3.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 작업 미러: 인체 점군 숨쉬는 호흡 반복\n- 슬롯3: 우측 / 차량 실루엣과 Parking Robot, ACR 아이콘. 주차는 완료 체크, 충전은 진행 표시. 설명 후 슬롯은 작게 유지한다.",
+                  "userEnteredValue": {
+                    "stringValue": "- 작업 미러: 인체 점군 숨쉬는 호흡 반복\n- 슬롯3: 우측 / 차량 실루엣과 Parking Robot, ACR 아이콘. 주차는 완료 체크, 충전은 진행 표시. 설명 후 슬롯은 작게 유지한다."
+                  }
+                },
+                {
+                  "formattedValue": "차량 / 주차로봇 / ACR 아이콘",
+                  "userEnteredValue": {
+                    "stringValue": "차량 / 주차로봇 / ACR 아이콘"
+                  }
+                },
+                {
+                  "formattedValue": "방금 타고 온 차량은 Parking Robot이 주차를 마쳤고, ACR이 충전을 시작했어. 평소 업무가 끝나는 시간에 맞춰 다시 준비해둘게.",
+                  "userEnteredValue": {
+                    "stringValue": "방금 타고 온 차량은 Parking Robot이 주차를 마쳤고, ACR이 충전을 시작했어. 평소 업무가 끝나는 시간에 맞춰 다시 준비해둘게."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.3",
+                  "userEnteredValue": {
+                    "numberValue": 3.3
+                  }
+                },
+                {
+                  "formattedValue": "7s",
+                  "userEnteredValue": {
+                    "stringValue": "7s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 작업미러: 에이전트 out > 인체 점군이 모여지고, 위에서붙 아래로 스캔되는 장면\n- 우측 상단: 컨디션 체크 중.. > '조금 피곤해요'가 선택되고 작은 상태 태그가 된다.\n==> 시민이 출근해 미러 앞에 선 상황.",
+                  "userEnteredValue": {
+                    "stringValue": "- 작업미러: 에이전트 out > 인체 점군이 모여지고, 위에서붙 아래로 스캔되는 장면\n- 우측 상단: 컨디션 체크 중.. > '조금 피곤해요'가 선택되고 작은 상태 태그가 된다.\n==> 시민이 출근해 미러 앞에 선 상황."
+                  },
+                  "note": "에이전트가 옆으로 계속 이동하면서 3씬 내내 나와줘도 좋겠음"
+                },
+                {
+                  "formattedValue": "인체 점군 루프 / 컨디션 선택 UI / 선택 링",
+                  "userEnteredValue": {
+                    "stringValue": "인체 점군 루프 / 컨디션 선택 UI / 선택 링"
+                  }
+                },
+                {
+                  "formattedValue": "오늘 당신의 컨디션은 어때? 조금 피곤해보이네? 오케이~ 작은 것부터 차근차근 준비를 함께 할게! ",
+                  "userEnteredValue": {
+                    "stringValue": "오늘 당신의 컨디션은 어때? 조금 피곤해보이네? 오케이~ 작은 것부터 차근차근 준비를 함께 할게! "
+                  },
+                  "note": "박해미"
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.4",
+                  "userEnteredValue": {
+                    "numberValue": 3.4
+                  }
+                },
+                {
+                  "formattedValue": "10s",
+                  "userEnteredValue": {
+                    "stringValue": "10s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- 작업 미러: 인체 점군 숨쉬는 호흡 반복\n- 슬롯 1: 좌측 위 / 브리핑 보드 / 오늘의 업무가 펼쳐진다. 오전은 기존 샘플 기록 확인, 오후는 새로운 식물 샘플 검수. 식물 이미지 한 장으로 업무 대상을 먼저 이해시킨다.",
+                  "userEnteredValue": {
+                    "stringValue": "- 작업 미러: 인체 점군 숨쉬는 호흡 반복\n- 슬롯 1: 좌측 위 / 브리핑 보드 / 오늘의 업무가 펼쳐진다. 오전은 기존 샘플 기록 확인, 오후는 새로운 식물 샘플 검수. 식물 이미지 한 장으로 업무 대상을 먼저 이해시킨다."
+                  }
+                },
+                {
+                  "formattedValue": "식물 샘플 스틸 / 오전·오후 카드",
+                  "userEnteredValue": {
+                    "stringValue": "식물 샘플 스틸 / 오전·오후 카드"
+                  }
+                },
+                {
+                  "formattedValue": "오전에는 샘플 기록을 확인하고, 오후 두 시에는 새로 들어온 식물 샘플을 살펴볼 거야.",
+                  "userEnteredValue": {
+                    "stringValue": "오전에는 샘플 기록을 확인하고, 오후 두 시에는 새로 들어온 식물 샘플을 살펴볼 거야."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#4 WHEN THE CITY CALLS",
+                  "userEnteredValue": {
+                    "stringValue": "#4 WHEN THE CITY CALLS"
+                  }
+                },
+                {
+                  "formattedValue": "4.1",
+                  "userEnteredValue": {
+                    "numberValue": 4.1
+                  },
+                  "note": "여기부턴 에이전트가 음성파형으로 존재\n"
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 슬롯2: 작업 구역 지도 A에 옅은 로봇 이동선. '오후 운영 변경' 알림이 뜨고 B가 부드럽게 점등된다. 업무 카드의 장소만 A→B로 바뀐다.",
+                  "userEnteredValue": {
+                    "stringValue": "- 슬롯2: 작업 구역 지도 A에 옅은 로봇 이동선. '오후 운영 변경' 알림이 뜨고 B가 부드럽게 점등된다. 업무 카드의 장소만 A→B로 바뀐다."
+                  }
+                },
+                {
+                  "formattedValue": "지도 A/B 상태 / 로봇 이동선",
+                  "userEnteredValue": {
+                    "stringValue": "지도 A/B 상태 / 로봇 이동선"
+                  }
+                },
+                {
+                  "formattedValue": "오후에는 A구역이 자율 로봇 우선 운영 구역으로 바뀐대! 샘플 검수는 바로 옆 B구역에서 그대로 이어갈 수 있게 준비할게.",
+                  "userEnteredValue": {
+                    "stringValue": "오후에는 A구역이 자율 로봇 우선 운영 구역으로 바뀐대! 샘플 검수는 바로 옆 B구역에서 그대로 이어갈 수 있게 준비할게."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.2",
+                  "userEnteredValue": {
+                    "numberValue": 4.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 슬롯 3: 입고 구역의 Spot 아이콘에서 알림이 뜬다. 우측 빈 슬롯에 식물 운반 용기 썸네일과 입고 확인 배지가 들어온다.",
+                  "userEnteredValue": {
+                    "stringValue": "- 슬롯 3: 입고 구역의 Spot 아이콘에서 알림이 뜬다. 우측 빈 슬롯에 식물 운반 용기 썸네일과 입고 확인 배지가 들어온다."
+                  }
+                },
+                {
+                  "formattedValue": "Spot 공식 이미지 또는 실루엣 / 샘플 용기 스틸",
+                  "userEnteredValue": {
+                    "stringValue": "Spot 공식 이미지 또는 실루엣 / 샘플 용기 스틸"
+                  }
+                },
+                {
+                  "formattedValue": "(알림음) 방금 입고 구역을 순찰하던 스팟이 오늘 살펴볼 샘플 용기의 도착을 확인했어요.",
+                  "userEnteredValue": {
+                    "stringValue": "(알림음) 방금 입고 구역을 순찰하던 스팟이 오늘 살펴볼 샘플 용기의 도착을 확인했어요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.3",
+                  "userEnteredValue": {
+                    "numberValue": 4.3
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 슬롯3 아래 샘플 카드가 생기고 아래 DAL-e Delivery 아이콘이 붙는다. \n- 슬롯2: 목적지 B검수실과 예약 시간이 순서대로 나타난다. 이동 애니메이션 대신 점선 경로를 표시.",
+                  "userEnteredValue": {
+                    "stringValue": "- 슬롯3 아래 샘플 카드가 생기고 아래 DAL-e Delivery 아이콘이 붙는다. \n- 슬롯2: 목적지 B검수실과 예약 시간이 순서대로 나타난다. 이동 애니메이션 대신 점선 경로를 표시."
+                  }
+                },
+                {
+                  "formattedValue": "DAL-e Delivery 아이콘 / 예약 카드",
+                  "userEnteredValue": {
+                    "stringValue": "DAL-e Delivery 아이콘 / 예약 카드"
+                  }
+                },
+                {
+                  "formattedValue": "방금 입고구역을 순찰하던 Spot이 오늘 살펴볼 샘플 용기의 도착을 확인했어. 검수시간에 맞춰 달리 딜리버리가 도착한 제품을 B검수실로 가져가도록 설정해둘게. ",
+                  "userEnteredValue": {
+                    "stringValue": "방금 입고구역을 순찰하던 Spot이 오늘 살펴볼 샘플 용기의 도착을 확인했어. 검수시간에 맞춰 달리 딜리버리가 도착한 제품을 B검수실로 가져가도록 설정해둘게. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.5",
+                  "userEnteredValue": {
+                    "numberValue": 4.5
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 다른 슬롯을 낮추고 미러 옆에 용기→작업대 작은 도해. 인체 허리 부위에 X-ble Waist의 승인된 실루엣을 겹친다. 착용 전 제안 상태.\n- 작업미러: 인체점군이 무언가를 들어올리는 애니메이션 루프",
+                  "userEnteredValue": {
+                    "stringValue": "- 다른 슬롯을 낮추고 미러 옆에 용기→작업대 작은 도해. 인체 허리 부위에 X-ble Waist의 승인된 실루엣을 겹친다. 착용 전 제안 상태.\n- 작업미러: 인체점군이 무언가를 들어올리는 애니메이션 루프"
+                  }
+                },
+                {
+                  "formattedValue": "X-ble Waist 승인 제품 이미지 / 용기·작업대 도해",
+                  "userEnteredValue": {
+                    "stringValue": "X-ble Waist 승인 제품 이미지 / 용기·작업대 도해"
+                  }
+                },
+                {
+                  "formattedValue": "오후에 샘플 케이스를 작업대에 올리는 일이 있어. 평소처럼 허리 부담을 덜어줄 X-ble Waist도 준비해둘까? ",
+                  "userEnteredValue": {
+                    "stringValue": "오후에 샘플 케이스를 작업대에 올리는 일이 있어. 평소처럼 허리 부담을 덜어줄 X-ble Waist도 준비해둘까? "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.6",
+                  "userEnteredValue": {
+                    "numberValue": 4.6
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 슬롯3: 선택 링이 '장비 준비'에 닿고 체크 표시. 장비 실루엣이 제안 점선에서 확정 실선으로 바뀐다. 착용 장면 대신 준비 상태만 표시.",
+                  "userEnteredValue": {
+                    "stringValue": "- 슬롯3: 선택 링이 '장비 준비'에 닿고 체크 표시. 장비 실루엣이 제안 점선에서 확정 실선으로 바뀐다. 착용 장면 대신 준비 상태만 표시."
+                  }
+                },
+                {
+                  "formattedValue": "확인 체크 / 장비 실루엣 상태 2종",
+                  "userEnteredValue": {
+                    "stringValue": "확인 체크 / 장비 실루엣 상태 2종"
+                  }
+                },
+                {
+                  "formattedValue": "좋았어. 장비를 요청했어. 작업 전에 착용 상태만 확인하면 돼.",
+                  "userEnteredValue": {
+                    "stringValue": "좋았어. 장비를 요청했어. 작업 전에 착용 상태만 확인하면 돼."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#5 INTO THE FIELD",
+                  "userEnteredValue": {
+                    "stringValue": "#5 INTO THE FIELD"
+                  }
+                },
+                {
+                  "formattedValue": "5.1",
+                  "userEnteredValue": {
+                    "numberValue": 5.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 화면 전체 슬롯이 가득 참. 오후 예약과 장비 준비 상태가 정돈된다. \n- 차량 슬롯은 주차 완료·충전 중 그대로하고, 전체적으로 톤이 다 밝아짐.",
+                  "userEnteredValue": {
+                    "stringValue": "- 화면 전체 슬롯이 가득 참. 오후 예약과 장비 준비 상태가 정돈된다. \n- 차량 슬롯은 주차 완료·충전 중 그대로하고, 전체적으로 톤이 다 밝아짐."
+                  }
+                },
+                {
+                  "formattedValue": "공통 레이아웃 / 각 슬롯 최종 상태",
+                  "userEnteredValue": {
+                    "stringValue": "공통 레이아웃 / 각 슬롯 최종 상태"
+                  }
+                },
+                {
+                  "formattedValue": "업무 일정에 맞춰 샘플 배송과 장비 준비까지 연결해뒀어. 이제 오전 일을 시작하면 돼!  ",
+                  "userEnteredValue": {
+                    "stringValue": "업무 일정에 맞춰 샘플 배송과 장비 준비까지 연결해뒀어. 이제 오전 일을 시작하면 돼!  "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "5.2",
+                  "userEnteredValue": {
+                    "numberValue": 5.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "오후 카드는 '예정'으로 접힌다. '기존 샘플 기록 확인'만 앞으로 나오고 식물 기록 썸네일이 열리기 시작한다.",
+                  "userEnteredValue": {
+                    "stringValue": "오후 카드는 '예정'으로 접힌다. '기존 샘플 기록 확인'만 앞으로 나오고 식물 기록 썸네일이 열리기 시작한다."
+                  }
+                },
+                {
+                  "formattedValue": "업무 시작 표시",
+                  "userEnteredValue": {
+                    "stringValue": "업무 시작 표시"
+                  }
+                },
+                {
+                  "formattedValue": "늘 하던 대로, 샘플 기록부터 확인해 볼까?",
+                  "userEnteredValue": {
+                    "stringValue": "늘 하던 대로, 샘플 기록부터 확인해 볼까?"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "5.3",
+                  "userEnteredValue": {
+                    "numberValue": 5.3
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "- 첫 업무가 '시작'으로 전환. 점군이 몸 방향을 미세하게 돌리며 흩어진다. \n- 슬롯은 작아져 사라지고 에이전트 파형이 OS 로고로 정리된다.",
+                  "userEnteredValue": {
+                    "stringValue": "- 첫 업무가 '시작'으로 전환. 점군이 몸 방향을 미세하게 돌리며 흩어진다. \n- 슬롯은 작아져 사라지고 에이전트 파형이 OS 로고로 정리된다."
+                  }
+                },
+                {
+                  "formattedValue": "점군 디졸브 / 에이전트 파형 / OS 로고",
+                  "userEnteredValue": {
+                    "stringValue": "점군 디졸브 / 에이전트 파형 / OS 로고"
+                  }
+                },
+                {
+                  "formattedValue": "오늘도 당신의 속도로 시작합니다.",
+                  "userEnteredValue": {
+                    "stringValue": "오늘도 당신의 속도로 시작합니다."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#6 RETURN TO SYSTEM",
+                  "userEnteredValue": {
+                    "stringValue": "#6 RETURN TO SYSTEM"
+                  }
+                },
+                {
+                  "formattedValue": "6.1",
+                  "userEnteredValue": {
+                    "numberValue": 6.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "5.2의 화면 프레임이 작아짐, 좌측으로 밀리면서 메타휴먼A가 우측에서 등장. 대화 중에 5.2 화면이 티브이 꺼지듯 '팟!' 꺼짐",
+                  "userEnteredValue": {
+                    "stringValue": "5.2의 화면 프레임이 작아짐, 좌측으로 밀리면서 메타휴먼A가 우측에서 등장. 대화 중에 5.2 화면이 티브이 꺼지듯 '팟!' 꺼짐"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "어땠나요. 당신의 시민권으로 접속한 H 스마트시티의 한 장면이었어요.",
+                  "userEnteredValue": {
+                    "stringValue": "어땠나요. 당신의 시민권으로 접속한 H 스마트시티의 한 장면이었어요."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "CITIZEN CONNECTION  / ACTIVE\nDISPLAY SESSION  /  CLOSED",
+                  "userEnteredValue": {
+                    "stringValue": "CITIZEN CONNECTION  / ACTIVE\nDISPLAY SESSION  /  CLOSED"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "6.2",
+                  "userEnteredValue": {
+                    "numberValue": 6.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "메타휴먼 중앙으로 오면서, 메타휴먼 레이어 위로 osososos.net 하이라이트된 텍스트로 등장",
+                  "userEnteredValue": {
+                    "stringValue": "메타휴먼 중앙으로 오면서, 메타휴먼 레이어 위로 osososos.net 하이라이트된 텍스트로 등장"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "당신의 스마트시티즌은 포스트 릴리즈에서도 계속됩니다.",
+                  "userEnteredValue": {
+                    "stringValue": "당신의 스마트시티즌은 포스트 릴리즈에서도 계속됩니다."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "\nPOST-RELEASE ACCESS\nYour citizenship remains active.\n\nosososos.net",
+                  "userEnteredValue": {
+                    "stringValue": "\nPOST-RELEASE ACCESS\nYour citizenship remains active.\n\nosososos.net"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "3",
+                  "userEnteredValue": {
+                    "numberValue": 3
+                  }
+                },
+                {
+                  "formattedValue": "#2 ENTERING YOUR SECTOR",
+                  "userEnteredValue": {
+                    "stringValue": "#2 ENTERING YOUR SECTOR"
+                  }
+                },
+                {
+                  "formattedValue": "2.1",
+                  "userEnteredValue": {
+                    "numberValue": 2.1
+                  }
+                },
+                {
+                  "formattedValue": "4s",
+                  "userEnteredValue": {
+                    "stringValue": "4s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "관객의 시민권, Agent ID, 개인 문양에 연결된 음성과 파형이 뜨면서 접속을 알린다.",
+                  "userEnteredValue": {
+                    "stringValue": "관객의 시민권, Agent ID, 개인 문양에 연결된 음성과 파형이 뜨면서 접속을 알린다."
+                  }
+                },
+                {
+                  "formattedValue": "- 관객한테 개인문양도 1/4인지?",
+                  "userEnteredValue": {
+                    "stringValue": "- 관객한테 개인문양도 1/4인지?"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "2.3",
+                  "userEnteredValue": {
+                    "numberValue": 2.3
+                  }
+                },
+                {
+                  "formattedValue": "12s",
+                  "userEnteredValue": {
+                    "stringValue": "12s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "카메라가 로비에서 빠르게 뒤로 빠진다. 본사 건물은 노드 하나로 작아지고, 주변 도로와 건물, 이동 데이터가 거기에 붙는다. \n> 시점이 상공까지 올라가 스마트시티를 위에서 내려다본다. 수많은 구역 가운데 관객에게 배정된 생활권이 밝아지고, 나머지는 다시 흑백 처리된다.",
+                  "userEnteredValue": {
+                    "stringValue": "카메라가 로비에서 빠르게 뒤로 빠진다. 본사 건물은 노드 하나로 작아지고, 주변 도로와 건물, 이동 데이터가 거기에 붙는다. \n> 시점이 상공까지 올라가 스마트시티를 위에서 내려다본다. 수많은 구역 가운데 관객에게 배정된 생활권이 밝아지고, 나머지는 다시 흑백 처리된다."
+                  }
+                },
+                {
+                  "formattedValue": "- 광장 지역",
+                  "userEnteredValue": {
+                    "stringValue": "- 광장 지역"
+                  }
+                },
+                {
+                  "formattedValue": "당신은 어디에서든 자신의 리듬으로 자리에 머물며, 조용한 휴식 시간을 소중히 여기시는군요. 좋아요, 당신의 H스마트시티 생활권을 이곳에 열어드릴게요. ",
+                  "userEnteredValue": {
+                    "stringValue": "당신은 어디에서든 자신의 리듬으로 자리에 머물며, 조용한 휴식 시간을 소중히 여기시는군요. 좋아요, 당신의 H스마트시티 생활권을 이곳에 열어드릴게요. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#3 HELLO, AGENT",
+                  "userEnteredValue": {
+                    "stringValue": "#3 HELLO, AGENT"
+                  }
+                },
+                {
+                  "formattedValue": "3.1",
+                  "userEnteredValue": {
+                    "numberValue": 3.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "유럽풍 시내 거리. / 버스정류장에 SHUCLE이 부드럽게 정차.\n문이 열리고 시민이 내림. / 화면 한쪽에는 얇은 HUD로 ARRIVED / CITY ACCESS POINT 정도만 뜸.",
+                  "userEnteredValue": {
+                    "stringValue": "유럽풍 시내 거리. / 버스정류장에 SHUCLE이 부드럽게 정차.\n문이 열리고 시민이 내림. / 화면 한쪽에는 얇은 HUD로 ARRIVED / CITY ACCESS POINT 정도만 뜸."
+                  }
+                },
+                {
+                  "formattedValue": "메타휴먼 D",
+                  "userEnteredValue": {
+                    "stringValue": "메타휴먼 D"
+                  }
+                },
+                {
+                  "formattedValue": "셔클이 목적지에서 가까운 정류장에 도착했어. 바로 돌아가기 전에, 잠시 쉬어갈 수 있는 장소로 안내할게.",
+                  "userEnteredValue": {
+                    "stringValue": "셔클이 목적지에서 가까운 정류장에 도착했어. 바로 돌아가기 전에, 잠시 쉬어갈 수 있는 장소로 안내할게."
+                  }
+                },
+                {
+                  "formattedValue": "[friendly] [speak clearly] 셔클이 목적지에서 가까운 정류장에 도착했어. 바로 돌아가기 전에, 잠시 쉬어갈 수 있는 장소로 안내할게. [3초 뒤] 이곳은 방문자들이 자주 머무는 공용 공간이야. 원한다면 이 장소 위에, 여러 버전의 도시 레이어를 열어볼 수 있어. [2초 뒤] [dramatically]  이곳 방문자들이 가장 자주 연결하는 건 ACTIVITY Layer야. [2초 뒤] 공원이 활기찬 이벤트 공간으로 열릴 거야. [3초 뒤] 음, 조금 활기차긴 하지만… 지금의 당신에게는 다소 분주하게 느껴질 수도 있겠어. [1초 뒤] 조금 더 조용한 버전으로 바꿔볼까? 공원이 쉬어갈 수 있는 버전을 찾아볼게. [2초 뒤] 지금 QUIET Layer로 전환 중이야. [3초 뒤] 어때? 이렇게 하면 조금 더 숨을 고르기 좋지? 잠시 이 분위기대로 머물러볼까? [2초 뒤] 지금의 QUIET Layer에 맞춰, 가까운 PBV를 개인 휴식 라운지로 연결할게. 산책길 끝에서 바로 이용할 수 있도록 준비해둘게. [delighted] [2초 뒤] 휴식이 끝나는 시점에 맞춰, 이 PBV가 그대로 귀가 경로로 전환될 거야. 그전까지는 천천히 쉬어가도 좋아.",
+                  "userEnteredValue": {
+                    "stringValue": "[friendly] [speak clearly] 셔클이 목적지에서 가까운 정류장에 도착했어. 바로 돌아가기 전에, 잠시 쉬어갈 수 있는 장소로 안내할게. [3초 뒤] 이곳은 방문자들이 자주 머무는 공용 공간이야. 원한다면 이 장소 위에, 여러 버전의 도시 레이어를 열어볼 수 있어. [2초 뒤] [dramatically]  이곳 방문자들이 가장 자주 연결하는 건 ACTIVITY Layer야. [2초 뒤] 공원이 활기찬 이벤트 공간으로 열릴 거야. [3초 뒤] 음, 조금 활기차긴 하지만… 지금의 당신에게는 다소 분주하게 느껴질 수도 있겠어. [1초 뒤] 조금 더 조용한 버전으로 바꿔볼까? 공원이 쉬어갈 수 있는 버전을 찾아볼게. [2초 뒤] 지금 QUIET Layer로 전환 중이야. [3초 뒤] 어때? 이렇게 하면 조금 더 숨을 고르기 좋지? 잠시 이 분위기대로 머물러볼까? [2초 뒤] 지금의 QUIET Layer에 맞춰, 가까운 PBV를 개인 휴식 라운지로 연결할게. 산책길 끝에서 바로 이용할 수 있도록 준비해둘게. [delighted] [2초 뒤] 휴식이 끝나는 시점에 맞춰, 이 PBV가 그대로 귀가 경로로 전환될 거야. 그전까지는 천천히 쉬어가도 좋아."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.2",
+                  "userEnteredValue": {
+                    "numberValue": 3.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "시민 1인칭 시점으로 정류장에서 내려 공원 쪽으로 걸어감.\n전방에 광장형 공원이 보이고, 중앙 오픈 스페이스가 드러남.\n공원 입구에 다다를수록 POPULAR LAYER: ACTIVITY 같은 작은 안내 배지가 나타남.",
+                  "userEnteredValue": {
+                    "stringValue": "시민 1인칭 시점으로 정류장에서 내려 공원 쪽으로 걸어감.\n전방에 광장형 공원이 보이고, 중앙 오픈 스페이스가 드러남.\n공원 입구에 다다를수록 POPULAR LAYER: ACTIVITY 같은 작은 안내 배지가 나타남."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "곳은 방문자들이 자주 머무는 공용 공간이야. 원한다면 이 장소 위에, 여러 버전의 도시 레이어를 열어볼 수 있어.",
+                  "userEnteredValue": {
+                    "stringValue": "곳은 방문자들이 자주 머무는 공용 공간이야. 원한다면 이 장소 위에, 여러 버전의 도시 레이어를 열어볼 수 있어."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.3",
+                  "userEnteredValue": {
+                    "numberValue": 3.3
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "시민이 공원 중앙 혹은 메인 포인트에 멈춤.\n- 지나가는 보행자 / 서비스 로봇 or 일반 도시 흐름 ( >> 이거 빈 공간이어도 걍 약간 공원 대화소음 같은 거로 처리해도 될듯)",
+                  "userEnteredValue": {
+                    "stringValue": "시민이 공원 중앙 혹은 메인 포인트에 멈춤.\n- 지나가는 보행자 / 서비스 로봇 or 일반 도시 흐름 ( >> 이거 빈 공간이어도 걍 약간 공원 대화소음 같은 거로 처리해도 될듯)"
+                  }
+                },
+                {
+                  "formattedValue": "아직은 완전 평범한 공원.\nHUD에는 PHYSICAL SPACE CONFIRMED / LAYER READY.",
+                  "userEnteredValue": {
+                    "stringValue": "아직은 완전 평범한 공원.\nHUD에는 PHYSICAL SPACE CONFIRMED / LAYER READY."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#4 WHEN THE CITY CALLS",
+                  "userEnteredValue": {
+                    "stringValue": "#4 WHEN THE CITY CALLS"
+                  }
+                },
+                {
+                  "formattedValue": "4.1",
+                  "userEnteredValue": {
+                    "numberValue": 4.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "빈 바닥 위로:- 가상 공연 무대, 스포트라이트, 마이크? 스피커 에셋 등",
+                  "userEnteredValue": {
+                    "stringValue": "빈 바닥 위로:- 가상 공연 무대, 스포트라이트, 마이크? 스피커 에셋 등"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "이곳 방문자들이 가장 자주 연결하는 건 ACTIVITY Layer야. 공원이 활기찬 이벤트 공간으로 열릴 거야.",
+                  "userEnteredValue": {
+                    "stringValue": "이곳 방문자들이 가장 자주 연결하는 건 ACTIVITY Layer야. 공원이 활기찬 이벤트 공간으로 열릴 거야."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.2",
+                  "userEnteredValue": {
+                    "numberValue": 4.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "개인 음향처럼 공연 사운드가 들어오기 시작~\n스포트라이트 지점에 퍼포머는 없는데 공연 선택 카드가 팝업되어도 좋을듯?",
+                  "userEnteredValue": {
+                    "stringValue": "개인 음향처럼 공연 사운드가 들어오기 시작~\n스포트라이트 지점에 퍼포머는 없는데 공연 선택 카드가 팝업되어도 좋을듯?"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "음, 조금 활기차긴 하지만… 지금의 당신에게는 다소 분주하게 느껴질 수도 있겠어. 금 더 조용한 버전으로 바꿔볼까? 공원이 쉬어갈 수 있는 버전을 찾아볼게. ",
+                  "userEnteredValue": {
+                    "stringValue": "음, 조금 활기차긴 하지만… 지금의 당신에게는 다소 분주하게 느껴질 수도 있겠어. 금 더 조용한 버전으로 바꿔볼까? 공원이 쉬어갈 수 있는 버전을 찾아볼게. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.3",
+                  "userEnteredValue": {
+                    "numberValue": 4.3
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "가상무대 레이어 사라지고, 같은 자리 위에 가상 나무, 화단, 산책길 라인, 잔잔한 햇빛 광선? 바람/새소리 분위기 들어옴",
+                  "userEnteredValue": {
+                    "stringValue": "가상무대 레이어 사라지고, 같은 자리 위에 가상 나무, 화단, 산책길 라인, 잔잔한 햇빛 광선? 바람/새소리 분위기 들어옴"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "지금 QUIET Layer로 전환 중이야.",
+                  "userEnteredValue": {
+                    "stringValue": "지금 QUIET Layer로 전환 중이야."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.4",
+                  "userEnteredValue": {
+                    "numberValue": 4.4
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "시민이 산책길을 따라 천천히 몇 걸음 이동하거나, 벤치 근처에서 멈춤.\n가상 산책길은 실제 걸을 수 있는 보행로와 겹침.\nHUD에는 QUIET ACTIVE.",
+                  "userEnteredValue": {
+                    "stringValue": "시민이 산책길을 따라 천천히 몇 걸음 이동하거나, 벤치 근처에서 멈춤.\n가상 산책길은 실제 걸을 수 있는 보행로와 겹침.\nHUD에는 QUIET ACTIVE."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "어때? 이렇게 하면 조금 더 숨을 고르기 좋지? 잠시 이 분위기대로 머물러볼까?",
+                  "userEnteredValue": {
+                    "stringValue": "어때? 이렇게 하면 조금 더 숨을 고르기 좋지? 잠시 이 분위기대로 머물러볼까?"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#5 INTO THE FIELD",
+                  "userEnteredValue": {
+                    "stringValue": "#5 INTO THE FIELD"
+                  }
+                },
+                {
+                  "formattedValue": "5.1",
+                  "userEnteredValue": {
+                    "numberValue": 5.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "QUIET Layer가 유지된 상태. 산책길 끝 지점에 PBV REST SPACE AVAILABLE 표시. 멀리 실제 PBV 한 대가 대기 중이거나, 조용히 접근해 정차함. 가상 레이어의 무드와 실제 서비스가 연결되는 느낌을 강조.",
+                  "userEnteredValue": {
+                    "stringValue": "QUIET Layer가 유지된 상태. 산책길 끝 지점에 PBV REST SPACE AVAILABLE 표시. 멀리 실제 PBV 한 대가 대기 중이거나, 조용히 접근해 정차함. 가상 레이어의 무드와 실제 서비스가 연결되는 느낌을 강조."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "지금의 QUIET Layer에 맞춰, 가까운 PBV를 개인 휴식 라운지로 연결할게. ",
+                  "userEnteredValue": {
+                    "stringValue": "지금의 QUIET Layer에 맞춰, 가까운 PBV를 개인 휴식 라운지로 연결할게. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "5.2",
+                  "userEnteredValue": {
+                    "numberValue": 5.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "시민이 산책길을 따라 PBV 쪽으로 걸어감.\nPBV는 너무 과장된 미래차보다, 실제 존재 가능한 휴식형 모빌리티처럼 보임.\n가까이 갈수록 문 주변 UI가 반응:- REST MODE READY\n- RETURN ROUTE PREPARED",
+                  "userEnteredValue": {
+                    "stringValue": "시민이 산책길을 따라 PBV 쪽으로 걸어감.\nPBV는 너무 과장된 미래차보다, 실제 존재 가능한 휴식형 모빌리티처럼 보임.\n가까이 갈수록 문 주변 UI가 반응:- REST MODE READY\n- RETURN ROUTE PREPARED"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "산책길 끝에서 바로 이용할 수 있도록 준비해둘게. ",
+                  "userEnteredValue": {
+                    "stringValue": "산책길 끝에서 바로 이용할 수 있도록 준비해둘게. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "5.3",
+                  "userEnteredValue": {
+                    "numberValue": 5.3
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "시민이 앉으면 내부 UI가 간단히 켜짐.\nREST SESSION / RETURN HOME / ROUTE READY\nPBV가 귀환 모드로 전환하면서 지도 경로 팝업. pbv 슬며시 출발함",
+                  "userEnteredValue": {
+                    "stringValue": "시민이 앉으면 내부 UI가 간단히 켜짐.\nREST SESSION / RETURN HOME / ROUTE READY\nPBV가 귀환 모드로 전환하면서 지도 경로 팝업. pbv 슬며시 출발함"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "휴식이 끝나는 시점에 맞춰, 이 PBV가 그대로 귀가 경로로 전환될 거야. 그전까지는 천천히 쉬어가도 좋아.",
+                  "userEnteredValue": {
+                    "stringValue": "휴식이 끝나는 시점에 맞춰, 이 PBV가 그대로 귀가 경로로 전환될 거야. 그전까지는 천천히 쉬어가도 좋아."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#6 RETURN TO SYSTEM",
+                  "userEnteredValue": {
+                    "stringValue": "#6 RETURN TO SYSTEM"
+                  }
+                },
+                {
+                  "formattedValue": "6.1",
+                  "userEnteredValue": {
+                    "numberValue": 6.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "5.2의 화면 프레임이 작아짐, 좌측으로 밀리면서 메타휴먼A가 우측에서 등장. 대화 중에 5.2 화면이 티브이 꺼지듯 '팟!' 꺼짐",
+                  "userEnteredValue": {
+                    "stringValue": "5.2의 화면 프레임이 작아짐, 좌측으로 밀리면서 메타휴먼A가 우측에서 등장. 대화 중에 5.2 화면이 티브이 꺼지듯 '팟!' 꺼짐"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "어땠나요. 당신의 시민권으로 접속한 H 스마트시티의 한 장면이었어요.",
+                  "userEnteredValue": {
+                    "stringValue": "어땠나요. 당신의 시민권으로 접속한 H 스마트시티의 한 장면이었어요."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "CITIZEN CONNECTION  / ACTIVE\nDISPLAY SESSION  /  CLOSED",
+                  "userEnteredValue": {
+                    "stringValue": "CITIZEN CONNECTION  / ACTIVE\nDISPLAY SESSION  /  CLOSED"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "6.2",
+                  "userEnteredValue": {
+                    "numberValue": 6.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "메타휴먼 중앙으로 오면서, 메타휴먼 레이어 위로 osososos.net 하이라이트된 텍스트로 등장",
+                  "userEnteredValue": {
+                    "stringValue": "메타휴먼 중앙으로 오면서, 메타휴먼 레이어 위로 osososos.net 하이라이트된 텍스트로 등장"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "당신의 스마트시티즌은 포스트 릴리즈에서도 계속됩니다.",
+                  "userEnteredValue": {
+                    "stringValue": "당신의 스마트시티즌은 포스트 릴리즈에서도 계속됩니다."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "\nPOST-RELEASE ACCESS\nYour citizenship remains active.\n\nosososos.net",
+                  "userEnteredValue": {
+                    "stringValue": "\nPOST-RELEASE ACCESS\nYour citizenship remains active.\n\nosososos.net"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {
+                  "formattedValue": "4",
+                  "userEnteredValue": {
+                    "numberValue": 4
+                  }
+                },
+                {
+                  "formattedValue": "#2 ENTERING YOUR SECTOR",
+                  "userEnteredValue": {
+                    "stringValue": "#2 ENTERING YOUR SECTOR"
+                  }
+                },
+                {
+                  "formattedValue": "2.1",
+                  "userEnteredValue": {
+                    "numberValue": 2.1
+                  }
+                },
+                {
+                  "formattedValue": "4s",
+                  "userEnteredValue": {
+                    "stringValue": "4s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "관객의 시민권, Agent ID, 개인 문양에 연결된 음성과 파형이 뜨면서 접속을 알린다.",
+                  "userEnteredValue": {
+                    "stringValue": "관객의 시민권, Agent ID, 개인 문양에 연결된 음성과 파형이 뜨면서 접속을 알린다."
+                  }
+                },
+                {
+                  "formattedValue": "- 관객한테 개인문양도 1/4인지?",
+                  "userEnteredValue": {
+                    "stringValue": "- 관객한테 개인문양도 1/4인지?"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "2.3",
+                  "userEnteredValue": {
+                    "numberValue": 2.3
+                  }
+                },
+                {
+                  "formattedValue": "12s",
+                  "userEnteredValue": {
+                    "stringValue": "12s"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "카메라가 로비에서 빠르게 뒤로 빠진다. 본사 건물은 노드 하나로 작아지고, 주변 도로와 건물, 이동 데이터가 거기에 붙는다. \n> 시점이 상공까지 올라가 스마트시티를 위에서 내려다본다. 수많은 구역 가운데 관객에게 배정된 생활권이 밝아지고, 나머지는 다시 흑백 처리된다.",
+                  "userEnteredValue": {
+                    "stringValue": "카메라가 로비에서 빠르게 뒤로 빠진다. 본사 건물은 노드 하나로 작아지고, 주변 도로와 건물, 이동 데이터가 거기에 붙는다. \n> 시점이 상공까지 올라가 스마트시티를 위에서 내려다본다. 수많은 구역 가운데 관객에게 배정된 생활권이 밝아지고, 나머지는 다시 흑백 처리된다."
+                  }
+                },
+                {
+                  "formattedValue": "- 광장 지역",
+                  "userEnteredValue": {
+                    "stringValue": "- 광장 지역"
+                  }
+                },
+                {
+                  "formattedValue": "당신은 사람들이 자연스럽게 모이고 새로운 관계가 생기는 자리를 만드는 걸 좋아하는군요. 좋아요, 당신의 H 스마트시티 생활권을 이곳에 열어드릴게요.",
+                  "userEnteredValue": {
+                    "stringValue": "당신은 사람들이 자연스럽게 모이고 새로운 관계가 생기는 자리를 만드는 걸 좋아하는군요. 좋아요, 당신의 H 스마트시티 생활권을 이곳에 열어드릴게요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#3 HELLO, AGENT",
+                  "userEnteredValue": {
+                    "stringValue": "#3 HELLO, AGENT"
+                  }
+                },
+                {
+                  "formattedValue": "3.1",
+                  "userEnteredValue": {
+                    "numberValue": 3.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "1인칭 운영자 화면. 영업 종료 직후 랜드마크 내부를 배경으로 운영 콘솔이 켜짐.\n주변으로 오늘의 데이터가 순차적으로 정리됨.",
+                  "userEnteredValue": {
+                    "stringValue": "1인칭 운영자 화면. 영업 종료 직후 랜드마크 내부를 배경으로 운영 콘솔이 켜짐.\n주변으로 오늘의 데이터가 순차적으로 정리됨."
+                  }
+                },
+                {
+                  "formattedValue": "메타휴먼 E",
+                  "userEnteredValue": {
+                    "stringValue": "메타휴먼 E"
+                  }
+                },
+                {
+                  "formattedValue": "이제 영업을 종료할게요. 오늘의 랜드마크 방문자와 공간 이용 현황을 빠르게 정리해보겠습니다. ",
+                  "userEnteredValue": {
+                    "stringValue": "이제 영업을 종료할게요. 오늘의 랜드마크 방문자와 공간 이용 현황을 빠르게 정리해보겠습니다. "
+                  },
+                  "note": "오늘 운영이 마무리됐어요.\n총 1,284명의 시민이 방문했고, 카페 이용률은 높았지만 전시 공간의 신규 방문 비율은 지난주보다 조금 낮아졌네요.\n전체 서비스와 에너지 운영은 정상적으로 종료됐습니다."
+                },
+                {
+                  "formattedValue": "[friendly] [speak clearly] 이제 영업을 종료할게요. [short pause] [warm] 오늘의 랜드마크 방문자와 공간 이용 현황을 빠르게 정리해보겠습니다. [short pause] 운영 데이터를 바탕으로 내일의 거점 후보가 세 곳 제안됐어요. [calm] 그대로 머물거나, 새로운 운영 목표에 맞춰 랜드마크를 이동할 수 있습니다. [long pause] 문화 생활권으로 정했군요. 좋아요! 내일은 전시 프로그램의 비중을 높이고, 새로운 시민 유입을 중심으로 운영 목표를 전환할게요. 그럼 지금부터, 랜드마크 이전을 계획합니다. [long pause] [dramatically] 먼저 이동 대상을 나누어 전시물과 식물, 소형 장비는 구조 모듈보다 먼저 운송시킬게요. Spot이 이동 경로와 새 운영 부지를 점검할 거에요. [delighted] 큰 구조 모듈이 이동하기 어려운 구간은 미리 제외할게요. 작은 물품은 MobED와 Spot이 나눠 맡고, 구조 모듈은 야간 저속 운송으로 이동합니다. [delighted] 새 거점의 전력과 데이터 연결을 확인하고, 장거리 구간에 HTWO 기반 에너지 지원을 연결할게요. 이동 계획은 도시 운영망에 등록하고, 교통 승인이 끝나는 대로 야간 이동을 시작하겠습니다. [long pause] [delighted] 남은 작업은 제가 맡아둘 테니, 편히 돌아가세요. 그럼 내일 오전 새로운 거점에서 만나요.",
+                  "userEnteredValue": {
+                    "stringValue": "[friendly] [speak clearly] 이제 영업을 종료할게요. [short pause] [warm] 오늘의 랜드마크 방문자와 공간 이용 현황을 빠르게 정리해보겠습니다. [short pause] 운영 데이터를 바탕으로 내일의 거점 후보가 세 곳 제안됐어요. [calm] 그대로 머물거나, 새로운 운영 목표에 맞춰 랜드마크를 이동할 수 있습니다. [long pause] 문화 생활권으로 정했군요. 좋아요! 내일은 전시 프로그램의 비중을 높이고, 새로운 시민 유입을 중심으로 운영 목표를 전환할게요. 그럼 지금부터, 랜드마크 이전을 계획합니다. [long pause] [dramatically] 먼저 이동 대상을 나누어 전시물과 식물, 소형 장비는 구조 모듈보다 먼저 운송시킬게요. Spot이 이동 경로와 새 운영 부지를 점검할 거에요. [delighted] 큰 구조 모듈이 이동하기 어려운 구간은 미리 제외할게요. 작은 물품은 MobED와 Spot이 나눠 맡고, 구조 모듈은 야간 저속 운송으로 이동합니다. [delighted] 새 거점의 전력과 데이터 연결을 확인하고, 장거리 구간에 HTWO 기반 에너지 지원을 연결할게요. 이동 계획은 도시 운영망에 등록하고, 교통 승인이 끝나는 대로 야간 이동을 시작하겠습니다. [long pause] [delighted] 남은 작업은 제가 맡아둘 테니, 편히 돌아가세요. 그럼 내일 오전 새로운 거점에서 만나요."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "- TODAY VISITORS 1,284\n- NEW VISITORS 38%\n- CAFE OCCUPANCY 82%\n- EXHIBITION ENGAGEMENT 74%\n- AVG. STAY 47 MIN\n- ENERGY / MOBILITY / SERVICE STATUS\n- 운영 완료 체크\n마지막엔 TODAY OPERATION COMPLETE.",
+                  "userEnteredValue": {
+                    "stringValue": "- TODAY VISITORS 1,284\n- NEW VISITORS 38%\n- CAFE OCCUPANCY 82%\n- EXHIBITION ENGAGEMENT 74%\n- AVG. STAY 47 MIN\n- ENERGY / MOBILITY / SERVICE STATUS\n- 운영 완료 체크\n마지막엔 TODAY OPERATION COMPLETE."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.2",
+                  "userEnteredValue": {
+                    "numberValue": 3.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "-오늘 리포트가 축소됨\n-도시 전체 2D/3D 맵 등장\n-현재 랜드마크 위치에서 세 곳 팝업",
+                  "userEnteredValue": {
+                    "stringValue": "-오늘 리포트가 축소됨\n-도시 전체 2D/3D 맵 등장\n-현재 랜드마크 위치에서 세 곳 팝업"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "운영 데이터를 바탕으로 내일의 거점 후보가 세 곳 제안됐어요. [calm] 그대로 머물거나, 새로운 운영 목표에 맞춰 랜드마크를 이동할 수 있습니다.",
+                  "userEnteredValue": {
+                    "stringValue": "운영 데이터를 바탕으로 내일의 거점 후보가 세 곳 제안됐어요. [calm] 그대로 머물거나, 새로운 운영 목표에 맞춰 랜드마크를 이동할 수 있습니다."
+                  },
+                  "note": "오늘의 운영 데이터를 바탕으로, 랜드마크 서비스 AI가 내일의 거점 전환을 제안했어요.\n그대로 머물 수도 있고, 새로운 운영 목표에 맞춰 세 곳 중 하나로 이동할 수도 있습니다. 환승 생활권에서는 더 많은 신규 시민을 만날 수 있고,\n주거 생활권에서는 장기 체류와 커뮤니티 이용을 늘릴 수 있어요.\n문화 생활권으로 이동하면, 전시와 프로그램 중심의 운영 비중을 더 높일 수 있고요."
+                },
+                {},
+                {},
+                {
+                  "note": "후보 A — TRANSIT DISTRICT\nVISITOR REACH ↑↑\nREVENUE ↑\nNEW CITIZENS ↑\n→ 유동인구와 신규 시민 확보에 좋음.\n후보 B — RESIDENTIAL DISTRICT\nCOMMUNITY USE ↑↑\nAVG. STAY ↑\nREVENUE →\n→ 주민 장기 이용 / 커뮤니티 기능 강화.\n후보 C — CULTURE DISTRICT\nCULTURAL ENGAGEMENT ↑↑\nVISITOR DIVERSITY ↑↑\nNEW PROGRAM POTENTIAL ↑\n→ 전시·문화 중심으로 랜드마크 역할 자체를 바꿀 수 있음."
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "3.3",
+                  "userEnteredValue": {
+                    "numberValue": 3.3
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "CULTURE DISTRICT 선택\n> 선택 순간 후보지 카드가 확장",
+                  "userEnteredValue": {
+                    "stringValue": "CULTURE DISTRICT 선택\n> 선택 순간 후보지 카드가 확장"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "문화 생활권으로 정했군요. 좋아요! 내일은 전시 프로그램의 비중을 높이고, 새로운 시민 유입을 중심으로 운영 목표를 전환할게요. 그럼 지금부터, 랜드마크 이전을 계획합니다.",
+                  "userEnteredValue": {
+                    "stringValue": "문화 생활권으로 정했군요. 좋아요! 내일은 전시 프로그램의 비중을 높이고, 새로운 시민 유입을 중심으로 운영 목표를 전환할게요. 그럼 지금부터, 랜드마크 이전을 계획합니다."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "오늘: CAFE 40 / EXHIBITION 35 / LOUNGE 25\n↓\n내일: CAFE 20 / EXHIBITION 55 / LOUNGE 25",
+                  "userEnteredValue": {
+                    "stringValue": "오늘: CAFE 40 / EXHIBITION 35 / LOUNGE 25\n↓\n내일: CAFE 20 / EXHIBITION 55 / LOUNGE 25"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#4 WHEN THE CITY CALLS",
+                  "userEnteredValue": {
+                    "stringValue": "#4 WHEN THE CITY CALLS"
+                  }
+                },
+                {
+                  "formattedValue": "4.1",
+                  "userEnteredValue": {
+                    "numberValue": 4.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "EXHIBITION / CAFE / LOUNGE\n세 개의 구조 모듈.그 안에 작은 이동 대상들이 별도 표시됨.\n- 전시물/식물/장비/이동형 가구\n화면에서 자동으로 두 그룹으로 분류.\nSMALL ASSETS → Spot / MobED\nSTRUCTURAL MODULES→ Heavy Transport Platform",
+                  "userEnteredValue": {
+                    "stringValue": "EXHIBITION / CAFE / LOUNGE\n세 개의 구조 모듈.그 안에 작은 이동 대상들이 별도 표시됨.\n- 전시물/식물/장비/이동형 가구\n화면에서 자동으로 두 그룹으로 분류.\nSMALL ASSETS → Spot / MobED\nSTRUCTURAL MODULES→ Heavy Transport Platform"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "먼저 이동 대상을 나누어 전시물과 식물, 소형 장비는 구조 모듈보다 먼저 운송시킬게요. ",
+                  "userEnteredValue": {
+                    "stringValue": "먼저 이동 대상을 나누어 전시물과 식물, 소형 장비는 구조 모듈보다 먼저 운송시킬게요. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.2",
+                  "userEnteredValue": {
+                    "numberValue": 4.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "현재 위치 → 문화 생활권까지 도시 지도.\nSpot 노드가 선행 출발.\nSpot 1인칭 LiDAR 데이터 컷과 운영 맵을 동시에 보여줌.",
+                  "userEnteredValue": {
+                    "stringValue": "현재 위치 → 문화 생활권까지 도시 지도.\nSpot 노드가 선행 출발.\nSpot 1인칭 LiDAR 데이터 컷과 운영 맵을 동시에 보여줌."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "Spot이 이동 경로와 새 운영 부지를 점검할 거에요. [delighted] 큰 구조 모듈이 이동하기 어려운 구간은 미리 제외할게요.",
+                  "userEnteredValue": {
+                    "stringValue": "Spot이 이동 경로와 새 운영 부지를 점검할 거에요. [delighted] 큰 구조 모듈이 이동하기 어려운 구간은 미리 제외할게요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.3",
+                  "userEnteredValue": {
+                    "numberValue": 4.3
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "경로가 확정되면 랜드마크 내부 자산에 이동 순서 번호가 붙음.",
+                  "userEnteredValue": {
+                    "stringValue": "경로가 확정되면 랜드마크 내부 자산에 이동 순서 번호가 붙음."
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "작은 물품은 MobED와 Spot이 나눠 맡고, 구조 모듈은 야간 저속 운송으로 이동합니다.",
+                  "userEnteredValue": {
+                    "stringValue": "작은 물품은 MobED와 Spot이 나눠 맡고, 구조 모듈은 야간 저속 운송으로 이동합니다."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "01 EXHIBITION ASSET\n02 PLANTS\n03 EQUIPMENT\nMobED가 전시물/식물 운반.\nMobED 상판에는:\nLEVEL CONTROL ACTIVE\nSpot에는 작은 적재 페이로드.\n두 로봇의 목적지가 다른 색의 노드로 표시.\nMobED → FLAT ROUTE\nSpot → STEP / UNEVEN ROUTE",
+                  "userEnteredValue": {
+                    "stringValue": "01 EXHIBITION ASSET\n02 PLANTS\n03 EQUIPMENT\nMobED가 전시물/식물 운반.\nMobED 상판에는:\nLEVEL CONTROL ACTIVE\nSpot에는 작은 적재 페이로드.\n두 로봇의 목적지가 다른 색의 노드로 표시.\nMobED → FLAT ROUTE\nSpot → STEP / UNEVEN ROUTE"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.4",
+                  "userEnteredValue": {
+                    "numberValue": 4.4
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "[지도 위 세 연결 포인트]\n- POWER / WATER / DATA\n[작업 타임라인] \n22:30 SMALL ASSET MOVE\n→ 23:40 MODULE RELEASE\n→ 00:20 TRANSPORT\n→ 03:10 RECONNECT\n→ 06:00 SYSTEM CHECK\n→ 09:00 OPEN",
+                  "userEnteredValue": {
+                    "stringValue": "[지도 위 세 연결 포인트]\n- POWER / WATER / DATA\n[작업 타임라인] \n22:30 SMALL ASSET MOVE\n→ 23:40 MODULE RELEASE\n→ 00:20 TRANSPORT\n→ 03:10 RECONNECT\n→ 06:00 SYSTEM CHECK\n→ 09:00 OPEN"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": " 거점의 전력과 데이터 연결을 확인하고, 장거리 구간에 HTWO 기반 에너지 지원을 연결할게요. ",
+                  "userEnteredValue": {
+                    "stringValue": " 거점의 전력과 데이터 연결을 확인하고, 장거리 구간에 HTWO 기반 에너지 지원을 연결할게요. "
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "ROAD AUTHORITY ✓\nTRAFFIC CONTROL ✓\nINFRA CONNECTION ✓\nMOVE WINDOW 00:20–03:10",
+                  "userEnteredValue": {
+                    "stringValue": "ROAD AUTHORITY ✓\nTRAFFIC CONTROL ✓\nINFRA CONNECTION ✓\nMOVE WINDOW 00:20–03:10"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "4.5",
+                  "userEnteredValue": {
+                    "numberValue": 4.5
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "복잡했던 모든 후보선이 사라지고 확정된 계획만 남음.\n중앙에 깔끔한 하나의 플로우:\nPACK\n→ ROBOT DELIVERY\n→ MODULE TRANSPORT\n→ RECONNECT\n→ RECONFIGURE\n→ OPEN\n왼쪽:\nRISK : LOW\nROUTE : CONFIRMED\nENERGY : READY\nNEW SITE : READY\n오른쪽에는 내일 운영 목표:\nCULTURAL ENGAGEMENT ↑\nNEW CITIZEN REACH ↑\n그리고:\nREADY FOR OPERATOR APPROVAL",
+                  "userEnteredValue": {
+                    "stringValue": "복잡했던 모든 후보선이 사라지고 확정된 계획만 남음.\n중앙에 깔끔한 하나의 플로우:\nPACK\n→ ROBOT DELIVERY\n→ MODULE TRANSPORT\n→ RECONNECT\n→ RECONFIGURE\n→ OPEN\n왼쪽:\nRISK : LOW\nROUTE : CONFIRMED\nENERGY : READY\nNEW SITE : READY\n오른쪽에는 내일 운영 목표:\nCULTURAL ENGAGEMENT ↑\nNEW CITIZEN REACH ↑\n그리고:\nREADY FOR OPERATOR APPROVAL"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "이동 계획은 도시 운영망에 등록하고, 교통 승인이 끝나는 대로 야간 이동을 시작하겠습니다. ",
+                  "userEnteredValue": {
+                    "stringValue": "이동 계획은 도시 운영망에 등록하고, 교통 승인이 끝나는 대로 야간 이동을 시작하겠습니다. "
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#5 INTO THE FIELD",
+                  "userEnteredValue": {
+                    "stringValue": "#5 INTO THE FIELD"
+                  }
+                },
+                {
+                  "formattedValue": "5.1",
+                  "userEnteredValue": {
+                    "numberValue": 5.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "RELOCATION SCHEDULED\nOVERNIGHT EXECUTION\nNEXT OPEN 09:00\n그리고 내일 업무 카드 생성:\nTOMORROW\nNEW SITE OPENING\nCULTURE DISTRICT\n09:00\n그 아래:\n- Opening Check\n- Exhibition Setup\n- Visitor Forecast\n- New Site Operation Profile",
+                  "userEnteredValue": {
+                    "stringValue": "RELOCATION SCHEDULED\nOVERNIGHT EXECUTION\nNEXT OPEN 09:00\n그리고 내일 업무 카드 생성:\nTOMORROW\nNEW SITE OPENING\nCULTURE DISTRICT\n09:00\n그 아래:\n- Opening Check\n- Exhibition Setup\n- Visitor Forecast\n- New Site Operation Profile"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "남은 작업은 제가 맡아둘 테니, 편히 돌아가세요.",
+                  "userEnteredValue": {
+                    "stringValue": "남은 작업은 제가 맡아둘 테니, 편히 돌아가세요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "5.2",
+                  "userEnteredValue": {
+                    "numberValue": 5.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "오늘의 운영 콘솔이 하나씩 접힘.\n그 대신 작은 예약 카드 두 개.\nCOMMUTE BRIEF — SCHEDULED\nWORK BOARD — SCHEDULED\n내일 출근 경로 위에 새 랜드마크 위치가 표시.\nHOME → NEW LANDMARK\n새 지점의 예상 방문객 / 운영 특성 / 첫 업무가 프리뷰로 살짝 보였다가 접힘.\n화면 마지막:\nTODAY OPERATION COMPLETE\nSEE YOU TOMORROW",
+                  "userEnteredValue": {
+                    "stringValue": "오늘의 운영 콘솔이 하나씩 접힘.\n그 대신 작은 예약 카드 두 개.\nCOMMUTE BRIEF — SCHEDULED\nWORK BOARD — SCHEDULED\n내일 출근 경로 위에 새 랜드마크 위치가 표시.\nHOME → NEW LANDMARK\n새 지점의 예상 방문객 / 운영 특성 / 첫 업무가 프리뷰로 살짝 보였다가 접힘.\n화면 마지막:\nTODAY OPERATION COMPLETE\nSEE YOU TOMORROW"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "그럼 내일 오전 새로운 거점에서 만나요.",
+                  "userEnteredValue": {
+                    "stringValue": "그럼 내일 오전 새로운 거점에서 만나요."
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {
+                  "formattedValue": "#6 RETURN TO SYSTEM",
+                  "userEnteredValue": {
+                    "stringValue": "#6 RETURN TO SYSTEM"
+                  }
+                },
+                {
+                  "formattedValue": "6.1",
+                  "userEnteredValue": {
+                    "numberValue": 6.1
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "5.2의 화면 프레임이 작아짐, 좌측으로 밀리면서 메타휴먼A가 우측에서 등장. 대화 중에 5.2 화면이 티브이 꺼지듯 '팟!' 꺼짐",
+                  "userEnteredValue": {
+                    "stringValue": "5.2의 화면 프레임이 작아짐, 좌측으로 밀리면서 메타휴먼A가 우측에서 등장. 대화 중에 5.2 화면이 티브이 꺼지듯 '팟!' 꺼짐"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "어땠나요. 당신의 시민권으로 접속한 H 스마트시티의 한 장면이었어요.",
+                  "userEnteredValue": {
+                    "stringValue": "어땠나요. 당신의 시민권으로 접속한 H 스마트시티의 한 장면이었어요."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "CITIZEN CONNECTION  / ACTIVE\nDISPLAY SESSION  /  CLOSED",
+                  "userEnteredValue": {
+                    "stringValue": "CITIZEN CONNECTION  / ACTIVE\nDISPLAY SESSION  /  CLOSED"
+                  }
+                }
+              ]
+            },
+            {
+              "values": [
+                {},
+                {},
+                {
+                  "formattedValue": "6.2",
+                  "userEnteredValue": {
+                    "numberValue": 6.2
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "메타휴먼 중앙으로 오면서, 메타휴먼 레이어 위로 osososos.net 하이라이트된 텍스트로 등장",
+                  "userEnteredValue": {
+                    "stringValue": "메타휴먼 중앙으로 오면서, 메타휴먼 레이어 위로 osososos.net 하이라이트된 텍스트로 등장"
+                  }
+                },
+                {},
+                {
+                  "formattedValue": "당신의 스마트시티즌은 포스트 릴리즈에서도 계속됩니다.",
+                  "userEnteredValue": {
+                    "stringValue": "당신의 스마트시티즌은 포스트 릴리즈에서도 계속됩니다."
+                  }
+                },
+                {},
+                {},
+                {
+                  "formattedValue": "\nPOST-RELEASE ACCESS\nYour citizenship remains active.\n\nosososos.net",
+                  "userEnteredValue": {
+                    "stringValue": "\nPOST-RELEASE ACCESS\nYour citizenship remains active.\n\nosososos.net"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

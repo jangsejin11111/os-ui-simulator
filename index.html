@@ -2,19 +2,19 @@
 <html lang="ko">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OS · UI 시뮬레이터</title><link rel="stylesheet" href="./src/style.css"><link rel="stylesheet" href="./src/scene.css"></head>
 <body>
-<header><a class="brand" href="#scenario=1&cut=3.2.1">OS<span>UI simulator</span></a><span class="edition">Production study / v02</span><span class="local">UI 시연용 데이터</span></header>
+<header><a class="brand" href="#scenario=1&cut=3.2.1">OS<span>UI 시뮬레이터</span></a><span class="edition">제작 검토 / v03</span><span class="local">UI 시연용 데이터</span></header>
 <main>
 <nav aria-label="시나리오 선택" id="scenarios"></nav>
 <section class="workspace">
 <div class="toolbar"><div><span class="eyebrow" id="position"></span><h1 id="title">데이터를 불러오는 중</h1></div><div class="navigation"><label class="sr-only" for="cut-select">컷 선택</label><select id="cut-select"></select><button id="prev" aria-label="이전 컷">←</button><button id="next" aria-label="다음 컷">→</button><button id="copy">컷 URL 복사</button></div></div>
-<div class="stage-wrap"><div class="stage" id="stage"><svg id="scene" viewBox="0 0 1600 900" role="img" aria-label="작품 UI 시뮬레이션"></svg><div id="media-slot"></div><div id="ui-layer"></div><div id="annotation-layer" hidden></div></div></div>
+<p id="compat-notice" class="compat-notice" role="status" hidden></p><div class="stage-wrap"><div class="stage" id="stage"><svg id="scene" viewBox="0 0 1600 900" role="img" aria-label="작품 UI 시뮬레이션"></svg><div id="media-slot"></div><div id="ui-layer"></div><div id="annotation-layer" hidden></div></div></div>
 <div class="player"><button id="play" class="primary">Ⅱ 동작 멈춤</button><button id="reset">↺ 이 컷 다시 보기</button><button id="annotations" aria-pressed="false">주석 보기</button><label class="mode-control" for="mode">보기 방식 <select id="mode"><option value="always">상시 보기</option><option value="sequence">연출 순서 보기</option></select></label><span id="loop-status">현재 컷 안에서 반복</span><button id="next-scenario" hidden>다음 시나리오 →</button></div>
-<section class="brief"><div class="voice"><div class="eyebrow">Voice-over <span id="vo-status"></span></div><p id="vo"></p></div></section>
+<section class="brief"><div class="voice"><div class="eyebrow">V.O <span id="vo-status"></span></div><p id="vo-directions"></p><p id="vo"></p></div></section>
 <div id="notes" class="notes"></div>
 <details id="timing-review"><summary>타이밍 검토</summary><div class="timing"><p id="duration"></p><p>세부 큐·반복 동작은 시연용입니다. 음원과 단어별 타이밍은 제공되지 않았습니다.</p><label for="seek">컷 진행</label><input id="seek" type="range" min="0" max="1000" value="0" step="1"><output id="time"></output><label class="motion"><input id="motion" type="checkbox"> 정적 상태 보기</label></div><div class="cue-list" id="cues"></div></details>
 <details><summary>UI 명세 · 주석 번호 · 문구 출처 <span>원문 ≠ 승인 완료</span></summary><div id="spec"></div></details>
 <details><summary>원문 보기 · 참고 이미지 · 메모와 댓글</summary><div id="source"></div></details>
-<footer><span>OS / UI handoff</span><span>45 cuts · 16:9 · Monochrome study</span><span>← → 컷 이동 · Space 동작 멈춤</span></footer>
+<footer><span>OS / UI 제작 검토</span><span id="total-count"></span><span>← → 컷 이동 · 스페이스 동작 멈춤</span></footer>
 </section><p id="message" role="status" aria-live="polite"></p>
 </main><script type="module" src="./src/app.js"></script>
 </body></html>
