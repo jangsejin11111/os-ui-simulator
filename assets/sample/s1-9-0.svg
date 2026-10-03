@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="sim-svg network-sim" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><style>.svg-line{stroke:#bcbcbc;stroke-width:2;fill:none}.svg-line.thin{stroke-width:1}.svg-soft{stroke:#666;stroke-width:1.4;fill:none}.svg-fill{fill:#bcbcbc}.svg-route{stroke:#ddd;stroke-width:4;stroke-dasharray:10 15;fill:none}.map-blocks rect,.plaza-zones rect{fill:#202020;stroke:#777;stroke-width:1.5}.graph-line{stroke:#ccc;stroke-width:4;fill:none}.network-candidate{stroke:#777;stroke-width:2;stroke-dasharray:8 9}.network-final{stroke:#ddd;stroke-width:4}.svg-node,.request-node{fill:#bbb}.network-particle{fill:#ddd}.broadcast-waves circle{fill:none;stroke:#aaa;stroke-width:2}.response{fill:#444;stroke:#ccc;stroke-width:2}*{animation:none!important}</style>
+      <defs>
+        <pattern id="4-2-2-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+          <circle cx="2" cy="2" r="1.4" fill="rgba(255,255,255,.58)"></circle>
+          <circle cx="8" cy="7" r=".8" fill="rgba(255,255,255,.25)"></circle>
+        </pattern>
+        <pattern id="4-2-2-fine" width="8" height="8" patternUnits="userSpaceOnUse">
+          <circle cx="1.5" cy="1.5" r=".8" fill="rgba(255,255,255,.32)"></circle>
+        </pattern>
+        <filter id="4-2-2-glow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+          <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+        </filter>
+      </defs>
+      
+      <rect width="900" height="600" fill="#0c0c0c"></rect>
+      <g opacity=".25"><path d="M0 100H900 M0 200H900 M0 300H900 M0 400H900 M0 500H900 M150 0V600 M300 0V600 M450 0V600 M600 0V600 M750 0V600" class="svg-soft thin"></path></g>
+      <path id="4-2-2-p1" d="M190 160 C300 130 380 210 500 260" class="network-candidate" fill="none"></path><path id="4-2-2-p2" d="M190 420 C300 380 380 340 500 260" class="network-candidate" fill="none"></path><path id="4-2-2-p3" d="M390 475 C430 400 470 335 500 260" class="network-candidate" fill="none"></path><path id="4-2-2-p4" d="M500 260 C590 225 670 180 760 205" class="network-candidate" fill="none"></path>
+      <g transform="translate(150 120)"><rect width="110" height="115" rx="16" class="svg-line" fill="rgba(255,255,255,.04)"></rect><path d="M22 88V34H47V88 M52 88V18H82V88 M10 88H98" class="svg-line" fill="none"></path></g>
+      <g transform="translate(135 385)"><rect width="150" height="88" rx="18" class="svg-line" fill="rgba(255,255,255,.04)"></rect><path d="M18 58 L32 25 H93 Q111 25 122 41 L132 58 Z" class="svg-line" fill="none"></path><circle cx="47" cy="62" r="9" class="svg-line"></circle><circle cx="110" cy="62" r="9" class="svg-line"></circle></g>
+      <g transform="translate(330 430)"><rect width="130" height="85" rx="18" class="svg-line" fill="rgba(255,255,255,.04)"></rect><rect x="35" y="18" width="60" height="48" rx="8" class="svg-line" fill="none"></rect><circle cx="25" cy="70" r="8" class="svg-line"></circle><circle cx="105" cy="70" r="8" class="svg-line"></circle></g>
+      <g transform="translate(720 160)"><rect width="120" height="95" rx="18" class="svg-line" fill="rgba(255,255,255,.04)"></rect><path d="M18 63 L32 28 H82 Q95 28 105 45 L112 63 Z" class="svg-line" fill="none"></path><circle cx="40" cy="68" r="8" class="svg-line"></circle><circle cx="95" cy="68" r="8" class="svg-line"></circle></g>
+      <g transform="translate(460 220)"><circle cx="40" cy="40" r="44" class="svg-line" fill="rgba(255,255,255,.03)"></circle><path d="M40 12V68 M12 40H68" class="svg-line"></path></g>
+    
+    </svg>

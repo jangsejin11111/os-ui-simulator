@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="sim-svg minimap-sim" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><style>.svg-line{stroke:#bcbcbc;stroke-width:2;fill:none}.svg-line.thin{stroke-width:1}.svg-soft{stroke:#666;stroke-width:1.4;fill:none}.svg-fill{fill:#bcbcbc}.svg-route{stroke:#ddd;stroke-width:4;stroke-dasharray:10 15;fill:none}.map-blocks rect,.plaza-zones rect{fill:#202020;stroke:#777;stroke-width:1.5}.graph-line{stroke:#ccc;stroke-width:4;fill:none}.network-candidate{stroke:#777;stroke-width:2;stroke-dasharray:8 9}.network-final{stroke:#ddd;stroke-width:4}.svg-node,.request-node{fill:#bbb}.network-particle{fill:#ddd}.broadcast-waves circle{fill:none;stroke:#aaa;stroke-width:2}.response{fill:#444;stroke:#ccc;stroke-width:2}*{animation:none!important}</style>
+      <defs>
+        <pattern id="3-3-1-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+          <circle cx="2" cy="2" r="1.4" fill="rgba(255,255,255,.58)"></circle>
+          <circle cx="8" cy="7" r=".8" fill="rgba(255,255,255,.25)"></circle>
+        </pattern>
+        <pattern id="3-3-1-fine" width="8" height="8" patternUnits="userSpaceOnUse">
+          <circle cx="1.5" cy="1.5" r=".8" fill="rgba(255,255,255,.32)"></circle>
+        </pattern>
+        <filter id="3-3-1-glow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+          <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+        </filter>
+      </defs>
+      
+      <rect width="600" height="600" fill="#0c0c0c"></rect>
+      <circle cx="300" cy="300" r="260" fill="rgba(255,255,255,.02)" class="svg-line"></circle>
+      <g opacity=".7"><path d="M70 300H530 M300 70V530 M120 150L480 450 M480 150L120 450" class="svg-soft thin"></path></g>
+      <g class="map-blocks"><rect x="115" y="105" width="125" height="90" rx="12"></rect><rect x="350" y="95" width="130" height="110" rx="12"></rect><rect x="100" y="365" width="150" height="115" rx="12"></rect><rect x="345" y="350" width="145" height="125" rx="12"></rect></g>
+      <path d="M300 500 C280 400 360 360 320 280 S380 170 410 120" class="svg-route route-flow" fill="none"></path>
+      <path d="M300 465 L278 505 L322 505 Z" class="svg-fill"></path>
+      <circle cx="410" cy="120" r="18" class="svg-line" fill="rgba(255,255,255,.04)"></circle><circle cx="410" cy="120" r="6" class="svg-fill"></circle>
+      <circle cx="310" cy="210" r="9" class="svg-node node-delay-0"></circle><circle cx="360" cy="260" r="9" class="svg-node node-delay-1"></circle><circle cx="420" cy="235" r="9" class="svg-node node-delay-2"></circle><circle cx="455" cy="310" r="9" class="svg-node node-delay-3"></circle><circle cx="275" cy="340" r="9" class="svg-node node-delay-0"></circle><circle cx="390" cy="380" r="9" class="svg-node node-delay-1"></circle>
+      
+    
+    </svg>

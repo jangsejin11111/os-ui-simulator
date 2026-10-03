@@ -1,0 +1,895 @@
+{
+  "status": "proposed_preview_only",
+  "description": "시안용 등장·동작 큐. 원문 세부 시간 아님. start/complete/end는 0–1 공통 playhead.",
+  "regions": {
+    "full": [
+      0,
+      0,
+      100,
+      100
+    ],
+    "main": [
+      8,
+      12,
+      84,
+      74
+    ],
+    "left_circle": [
+      5,
+      9,
+      25,
+      44.444
+    ],
+    "right_circle": [
+      70,
+      9,
+      25,
+      44.444
+    ],
+    "lower_right_circle": [
+      71,
+      48,
+      24,
+      42.667
+    ],
+    "center_circle": [
+      29,
+      12,
+      42,
+      74.667
+    ],
+    "top_badge": [
+      5,
+      5,
+      43,
+      9
+    ],
+    "right_badge": [
+      68,
+      5,
+      27,
+      10
+    ],
+    "bottom_strip": [
+      8,
+      81,
+      84,
+      12
+    ],
+    "mirror": [
+      39,
+      8,
+      24,
+      80
+    ],
+    "slot1": [
+      5,
+      13,
+      29,
+      32
+    ],
+    "slot2": [
+      5,
+      52,
+      29,
+      34
+    ],
+    "condition": [
+      68,
+      12,
+      27,
+      20
+    ],
+    "slot3": [
+      68,
+      39,
+      27,
+      46
+    ],
+    "wave": [
+      43,
+      91,
+      16,
+      4
+    ],
+    "map_left": [
+      5,
+      16,
+      56,
+      65
+    ],
+    "panel_right": [
+      65,
+      16,
+      30,
+      65
+    ],
+    "panel_left": [
+      5,
+      16,
+      28,
+      65
+    ],
+    "center_panel": [
+      36,
+      16,
+      29,
+      65
+    ],
+    "center_card": [
+      28,
+      31,
+      44,
+      36
+    ],
+    "map_right": [
+      69,
+      56,
+      26,
+      35
+    ],
+    "door_tag": [
+      60,
+      34,
+      32,
+      24
+    ],
+    "timeline": [
+      7,
+      79,
+      86,
+      15
+    ],
+    "three_cards": [
+      7,
+      25,
+      86,
+      46
+    ],
+    "flow": [
+      34,
+      17,
+      31,
+      62
+    ]
+  },
+  "cuts": {
+    "S1-3.2.1": {
+      "agent": {
+        "start": 0,
+        "complete": 1
+      },
+      "plaza_scan": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "city_map": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S1-3.2.2": {
+      "city_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "vehicle_marker": {
+        "start": 0,
+        "complete": 0.7,
+        "motionStart": 0.35
+      },
+      "status": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S1-3.2.3": {
+      "lidar_road": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S1-3.3.1": {
+      "lidar_road": {
+        "start": 0,
+        "complete": 1
+      },
+      "city_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "citizen_ev_nodes": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S1-3.3.2": {
+      "lidar_road": {
+        "start": 0,
+        "complete": 1
+      },
+      "data_card": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "city_map": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S1-4.1.1": {
+      "plaza_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "game_layer": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "citizen_ev_nodes": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S1-4.1.2": {
+      "plaza_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "request_badges": {
+        "start": 0,
+        "complete": 1
+      },
+      "demand_chart": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S1-4.1.3": {
+      "plaza_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "radial_request": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S1-4.2.1": {
+      "plaza_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "mobile_charger": {
+        "start": 0,
+        "complete": 1,
+        "textWindows": [
+          [
+            0,
+            1.01
+          ],
+          [
+            0.35,
+            1.01
+          ]
+        ]
+      },
+      "connector_lights": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S1-4.2.2": {
+      "plaza_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "supply_nodes": {
+        "start": 0,
+        "complete": 1
+      },
+      "data_card": {
+        "start": 0,
+        "complete": 1
+      },
+      "candidate_paths": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S1-4.3.1": {
+      "plaza_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "confirmed_paths": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "status": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S1-5.1": {
+      "lidar_road": {
+        "start": 0,
+        "complete": 1
+      },
+      "game_layer": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S1-5.2": {
+      "lidar_road": {
+        "start": 0,
+        "complete": 1
+      },
+      "delegation_border": {
+        "start": 0,
+        "complete": 1
+      },
+      "vehicle_marker": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "confirmed_paths": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S2-3.1": {
+      "agent": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "empty_slots": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S2-3.2": {
+      "body_scan": {
+        "start": 0,
+        "complete": 1
+      },
+      "condition_card": {
+        "start": 0,
+        "complete": 1,
+        "textWindows": [
+          [
+            0,
+            0.7
+          ],
+          [
+            0.7,
+            1.01
+          ]
+        ]
+      }
+    },
+    "S2-3.3": {
+      "body_breath": {
+        "start": 0,
+        "complete": 1
+      },
+      "schedule": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "plant_thumbnail": {
+        "start": 0.7,
+        "complete": 1
+      },
+      "condition_card": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S2-3.5": {
+      "body_breath": {
+        "start": 0,
+        "complete": 1
+      },
+      "schedule": {
+        "start": 0,
+        "complete": 1
+      },
+      "vehicle_service": {
+        "start": 0,
+        "complete": 1,
+        "textWindows": [
+          [
+            0.35,
+            1.01
+          ],
+          [
+            0.7,
+            1.01
+          ]
+        ]
+      }
+    },
+    "S2-4.1": {
+      "body_breath": {
+        "start": 0,
+        "complete": 1
+      },
+      "schedule": {
+        "start": 0.7,
+        "complete": 1
+      },
+      "zone_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "agent_wave": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S2-4.2": {
+      "body_breath": {
+        "start": 0,
+        "complete": 1
+      },
+      "zone_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "receiving_card": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "agent_wave": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S2-4.3": {
+      "body_breath": {
+        "start": 0,
+        "complete": 1
+      },
+      "zone_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "delivery_booking": {
+        "start": 0,
+        "complete": 1
+      },
+      "candidate_paths": {
+        "start": 0.7,
+        "complete": 1
+      },
+      "agent_wave": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S2-4.5": {
+      "body_lift": {
+        "start": 0,
+        "complete": 1
+      },
+      "equipment_outline": {
+        "start": 0.7,
+        "complete": 1
+      },
+      "equipment_proposal": {
+        "start": 0.7,
+        "complete": 1
+      },
+      "case_to_workbench": {
+        "start": 0,
+        "complete": 1
+      },
+      "agent_wave": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S2-4.6": {
+      "body_breath": {
+        "start": 0,
+        "complete": 1
+      },
+      "equipment_outline": {
+        "start": 0,
+        "complete": 1
+      },
+      "equipment_status": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "agent_wave": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S2-5.1": {
+      "body_breath": {
+        "start": 0,
+        "complete": 1
+      },
+      "schedule": {
+        "start": 0,
+        "complete": 1
+      },
+      "zone_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "condition_card": {
+        "start": 0,
+        "complete": 1
+      },
+      "service_summary": {
+        "start": 0,
+        "complete": 1
+      },
+      "agent_wave": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S2-5.2": {
+      "body_breath": {
+        "start": 0,
+        "complete": 1
+      },
+      "schedule": {
+        "start": 0,
+        "complete": 1
+      },
+      "plant_records": {
+        "start": 0,
+        "complete": 1
+      },
+      "agent_wave": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S2-5.3": {
+      "body_dissolve": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0,
+        "complete": 1
+      },
+      "agent_wave": {
+        "start": 0,
+        "complete": 1
+      },
+      "os_logo": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S3-3.1": {
+      "street": {
+        "start": 0,
+        "complete": 1
+      },
+      "shucle_stop": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S3-3.2": {
+      "park": {
+        "start": 0,
+        "complete": 1
+      },
+      "walking_path": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S3-3.3": {
+      "park": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S3-4.1": {
+      "park": {
+        "start": 0,
+        "complete": 1
+      },
+      "virtual_stage": {
+        "start": 0,
+        "complete": 1
+      },
+      "spotlight": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "status": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S3-4.2": {
+      "park": {
+        "start": 0,
+        "complete": 1
+      },
+      "virtual_stage": {
+        "start": 0,
+        "complete": 1
+      },
+      "performance_card": {
+        "start": 0.7,
+        "complete": 1
+      },
+      "audio_wave": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S3-4.3": {
+      "park": {
+        "start": 0,
+        "complete": 1
+      },
+      "quiet_garden": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "walking_path": {
+        "start": 0.7,
+        "complete": 1
+      },
+      "status": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S3-4.4": {
+      "park": {
+        "start": 0,
+        "complete": 1
+      },
+      "quiet_garden": {
+        "start": 0,
+        "complete": 1
+      },
+      "walking_path": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S3-5.1": {
+      "quiet_garden": {
+        "start": 0,
+        "complete": 1
+      },
+      "pbv": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "status": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S3-5.2": {
+      "pbv": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S3-5.3": {
+      "pbv_interior": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0,
+        "complete": 1,
+        "textWindows": [
+          [
+            0,
+            0.35
+          ],
+          [
+            0.35,
+            1.01
+          ],
+          [
+            0.7,
+            1.01
+          ]
+        ]
+      },
+      "route_map": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S4-3.1": {
+      "landmark_interior": {
+        "start": 0,
+        "complete": 1
+      },
+      "metrics_grid": {
+        "start": 0,
+        "complete": 1
+      },
+      "status": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S4-3.2": {
+      "city_map": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "report_compact": {
+        "start": 0,
+        "complete": 1
+      },
+      "candidate_cards": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S4-3.3": {
+      "candidate_selected": {
+        "start": 0,
+        "complete": 1
+      },
+      "allocation_chart": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S4-4.1": {
+      "module_blocks": {
+        "start": 0,
+        "complete": 1
+      },
+      "classification": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S4-4.2": {
+      "spot_lidar_pov": {
+        "start": 0,
+        "complete": 1
+      },
+      "route_map": {
+        "start": 0,
+        "complete": 1,
+        "motionStart": 0.35
+      },
+      "route_checks": {
+        "start": 0,
+        "complete": 1
+      }
+    },
+    "S4-4.3": {
+      "asset_queue": {
+        "start": 0,
+        "complete": 1
+      },
+      "route_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "robot_routes": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S4-4.4": {
+      "city_map": {
+        "start": 0,
+        "complete": 1
+      },
+      "infra_nodes": {
+        "start": 0,
+        "complete": 1
+      },
+      "approval_status": {
+        "start": 0.7,
+        "complete": 1
+      },
+      "timeline": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "energy_support": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S4-4.5": {
+      "flow": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "status": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "goals": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "approval": {
+        "start": 0.7,
+        "complete": 1
+      }
+    },
+    "S4-5.1": {
+      "status": {
+        "start": 0,
+        "complete": 1
+      },
+      "tomorrow_card": {
+        "start": 0.35,
+        "complete": 1
+      }
+    },
+    "S4-5.2": {
+      "scheduled_cards": {
+        "start": 0,
+        "complete": 1
+      },
+      "route_map": {
+        "start": 0.35,
+        "complete": 1
+      },
+      "preview": {
+        "start": 0.35,
+        "complete": 1,
+        "end": 0.7
+      },
+      "status": {
+        "start": 0.7,
+        "complete": 1
+      }
+    }
+  }
+}

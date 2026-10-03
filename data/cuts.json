@@ -1,0 +1,6641 @@
+{
+  "schemaVersion": "1.0",
+  "project": "OS UI simulation production handoff",
+  "version": "v01",
+  "preparedDateKST": "2026-10-04",
+  "source": {
+    "filename": "ZER01NE PRODUCTION.xlsx",
+    "sheet": "전면 스토리보드",
+    "basis": "user_attached_snapshot",
+    "preparedDateKST": "2026-10-04",
+    "sha256": "aabf34fd705df0d3ffcade8230ba4ac118d83066bdaf9abe11b52d4b51ed21e3"
+  },
+  "scope": {
+    "scenarios": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "scenes": [
+      3,
+      4,
+      5
+    ],
+    "cutCount": 45,
+    "excludedScenes": [
+      1,
+      2,
+      6
+    ]
+  },
+  "statusLegend": {
+    "source_text": "엑셀 셀에 명시된 텍스트. 최종 승인 여부를 뜻하지 않음.",
+    "source_note": "엑셀 메모에 명시된 텍스트. 본문보다 우선하지 않음.",
+    "proposed_copy": "화면 구현을 위해 정리/새로 제안한 문구. 확정 아님.",
+    "proposed_coordinates": "정규화 좌표 제안. 원문·참고 이미지의 위치 관계를 근거로 정리.",
+    "proposed_split_of_merged_source": "병합된 원문 V.O를 컷별로 나눈 편집 제안.",
+    "missing_in_source": "원문에 없음. 무음 확정이 아님."
+  },
+  "design": {
+    "stageAspectRatio": "16:9",
+    "coordinateSystem": "x,y,width,height percentages of stage, origin top-left",
+    "palette": {
+      "background": "#101010",
+      "panel": "#1c1c1c",
+      "line": "#858585",
+      "foreground": "#ededed",
+      "uiCopyAndAnnotation": "#ff5c5c"
+    },
+    "redMeaning": "작업용 UI 문구/주석 강조. 원문의 제품/상태 색상 재현 아님.",
+    "numericPlaceholder": "—",
+    "annotationLayerSeparate": true,
+    "finalArtwork": false
+  },
+  "regions": {
+    "full": [
+      0,
+      0,
+      100,
+      100
+    ],
+    "main": [
+      8,
+      12,
+      84,
+      74
+    ],
+    "left_circle": [
+      5,
+      9,
+      25,
+      44.444
+    ],
+    "right_circle": [
+      70,
+      9,
+      25,
+      44.444
+    ],
+    "lower_right_circle": [
+      71,
+      48,
+      24,
+      42.667
+    ],
+    "center_circle": [
+      29,
+      12,
+      42,
+      74.667
+    ],
+    "top_badge": [
+      5,
+      5,
+      43,
+      9
+    ],
+    "right_badge": [
+      68,
+      5,
+      27,
+      10
+    ],
+    "bottom_strip": [
+      8,
+      81,
+      84,
+      12
+    ],
+    "mirror": [
+      39,
+      8,
+      24,
+      80
+    ],
+    "slot1": [
+      5,
+      13,
+      29,
+      32
+    ],
+    "slot2": [
+      5,
+      52,
+      29,
+      34
+    ],
+    "condition": [
+      68,
+      12,
+      27,
+      20
+    ],
+    "slot3": [
+      68,
+      39,
+      27,
+      46
+    ],
+    "wave": [
+      43,
+      91,
+      16,
+      4
+    ],
+    "map_left": [
+      5,
+      16,
+      56,
+      65
+    ],
+    "panel_right": [
+      65,
+      16,
+      30,
+      65
+    ],
+    "panel_left": [
+      5,
+      16,
+      28,
+      65
+    ],
+    "center_panel": [
+      36,
+      16,
+      29,
+      65
+    ],
+    "center_card": [
+      28,
+      31,
+      44,
+      36
+    ],
+    "map_right": [
+      69,
+      56,
+      26,
+      35
+    ],
+    "door_tag": [
+      60,
+      34,
+      32,
+      24
+    ],
+    "timeline": [
+      7,
+      79,
+      86,
+      15
+    ],
+    "three_cards": [
+      7,
+      25,
+      86,
+      46
+    ],
+    "flow": [
+      34,
+      17,
+      31,
+      62
+    ]
+  },
+  "scenarios": [
+    {
+      "id": 1,
+      "title": "리워드 광장과 임시 전력망",
+      "titleStatus": "editorial_summary",
+      "cutCount": 13,
+      "sourceRows": "19:31"
+    },
+    {
+      "id": 2,
+      "title": "작업 미러와 일상 업무 준비",
+      "titleStatus": "editorial_summary",
+      "cutCount": 12,
+      "sourceRows": "36:47"
+    },
+    {
+      "id": 3,
+      "title": "공간 레이어와 PBV 휴식",
+      "titleStatus": "editorial_summary",
+      "cutCount": 10,
+      "sourceRows": "52:61"
+    },
+    {
+      "id": 4,
+      "title": "랜드마크 운영과 야간 이전",
+      "titleStatus": "editorial_summary",
+      "cutCount": 10,
+      "sourceRows": "66:75"
+    }
+  ],
+  "voGroups": [
+    {
+      "id": "S1-4.2.1_to_4.2.2",
+      "sourceRange": "I27:I28",
+      "sourceText": "이동식 충전 설비도 광장으로 들어오고 있어요.\n\n건물 ESS와 V2G 차량의 여유 전력도 확인할게요. 각 차량의 출발 시간에 맞는 전력만 연결하겠습니다.",
+      "splitStatus": "proposed"
+    }
+  ],
+  "cuts": [
+    {
+      "id": "S1-3.2.1",
+      "scenario": 1,
+      "scene": 3,
+      "cut": "3.2.1",
+      "order": 1,
+      "title": "리워드 광장 발견",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 19,
+        "screenCell": "G19",
+        "assetCell": "H19",
+        "voCell": "I19",
+        "uiCell": "L19"
+      },
+      "sourceScreenText": "- BG: 생활권 줌인\n- CH: 에이전트가 관객을 향해 인사\n>> - CH: 에이전트가 UI에 반응\n- 한산한 광장 실루엣 + 리워드 파장 팝업",
+      "sourceAssetText": "- 메타휴먼 B",
+      "sourceUiText": "",
+      "sourceVoText": "방금 오늘만 열리는 리워드 장소를 찾았어요! 아직은 조용하지만, 곧 많은 스마트 시티즌들이 이곳으로 향할 거에요. 함께 가볼까요? ",
+      "sourceReferenceText": "[friendly] [speak clearly]  \n방금 오늘만 열리는 리워드 장소를 찾았어요! 아직은 조용하지만, 곧 많은 스마트 시티즌들이 이곳으로 향할 거예요. 함께 가볼까요?\n\n[2초 뒤]  \n차량이 도착했어요! 이동하는 동안 광장의 현 상황도 함께 확인할게요!\n\n[3초 뒤]  \n[dramatically]  \n같은 장소로 향하는 시민과 차량이 빠르게 늘고 있어요. 도착할 때 필요한 전력도 이동하는 동안 맞춰둘게요.\n\n[5초 뒤]  \n[panicking]  \n음… 지금 상태로는 광장의 전력 운영과 도착 차량의 충전을 함께 감당하기 어렵겠어요.\n\n[delighted]  \n마침 광장이 주변의 시민들에게 도움을 요청하고 있네요.\n\n이동식 충전 설비도 광장으로 들어오고 있어요.\n\n건물 ESS와 V2G 차량의 여유 전력도 확인할게요. 각 차량의 출발 시간에 맞는 전력만 연결하겠습니다.\n\n[5초 뒤]  \n좋아요. 필요한 전력을 하나로 연결해 임시 전력망 구성을 끝냈어요. 차량마다 출발 시간에 맞춰 충전을 준비할게요!\n\n[3초 뒤]  \n이제 리워드 광장에 도착했어요.\n\n[curiously]  \n차량 충전은 제가 이어서 관리할게요. 바로 일정을 시작하세요!",
+      "duration": {
+        "sourceSeconds": 10.0,
+        "previewSeconds": 10.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "방금 오늘만 열리는 리워드 장소를 찾았어요! 아직은 조용하지만, 곧 많은 스마트 시티즌들이 이곳으로 향할 거에요. 함께 가볼까요? ",
+        "status": "source_text",
+        "sourceRange": "I19",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "agent_with_two_circles",
+      "elements": [
+        {
+          "kind": "agent",
+          "region": "main",
+          "text": [],
+          "note": "에이전트는 중앙 인물 실루엣. 실제 메타휴먼 영상 슬롯으로 교체 가능.",
+          "id": "S1-3.2.1-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "plaza_scan",
+          "region": "left_circle",
+          "text": [
+            {
+              "value": "리워드 광장",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "오늘만 열리는 장소",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-3.2.1-ui02",
+          "boundsPct": [
+            5,
+            9,
+            25,
+            44.444
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "city_map",
+          "region": "right_circle",
+          "text": [
+            {
+              "value": "현재 위치",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "리워드 광장",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-3.2.1-ui03",
+          "boundsPct": [
+            70,
+            9,
+            25,
+            44.444
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "생활권 배경과 에이전트 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "왼쪽 광장 팝업에 원형 파장 발생",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "오른쪽 지도에서 목적지 노드 강조",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "좌우 원형 창은 F19의 배치 참고. I19 메모에 따라 이 컷부터 음성 변경 표시."
+      ],
+      "issues": [],
+      "sourceComments": [
+        {
+          "cell": "I19",
+          "kind": "note",
+          "text": "이때부터는 목소리 바꿈"
+        }
+      ],
+      "referenceImages": [
+        {
+          "path": "references/image22.png",
+          "sourceAnchor": "F19",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "생활권/도시 지도와 목적지의 위치 관계 유지. 주행 POV 진입 후 HUD 외곽 유지."
+      ],
+      "endState": "오른쪽 지도에서 목적지 노드 강조"
+    },
+    {
+      "id": "S1-3.2.2",
+      "scenario": 1,
+      "scene": 3,
+      "cut": "3.2.2",
+      "order": 2,
+      "title": "차량 도착",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 20,
+        "screenCell": "G20",
+        "assetCell": "H20",
+        "voCell": "I20",
+        "uiCell": "L20"
+      },
+      "sourceScreenText": "- 2D맵 평면뷰\n- 시민의 위치로 이동하는 차량 기호",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "차량이 도착했어요!",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 5.0,
+        "previewSeconds": 5.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "차량이 도착했어요!",
+        "status": "source_text",
+        "sourceRange": "I20",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "full_map",
+      "elements": [
+        {
+          "kind": "city_map",
+          "region": "main",
+          "text": [
+            {
+              "value": "현재 위치",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "리워드 광장",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-3.2.2-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "vehicle_marker",
+          "region": "main",
+          "text": [],
+          "note": "차량 기호가 지도 경로를 따라 시민 노드로 이동.",
+          "id": "S1-3.2.2-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "right_badge",
+          "text": [
+            {
+              "value": "차량 도착",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-3.2.2-ui03",
+          "boundsPct": [
+            68,
+            5,
+            27,
+            10
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "지도와 시민·차량 노드 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "차량 기호가 시민에게 이동",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "시민 위치에서 정지하고 도착 링 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image35.png",
+          "sourceAnchor": "F20",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "생활권/도시 지도와 목적지의 위치 관계 유지. 주행 POV 진입 후 HUD 외곽 유지."
+      ],
+      "endState": "시민 위치에서 정지하고 도착 링 표시"
+    },
+    {
+      "id": "S1-3.2.3",
+      "scenario": 1,
+      "scene": 3,
+      "cut": "3.2.3",
+      "order": 3,
+      "title": "차량 HUD 전환",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 21,
+        "screenCell": "G21",
+        "assetCell": "H21",
+        "voCell": "I21",
+        "uiCell": "L21"
+      },
+      "sourceScreenText": "- 도착 후, 차량 HUD 1인칭 시점으로 전환",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "이동하는 동안 광장의 현 상황도 함께 확인할게요! ",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 5.0,
+        "previewSeconds": 5.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "이동하는 동안 광장의 현 상황도 함께 확인할게요! ",
+        "status": "source_text",
+        "sourceRange": "I21",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "vehicle_hud",
+      "elements": [
+        {
+          "kind": "lidar_road",
+          "region": "full",
+          "text": [],
+          "note": "단순 점군 도로와 차량 프레임. 실제 주행 영상은 외부 에셋.",
+          "id": "S1-3.2.3-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "광장으로 이동 중",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-3.2.3-ui02",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "지도에서 차량 1인칭으로 전환",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "HUD 외곽 프레임 등장",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "중앙 도로 진행선에 낮은 속도의 흐름",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "이 컷에는 다음 컷의 수요 경고를 미리 노출하지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image38.png",
+          "sourceAnchor": "F21",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "생활권/도시 지도와 목적지의 위치 관계 유지. 주행 POV 진입 후 HUD 외곽 유지."
+      ],
+      "endState": "중앙 도로 진행선에 낮은 속도의 흐름"
+    },
+    {
+      "id": "S1-3.3.1",
+      "scenario": 1,
+      "scene": 3,
+      "cut": "3.3.1",
+      "order": 4,
+      "title": "시민·차량 유입 증가",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 22,
+        "screenCell": "G22",
+        "assetCell": "H22",
+        "voCell": "I22",
+        "uiCell": "L22"
+      },
+      "sourceScreenText": "- 차량 이동 POV, 창밖 점군 데이터 컬러 변화\n- 2D 맵에서 다른 시민, EV 노드가 하나씩 늘어난다",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "같은 장소로 향하는 시민과 차량이 빠르게 늘고 있어요. ",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 4.0,
+        "previewSeconds": 4.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "같은 장소로 향하는 시민과 차량이 빠르게 늘고 있어요. ",
+        "status": "source_text",
+        "sourceRange": "I22",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "vehicle_hud",
+      "elements": [
+        {
+          "kind": "lidar_road",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S1-3.3.1-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "city_map",
+          "region": "right_circle",
+          "text": [
+            {
+              "value": "리워드 광장",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-3.3.1-ui02",
+          "boundsPct": [
+            70,
+            9,
+            25,
+            44.444
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "citizen_ev_nodes",
+          "region": "right_circle",
+          "text": [],
+          "note": "시민은 원, EV는 사각형. 색 대신 형태로 구분.",
+          "id": "S1-3.3.1-ui03",
+          "boundsPct": [
+            70,
+            9,
+            25,
+            44.444
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "주행 배경과 원형 맵 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "시민 노드 순차 증가",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "EV 노드와 목적지 방향 선 증가",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image7.png",
+          "sourceAnchor": "F22",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "생활권/도시 지도와 목적지의 위치 관계 유지. 주행 POV 진입 후 HUD 외곽 유지."
+      ],
+      "endState": "EV 노드와 목적지 방향 선 증가"
+    },
+    {
+      "id": "S1-3.3.2",
+      "scenario": 1,
+      "scene": 3,
+      "cut": "3.3.2",
+      "order": 5,
+      "title": "도착·충전 조건 수집",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 23,
+        "screenCell": "G23",
+        "assetCell": "H23",
+        "voCell": "I23",
+        "uiCell": "L23"
+      },
+      "sourceScreenText": "- 차량 예정 도착 시간, 현재 충전 잔량, 예상 체류 시간 데이터 패킷 정리 그래피",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "도착할 때 필요한 전력도 이동하는 동안 맞춰둘게요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 4.0,
+        "previewSeconds": 4.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "도착할 때 필요한 전력도 이동하는 동안 맞춰둘게요.",
+        "status": "source_text",
+        "sourceRange": "I23",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "vehicle_hud",
+      "elements": [
+        {
+          "kind": "lidar_road",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S1-3.3.2-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "data_card",
+          "region": "left_circle",
+          "text": [
+            {
+              "value": "예정 도착 시간",
+              "status": "source_text",
+              "sourceCell": "G23"
+            },
+            {
+              "value": "현재 충전 잔량",
+              "status": "source_text",
+              "sourceCell": "G23"
+            },
+            {
+              "value": "예상 체류 시간",
+              "status": "source_text",
+              "sourceCell": "G23"
+            }
+          ],
+          "note": "세 값은 원문 미정. 숫자 대신 — 로 표시.",
+          "id": "S1-3.3.2-ui02",
+          "boundsPct": [
+            5,
+            9,
+            25,
+            44.444
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "city_map",
+          "region": "right_circle",
+          "text": [
+            {
+              "value": "리워드 광장",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-3.3.2-ui03",
+          "boundsPct": [
+            70,
+            9,
+            25,
+            44.444
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "우측 지도 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "좌측 데이터 카드 3행 순차 등장",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "데이터 점들이 목적지 방향으로 모임",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "참고 이미지의 수치는 확정 데이터로 옮기지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image45.png",
+          "sourceAnchor": "F23",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "생활권/도시 지도와 목적지의 위치 관계 유지. 주행 POV 진입 후 HUD 외곽 유지."
+      ],
+      "endState": "데이터 점들이 목적지 방향으로 모임"
+    },
+    {
+      "id": "S1-4.1.1",
+      "scenario": 1,
+      "scene": 4,
+      "cut": "4.1.1",
+      "order": 6,
+      "title": "광장 탑뷰와 게임 레이어",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 24,
+        "screenCell": "G24",
+        "assetCell": "H24",
+        "voCell": "I24",
+        "uiCell": "L24"
+      },
+      "sourceScreenText": "- HUD 레이아웃은 유지\n- 광장 라이다 평면뷰 > 카메라 무빙\n- 게임 레이어가 열림\n- 이후 시민과 EV 노드가 빠르게 모인다.",
+      "sourceAssetText": "- 도시 라이다데이터 탑뷰에서 카메라 이동하는 영상들 여러개 BG로 두기",
+      "sourceUiText": "",
+      "sourceVoText": null,
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 3.0,
+        "previewSeconds": 3.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": null,
+        "status": "missing_in_source",
+        "sourceRange": "I24",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "plaza_hud",
+      "elements": [
+        {
+          "kind": "plaza_map",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-4.1.1-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "game_layer",
+          "region": "main",
+          "text": [],
+          "note": "게임 영역은 단순 그리드로 표현.",
+          "id": "S1-4.1.1-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "citizen_ev_nodes",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-4.1.1-ui03",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "HUD 외곽을 유지하며 광장 탑뷰 전환",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "광장 중앙 게임 그리드 점등",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "시민·EV 노드가 광장으로 유입",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "I24 본문은 비어 있다. 댓글의 추가 대사는 선택 가능한 참고안으로만 보존."
+      ],
+      "issues": [
+        "I24 댓글에는 “광장 탑뷰로 전환할게요” 추가 제안이 있고 done=1이나 본문에는 미기입. 완료 댓글을 확정 대사로 자동 반영하지 않는다."
+      ],
+      "sourceComments": [
+        {
+          "cell": "I24",
+          "kind": "threaded",
+          "text": "에이전트가 \"광장 탑뷰로 전환할게요\" 말하기",
+          "done": "1",
+          "parentId": null,
+          "timestamp": "2026-10-02T07:04:56.00"
+        }
+      ],
+      "referenceImages": [
+        {
+          "path": "references/image13.png",
+          "sourceAnchor": "F24",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "차량 HUD 외곽 유지. 지도는 광장 탑뷰로 전환. 이전 컷의 수요/공급 상태를 컷 시작 상태에 반영."
+      ],
+      "endState": "시민·EV 노드가 광장으로 유입"
+    },
+    {
+      "id": "S1-4.1.2",
+      "scenario": 1,
+      "scene": 4,
+      "cut": "4.1.2",
+      "order": 7,
+      "title": "전력 수요 초과",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 25,
+        "screenCell": "G25",
+        "assetCell": "H25",
+        "voCell": "I25",
+        "uiCell": "L25"
+      },
+      "sourceScreenText": "- 광장 라이다 평면뷰) 광장 내부 에너지 충전 요청 팝업이 연쇄적으로 켜진다.\n- 2D) 수요곡선이 평소 공급선을 넘기고 화면이 빨갛게 경고.",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "음... 지금 상태로는 광장의 전력 운영과 도착 차량의 충전을 함께 감당하기 어렵겠어요. ",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 10.0,
+        "previewSeconds": 10.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "음... 지금 상태로는 광장의 전력 운영과 도착 차량의 충전을 함께 감당하기 어렵겠어요. ",
+        "status": "source_text",
+        "sourceRange": "I25",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "plaza_hud",
+      "elements": [
+        {
+          "kind": "plaza_map",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-4.1.2-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "request_badges",
+          "region": "main",
+          "text": [
+            {
+              "value": "충전 요청",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-4.1.2-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "demand_chart",
+          "region": "lower_right_circle",
+          "text": [
+            {
+              "value": "전력 수요",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "공급",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "수요 초과",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "개념 그래프. 수치·단위·실측 데이터 없음.",
+          "id": "S1-4.1.2-ui03",
+          "boundsPct": [
+            71,
+            48,
+            24,
+            42.667
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "충전 요청 배지 여러 개 등장",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "수요곡선이 공급 기준선 위로 상승",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "경고 테두리가 느리게 점멸",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "원문은 적색 경고. 이번 시뮬레이션에서는 회색 테두리·명암 점멸로 표현하고 빨강은 UI 문구/주석에 사용."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image25.png",
+          "sourceAnchor": "F25",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "차량 HUD 외곽 유지. 지도는 광장 탑뷰로 전환. 이전 컷의 수요/공급 상태를 컷 시작 상태에 반영."
+      ],
+      "endState": "경고 테두리가 느리게 점멸"
+    },
+    {
+      "id": "S1-4.1.3",
+      "scenario": 1,
+      "scene": 4,
+      "cut": "4.1.3",
+      "order": 8,
+      "title": "광장 지원 요청",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 26,
+        "screenCell": "G26",
+        "assetCell": "H26",
+        "voCell": "I26",
+        "uiCell": "L26"
+      },
+      "sourceScreenText": "- 광장 라이다 맵) 탑뷰) 빨간 원형 파장",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "마침 광장이 주변의 시민들에게 도움을 요청하고 있네요. ",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 8.0,
+        "previewSeconds": 8.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "마침 광장이 주변의 시민들에게 도움을 요청하고 있네요. ",
+        "status": "source_text",
+        "sourceRange": "I26",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "plaza_hud",
+      "elements": [
+        {
+          "kind": "plaza_map",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-4.1.3-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "radial_request",
+          "region": "center_circle",
+          "text": [
+            {
+              "value": "주변 전력 지원 요청",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-4.1.3-ui02",
+          "boundsPct": [
+            29,
+            12,
+            42,
+            74.667
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "광장 중심 노드 점등",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "동심원이 주변 구역으로 확장",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "도달한 공급 후보 노드가 반응",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "파장은 지도 위 현상. 설명 문장으로 화면을 덮지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image37.png",
+          "sourceAnchor": "F26",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "차량 HUD 외곽 유지. 지도는 광장 탑뷰로 전환. 이전 컷의 수요/공급 상태를 컷 시작 상태에 반영."
+      ],
+      "endState": "도달한 공급 후보 노드가 반응"
+    },
+    {
+      "id": "S1-4.2.1",
+      "scenario": 1,
+      "scene": 4,
+      "cut": "4.2.1",
+      "order": 9,
+      "title": "이동식 충전 설비 도착",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 27,
+        "screenCell": "G27",
+        "assetCell": "H27",
+        "voCell": "I27:I28",
+        "uiCell": "L27"
+      },
+      "sourceScreenText": "- 광장 라이다 맵) 탑뷰) 미래형 고용량 이동식 충전 설비가 광장 가장자리 도착한다\n- 바퀴 정지 클로즈업, 커넥터 등 켜지는 과정 클로즈샷",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "이동식 충전 설비도 광장으로 들어오고 있어요.\n\n건물 ESS와 V2G 차량의 여유 전력도 확인할게요. 각 차량의 출발 시간에 맞는 전력만 연결하겠습니다.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 4.0,
+        "previewSeconds": 4.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "이동식 충전 설비도 광장으로 들어오고 있어요.",
+        "status": "proposed_split_of_merged_source",
+        "sourceRange": "I27:I28",
+        "continuityGroup": "S1-4.2.1_to_4.2.2",
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "plaza_hud",
+      "elements": [
+        {
+          "kind": "plaza_map",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-4.2.1-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "mobile_charger",
+          "region": "lower_right_circle",
+          "text": [
+            {
+              "value": "이동식 충전 설비",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "도착",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-4.2.1-ui02",
+          "boundsPct": [
+            71,
+            48,
+            24,
+            42.667
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "connector_lights",
+          "region": "lower_right_circle",
+          "text": [],
+          "note": "",
+          "id": "S1-4.2.1-ui03",
+          "boundsPct": [
+            71,
+            48,
+            24,
+            42.667
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "광장 가장자리에 설비 기호 접근",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "원형 인서트에 바퀴 정지 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "커넥터 표시등 순차 점등",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "I27:I28은 병합된 공동 V.O. 전체 문장을 각 컷에 반복하지 않는다."
+      ],
+      "issues": [
+        "원문 E27=4s, E28=5s이며 공동 V.O가 길다. 실제 녹음 길이 기준 재편집 필요."
+      ],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image21.png",
+          "sourceAnchor": "F27",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "차량 HUD 외곽 유지. 지도는 광장 탑뷰로 전환. 이전 컷의 수요/공급 상태를 컷 시작 상태에 반영."
+      ],
+      "endState": "커넥터 표시등 순차 점등"
+    },
+    {
+      "id": "S1-4.2.2",
+      "scenario": 1,
+      "scene": 4,
+      "cut": "4.2.2",
+      "order": 10,
+      "title": "ESS·V2G 연결 후보 검토",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 28,
+        "screenCell": "G28",
+        "assetCell": "H28",
+        "voCell": "I27:I28",
+        "uiCell": "L28"
+      },
+      "sourceScreenText": "- 공급처 (건물 ESS + V2G EV)와 출발 예정 차량들이 서로 연결되는 모습\n- 각각 고유한 점군 형상 컬러강조하고, 공금 가능량과 시간, 잔량 등 팝업되고 연결 제안선 (경우의 수들)이 나타남",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": null,
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 5.0,
+        "previewSeconds": 5.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "건물 ESS와 V2G 차량의 여유 전력도 확인할게요. 각 차량의 출발 시간에 맞는 전력만 연결하겠습니다.",
+        "status": "proposed_split_of_merged_source",
+        "sourceRange": "I27:I28",
+        "continuityGroup": "S1-4.2.1_to_4.2.2",
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "plaza_hud",
+      "elements": [
+        {
+          "kind": "plaza_map",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-4.2.2-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "supply_nodes",
+          "region": "main",
+          "text": [
+            {
+              "value": "건물 ESS",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "V2G EV",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-4.2.2-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "data_card",
+          "region": "left_circle",
+          "text": [
+            {
+              "value": "공급 가능량",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "공급 가능 시간",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-4.2.2-ui03",
+          "boundsPct": [
+            5,
+            9,
+            25,
+            44.444
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "data_card",
+          "region": "right_circle",
+          "text": [
+            {
+              "value": "출발 예정 시간",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "충전 잔량",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-4.2.2-ui04",
+          "boundsPct": [
+            70,
+            9,
+            25,
+            44.444
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "candidate_paths",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-4.2.2-ui05",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "ESS·차량 노드와 데이터 팝업 등장",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "여러 연결 후보선 점선으로 전개",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "출발 시간을 고려한 후보선만 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "실제 공급량·잔량·시각은 미정. 시뮬레이션 수치도 확정값처럼 넣지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image40.png",
+          "sourceAnchor": "F28",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "차량 HUD 외곽 유지. 지도는 광장 탑뷰로 전환. 이전 컷의 수요/공급 상태를 컷 시작 상태에 반영."
+      ],
+      "endState": "출발 시간을 고려한 후보선만 유지"
+    },
+    {
+      "id": "S1-4.3.1",
+      "scenario": 1,
+      "scene": 4,
+      "cut": "4.3.1",
+      "order": 11,
+      "title": "임시 전력망 구성 완료",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 29,
+        "screenCell": "G29",
+        "assetCell": "H29",
+        "voCell": "I29",
+        "uiCell": "L29"
+      },
+      "sourceScreenText": "- 광장 중심으로 임시 전력망 조성되는 모습, \n- 제안선 사라지고, 실제 전력 경로만 굵고 안정된 선으로 강조",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "좋아요. 필요한 전력을 하나로 연결해 임시 전력망 구성을 끝냈어요. 차량마다 출발 시간에 맞춰 충전을 준비할게요!",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 5.0,
+        "previewSeconds": 5.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "좋아요. 필요한 전력을 하나로 연결해 임시 전력망 구성을 끝냈어요. 차량마다 출발 시간에 맞춰 충전을 준비할게요!",
+        "status": "source_text",
+        "sourceRange": "I29",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "plaza_hud",
+      "elements": [
+        {
+          "kind": "plaza_map",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-4.3.1-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "confirmed_paths",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-4.3.1-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "right_badge",
+          "text": [
+            {
+              "value": "임시 전력망 구성 완료",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "차량별 충전 준비",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-4.3.1-ui03",
+          "boundsPct": [
+            68,
+            5,
+            27,
+            10
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "후보 점선 지우기",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "실제 전력 경로를 굵은 실선으로 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "경로의 이동 점들이 안정적으로 반복",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "후보선과 확정선은 굵기·선종류로 구분."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image28.png",
+          "sourceAnchor": "F29",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "차량 HUD 외곽 유지. 지도는 광장 탑뷰로 전환. 이전 컷의 수요/공급 상태를 컷 시작 상태에 반영."
+      ],
+      "endState": "경로의 이동 점들이 안정적으로 반복"
+    },
+    {
+      "id": "S1-5.1",
+      "scenario": 1,
+      "scene": 5,
+      "cut": "5.1",
+      "order": 12,
+      "title": "광장 도착·하차",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 30,
+        "screenCell": "G30",
+        "assetCell": "H30",
+        "voCell": "I30",
+        "uiCell": "L30"
+      },
+      "sourceScreenText": "- 어둡고 비어있던 광장 라이다 도로뷰가 활성화되면서, 게임 레이어가 등장한다.\n- 시민 하차 표시로 HUD가 바뀐다",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "이제 리워드 광장에 도착했어요. ",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 3.0,
+        "previewSeconds": 3.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "이제 리워드 광장에 도착했어요. ",
+        "status": "source_text",
+        "sourceRange": "I30",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "vehicle_hud",
+      "elements": [
+        {
+          "kind": "lidar_road",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S1-5.1-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "game_layer",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-5.1-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "right_badge",
+          "text": [
+            {
+              "value": "리워드 광장 도착",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "하차 가능",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-5.1-ui03",
+          "boundsPct": [
+            68,
+            5,
+            27,
+            10
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "광장 도로뷰와 게임 레이어 활성화",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "HUD를 하차 상태로 전환",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "하차 아이콘 점등",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "차량 문 소리는 O30 참고. 음원 파일은 제공되지 않음."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image16.png",
+          "sourceAnchor": "F30",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "게임 광장 활성 상태 유지. 하차→차량 대리 관리로 주체 전환."
+      ],
+      "endState": "하차 아이콘 점등"
+    },
+    {
+      "id": "S1-5.2",
+      "scenario": 1,
+      "scene": 5,
+      "cut": "5.2",
+      "order": 13,
+      "title": "차량 충전 관리 인계",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 31,
+        "screenCell": "G31",
+        "assetCell": "H31",
+        "voCell": "I31",
+        "uiCell": "L31"
+      },
+      "sourceScreenText": "- 1인칭 차량뷰의 메쉬 오버레이가 꺼지고, 라이다뷰만 남는다.\n- 차량의 대리권한 테두리가 켜지고, 충전지점으로 이동한다",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "차량 충전은 제가 이어서 관리할게요. 바로 일정을 시작하세요!",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 5.0,
+        "previewSeconds": 5.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "차량 충전은 제가 이어서 관리할게요. 바로 일정을 시작하세요!",
+        "status": "source_text",
+        "sourceRange": "I31",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "vehicle_hud",
+      "elements": [
+        {
+          "kind": "lidar_road",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S1-5.2-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "delegation_border",
+          "region": "main",
+          "text": [
+            {
+              "value": "충전 관리 중",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-5.2-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "vehicle_marker",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S1-5.2-ui03",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "confirmed_paths",
+          "region": "main",
+          "text": [
+            {
+              "value": "충전 지점",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S1-5.2-ui04",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "차량 메쉬 오버레이 제거",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "차량 대리권한 테두리 점등",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "차량 노드가 충전 지점으로 이동",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "시민 하차 뒤 차량 관리 시점으로 넘어감을 명확히 한다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image31.png",
+          "sourceAnchor": "F31",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "게임 광장 활성 상태 유지. 하차→차량 대리 관리로 주체 전환."
+      ],
+      "endState": "차량 노드가 충전 지점으로 이동"
+    },
+    {
+      "id": "S2-3.1",
+      "scenario": 2,
+      "scene": 3,
+      "cut": "3.1",
+      "order": 14,
+      "title": "작업 미러 접속",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 36,
+        "screenCell": "G36",
+        "assetCell": "H36",
+        "voCell": "I36",
+        "uiCell": "L36"
+      },
+      "sourceScreenText": "- 작업미러: 화면 중앙 / 세로 라운드 미러 테두리가 켜지고, 에이전트가 있음.  \n- 빈 슬롯: 주변부 / 네 슬롯은 얇은 윤곽만 표시. ",
+      "sourceAssetText": "공통 미러 프레임 / 메타휴먼 C",
+      "sourceUiText": "",
+      "sourceVoText": "오셨군요. 오늘도 함께 출근을 준비해 볼까요?",
+      "sourceReferenceText": "오셨군요. 오늘도 함께 출근을 준비해 볼까요?\n\n오늘 당신의 컨디션은 어떤가요? … 조금 피곤하시군요. 준비할 것부터 차근차근 볼게요.\n\n오전에는 샘플 기록을 확인하고, 오후 두 시에는 새로 들어온 식물 샘플을 살펴볼 거예요.\n\n차량은 Parking Robot이 주차를 마쳤고, ACR이 충전을 시작했어요. 평소 업무가 끝나는 시간에 맞춰 다시 준비해둘게요.\n\n오후에는 A구역이 자율 로봇 우선 운영 구역으로 바뀌어요. 샘플 검수는 바로 옆 B구역에서 익숙한 순서 그대로 이어갈 수 있게 준비할게요.\n\n[알림음]\n\n방금 입고 구역을 순찰하던 Spot이 오늘 살펴볼 샘플 용기의 도착을 확인했어요.\n\n오후 두 시 검수에 맞춰, DAL-e Delivery가 도착한 제품을 B검수실로 가져가도록 연결해둘게요.\n\n오후에는 샘플 케이스를 작업대에 올리는 일이 있어요. 평소처럼 허리 부담을 덜어줄 X-ble Waist도 준비해둘까요?\n\n좋아요. X-ble Waist 준비를 요청했어요. 오후 작업 전에 착용 상태만 확인하면 돼요.\n\n장소가 바뀌어도, 우리가 익숙해진 검수 순서는 그대로예요.\n\n오늘 업무 일정에 맞춰 샘플 배송과 장비 준비까지 연결해뒀어요. 이제 오전 일을 시작하면 돼요.\n\n늘 하던 대로, 샘플 기록부터 확인해 볼까요?",
+      "duration": {
+        "sourceSeconds": 7.0,
+        "previewSeconds": 7.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "오셨군요. 오늘도 함께 출근을 준비해 볼까요?",
+        "status": "source_text",
+        "sourceRange": "I36",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "agent",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-3.1-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "empty_slots",
+          "region": "full",
+          "text": [],
+          "note": "좌상 업무·좌하 지도·우상 컨디션·우하 서비스의 네 영역 윤곽만 표시.",
+          "id": "S2-3.1-ui02",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "중앙 세로 라운드 미러 점등",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "에이전트 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "주변 네 슬롯 윤곽 등장",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "미러는 중앙 고정. 주변 슬롯의 정보는 이후 컷에서 채운다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image10.png",
+          "sourceAnchor": "F36",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "중앙 미러와 네 슬롯의 위치 고정. 3.2 이후 컨디션 태그 유지, 3.3 이후 오전/오후 업무 일정 유지."
+      ],
+      "endState": "주변 네 슬롯 윤곽 등장"
+    },
+    {
+      "id": "S2-3.2",
+      "scenario": 2,
+      "scene": 3,
+      "cut": "3.2",
+      "order": 15,
+      "title": "컨디션 체크",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 37,
+        "screenCell": "G37",
+        "assetCell": "H37",
+        "voCell": "I37",
+        "uiCell": "L37"
+      },
+      "sourceScreenText": "- 작업미러: 에이전트 out > 인체 점군이 모여지고, 위에서붙 아래로 스캔되는 장면\n- 우측 상단: 컨디션 체크 중.. > '조금 피곤해요'가 선택되고 작은 상태 태그가 된다.\n==> 시민이 출근해 미러 앞에 선 상황.",
+      "sourceAssetText": "인체 점군 루프 / 컨디션 선택 UI / 선택 링",
+      "sourceUiText": "",
+      "sourceVoText": "오늘 당신의 컨디션은 어떤가요? … 조금 피곤하시군요. 준비할 것부터 차근차근 볼게요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 7.0,
+        "previewSeconds": 7.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "오늘 당신의 컨디션은 어떤가요? … 조금 피곤하시군요. 준비할 것부터 차근차근 볼게요.",
+        "status": "source_text",
+        "sourceRange": "I37",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_scan",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-3.2-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "condition_card",
+          "region": "condition",
+          "text": [
+            {
+              "value": "컨디션 체크 중..",
+              "status": "source_text",
+              "sourceCell": "G37"
+            },
+            {
+              "value": "조금 피곤해요",
+              "status": "source_text",
+              "sourceCell": "G37"
+            }
+          ],
+          "note": "",
+          "id": "S2-3.2-ui02",
+          "boundsPct": [
+            68,
+            12,
+            27,
+            20
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "에이전트가 빠지고 인체 점군 집결",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "스캔선 위에서 아래로 이동",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "조금 피곤해요 선택 링 → 작은 태그",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "G37 댓글의 negative를 모노톤 네거티브 미러로 시안에 반영하되 댓글 반영안으로 표시."
+      ],
+      "issues": [
+        "G37 메모에는 에이전트가 씬 3 내내 옆에 있어도 좋겠다는 제안. 본문은 에이전트 out이므로 기본안은 본문, 상주안은 대안으로 보존."
+      ],
+      "sourceComments": [
+        {
+          "cell": "G37",
+          "kind": "note",
+          "text": "에이전트가 옆으로 계속 이동하면서 3씬 내내 나와줘도 좋겠음"
+        },
+        {
+          "cell": "G37",
+          "kind": "threaded",
+          "text": "작업미러 부분은 negative",
+          "done": "0",
+          "parentId": null,
+          "timestamp": "2026-10-03T09:28:21.00"
+        }
+      ],
+      "referenceImages": [
+        {
+          "path": "references/image17.png",
+          "sourceAnchor": "F37",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "중앙 미러와 네 슬롯의 위치 고정. 3.2 이후 컨디션 태그 유지, 3.3 이후 오전/오후 업무 일정 유지."
+      ],
+      "endState": "조금 피곤해요 선택 링 → 작은 태그"
+    },
+    {
+      "id": "S2-3.3",
+      "scenario": 2,
+      "scene": 3,
+      "cut": "3.3",
+      "order": 16,
+      "title": "오늘 업무 브리핑",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 38,
+        "screenCell": "G38",
+        "assetCell": "H38",
+        "voCell": "I38",
+        "uiCell": "L38"
+      },
+      "sourceScreenText": "- 작업 미러: 인체 점군 숨쉬는 호흡 반복\n- 슬롯 1: 좌측 위 / 브리핑 보드 / 오늘의 업무가 펼쳐진다. 오전은 기존 샘플 기록 확인, 오후는 새로운 식물 샘플 검수. 식물 이미지 한 장으로 업무 대상을 먼저 이해시킨다.",
+      "sourceAssetText": "식물 샘플 스틸 / 오전·오후 카드",
+      "sourceUiText": "",
+      "sourceVoText": "오전에는 샘플 기록을 확인하고, 오후 두 시에는 새로 들어온 식물 샘플을 살펴볼 거예요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 7.0,
+        "previewSeconds": 7.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "오전에는 샘플 기록을 확인하고, 오후 두 시에는 새로 들어온 식물 샘플을 살펴볼 거예요.",
+        "status": "source_text",
+        "sourceRange": "I38",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_breath",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-3.3-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "schedule",
+          "region": "slot1",
+          "text": [
+            {
+              "value": "오전 · 기존 샘플 기록 확인",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "14:00 · 새 식물 샘플 검수",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "문구는 G38/I38에서 정리한 제안. 오후 두 시는 원문 근거.",
+          "id": "S2-3.3-ui02",
+          "boundsPct": [
+            5,
+            13,
+            29,
+            32
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "plant_thumbnail",
+          "region": "slot1",
+          "text": [],
+          "note": "",
+          "id": "S2-3.3-ui03",
+          "boundsPct": [
+            5,
+            13,
+            29,
+            32
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "condition_card",
+          "region": "condition",
+          "text": [
+            {
+              "value": "조금 피곤해요",
+              "status": "source_text",
+              "sourceCell": "G37"
+            }
+          ],
+          "note": "",
+          "id": "S2-3.3-ui04",
+          "boundsPct": [
+            68,
+            12,
+            27,
+            20
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "인체 호흡 루프 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "좌상 업무 카드가 오전·오후 순으로 펼쳐짐",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "식물 샘플 썸네일 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image32.png",
+          "sourceAnchor": "F38",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "중앙 미러와 네 슬롯의 위치 고정. 3.2 이후 컨디션 태그 유지, 3.3 이후 오전/오후 업무 일정 유지."
+      ],
+      "endState": "식물 샘플 썸네일 표시"
+    },
+    {
+      "id": "S2-3.5",
+      "scenario": 2,
+      "scene": 3,
+      "cut": "3.5",
+      "order": 17,
+      "title": "주차 완료·충전 진행",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 39,
+        "screenCell": "G39",
+        "assetCell": "H39",
+        "voCell": "I39",
+        "uiCell": "L39"
+      },
+      "sourceScreenText": "- 작업 미러: 인체 점군 숨쉬는 호흡 반복\n- 슬롯3: 우측 / 차량 실루엣과 Parking Robot, ACR 아이콘. 주차는 완료 체크, 충전은 진행 표시. 설명 후 슬롯은 작게 유지한다.",
+      "sourceAssetText": "차량 / 주차로봇 / ACR 아이콘",
+      "sourceUiText": "",
+      "sourceVoText": "차량은 Parking Robot이 주차를 마쳤고, ACR이 충전을 시작했어요. 평소 업무가 끝나는 시간에 맞춰 다시 준비해둘게요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": 10.0,
+        "previewSeconds": 10.0,
+        "status": "source_duration"
+      },
+      "vo": {
+        "displayText": "차량은 Parking Robot이 주차를 마쳤고, ACR이 충전을 시작했어요. 평소 업무가 끝나는 시간에 맞춰 다시 준비해둘게요.",
+        "status": "source_text",
+        "sourceRange": "I39",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_breath",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-3.5-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "schedule",
+          "region": "slot1",
+          "text": [],
+          "note": "",
+          "id": "S2-3.5-ui02",
+          "boundsPct": [
+            5,
+            13,
+            29,
+            32
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "vehicle_service",
+          "region": "slot3",
+          "text": [
+            {
+              "value": "Parking Robot · 주차 완료",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "ACR · 충전 중",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-3.5-ui03",
+          "boundsPct": [
+            68,
+            39,
+            27,
+            46
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "우하 서비스 슬롯에 차량·로봇 아이콘 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "주차 완료 체크",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "충전 진행 표시 후 카드 축소 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "충전 완료로 바꾸지 않는다. 다음 컷의 다른 서비스와 겹치지 않게 요약 상태로 접는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image15.png",
+          "sourceAnchor": "F39",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "중앙 미러와 네 슬롯의 위치 고정. 3.2 이후 컨디션 태그 유지, 3.3 이후 오전/오후 업무 일정 유지."
+      ],
+      "endState": "충전 진행 표시 후 카드 축소 유지"
+    },
+    {
+      "id": "S2-4.1",
+      "scenario": 2,
+      "scene": 4,
+      "cut": "4.1",
+      "order": 18,
+      "title": "A구역 운영 변경·B검수실 전환",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 40,
+        "screenCell": "G40",
+        "assetCell": "H40",
+        "voCell": "I40",
+        "uiCell": "L40"
+      },
+      "sourceScreenText": "- 슬롯2: 작업 구역 지도 A에 옅은 로봇 이동선. '오후 운영 변경' 알림이 뜨고 B가 부드럽게 점등된다. 업무 카드의 장소만 A→B로 바뀐다.",
+      "sourceAssetText": "지도 A/B 상태 / 로봇 이동선",
+      "sourceUiText": "",
+      "sourceVoText": "오후에는 A구역이 자율 로봇 우선 운영 구역으로 바뀌어요. 샘플 검수는 바로 옆 B구역에서 익숙한 순서 그대로 이어갈 수 있게 준비할게요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "오후에는 A구역이 자율 로봇 우선 운영 구역으로 바뀌어요. 샘플 검수는 바로 옆 B구역에서 익숙한 순서 그대로 이어갈 수 있게 준비할게요.",
+        "status": "source_text",
+        "sourceRange": "I40",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_breath",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-4.1-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "schedule",
+          "region": "slot1",
+          "text": [
+            {
+              "value": "샘플 검수 · A → B",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-4.1-ui02",
+          "boundsPct": [
+            5,
+            13,
+            29,
+            32
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "zone_map",
+          "region": "slot2",
+          "text": [
+            {
+              "value": "A",
+              "status": "source_text",
+              "sourceCell": "G40"
+            },
+            {
+              "value": "B",
+              "status": "source_text",
+              "sourceCell": "G40"
+            },
+            {
+              "value": "오후 운영 변경",
+              "status": "source_text",
+              "sourceCell": "G40"
+            }
+          ],
+          "note": "",
+          "id": "S2-4.1-ui03",
+          "boundsPct": [
+            5,
+            52,
+            29,
+            34
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "agent_wave",
+          "region": "wave",
+          "text": [],
+          "note": "",
+          "id": "S2-4.1-ui04",
+          "boundsPct": [
+            43,
+            91,
+            16,
+            4
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "A구역에 로봇 이동선 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "오후 운영 변경 알림 → B구역 점등",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "업무 카드의 장소만 A에서 B로 변경",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "D40 메모: 이 컷부터 에이전트는 음성파형. 시간·업무 순서는 유지."
+      ],
+      "issues": [
+        "I40 미해결 댓글의 Spot 순찰뷰는 선택 대안. 시나리오 4의 4.2 분할뷰를 재사용할 수 있으나 기본안으로 확정하지 않는다."
+      ],
+      "sourceComments": [
+        {
+          "cell": "D40",
+          "kind": "note",
+          "text": "여기부턴 에이전트가 음성파형으로 존재\n"
+        },
+        {
+          "cell": "I40",
+          "kind": "threaded",
+          "text": "2번구역도 나름 모델이 디테일하고 이뻐서, 뭔가 로봇 우선 운영 구역으로 됐을때 spot이 돌아다니면서 보여주는 뷰 등을 보여줄수도..",
+          "done": "0",
+          "parentId": null,
+          "timestamp": "2026-10-03T08:25:43.00"
+        }
+      ],
+      "referenceImages": [
+        {
+          "path": "references/image20.png",
+          "sourceAnchor": "F40",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "인체 점군, 컨디션, 업무 카드, 작업 지도 유지. 주차 완료·충전 중 상태는 작은 요약으로 보존. 4.1 이후 B검수실 배정 유지. 4.3 이후 배송 예약 유지."
+      ],
+      "endState": "업무 카드의 장소만 A에서 B로 변경",
+      "alternatives": [
+        {
+          "id": "spot_patrol_comment_variant",
+          "status": "unapproved_source_comment",
+          "source": "I40 threaded comment",
+          "default": false,
+          "layoutReference": "S4-4.2",
+          "description": "원문 A/B 운영맵을 유지하며 순찰뷰를 작은 인서트로 추가하거나 별도 단계에서 Spot 1인칭과 맵을 병치. B검수실 전환 정보가 가려지지 않게 함.",
+          "addedCopy": null
+        }
+      ]
+    },
+    {
+      "id": "S2-4.2",
+      "scenario": 2,
+      "scene": 4,
+      "cut": "4.2",
+      "order": 19,
+      "title": "Spot 샘플 입고 확인",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 41,
+        "screenCell": "G41",
+        "assetCell": "H41",
+        "voCell": "I41",
+        "uiCell": "L41"
+      },
+      "sourceScreenText": "- 슬롯 3: 입고 구역의 Spot 아이콘에서 알림이 뜬다. 우측 빈 슬롯에 식물 운반 용기 썸네일과 입고 확인 배지가 들어온다.",
+      "sourceAssetText": "Spot 공식 이미지 또는 실루엣 / 샘플 용기 스틸",
+      "sourceUiText": "",
+      "sourceVoText": "(알림음) 방금 입고 구역을 순찰하던 스팟이 오늘 살펴볼 샘플 용기의 도착을 확인했어요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "(알림음) 방금 입고 구역을 순찰하던 스팟이 오늘 살펴볼 샘플 용기의 도착을 확인했어요.",
+        "status": "source_text",
+        "sourceRange": "I41",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_breath",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-4.2-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "zone_map",
+          "region": "slot2",
+          "text": [
+            {
+              "value": "입고 구역",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-4.2-ui02",
+          "boundsPct": [
+            5,
+            52,
+            29,
+            34
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "receiving_card",
+          "region": "slot3",
+          "text": [
+            {
+              "value": "샘플 용기 도착",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "입고 확인",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-4.2-ui03",
+          "boundsPct": [
+            68,
+            39,
+            27,
+            46
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "agent_wave",
+          "region": "wave",
+          "text": [],
+          "note": "",
+          "id": "S2-4.2-ui04",
+          "boundsPct": [
+            43,
+            91,
+            16,
+            4
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "입고 구역 Spot 아이콘에 알림",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "우하 슬롯에 식물 운반 용기 썸네일",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "입고 확인 배지 등장",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "이 컷의 Spot은 입고 확인. 아직 샘플 배송 완료 상태가 아니다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image19.png",
+          "sourceAnchor": "F41",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "인체 점군, 컨디션, 업무 카드, 작업 지도 유지. 주차 완료·충전 중 상태는 작은 요약으로 보존. 4.1 이후 B검수실 배정 유지. 4.3 이후 배송 예약 유지."
+      ],
+      "endState": "입고 확인 배지 등장"
+    },
+    {
+      "id": "S2-4.3",
+      "scenario": 2,
+      "scene": 4,
+      "cut": "4.3",
+      "order": 20,
+      "title": "샘플 배송 예약",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 42,
+        "screenCell": "G42",
+        "assetCell": "H42",
+        "voCell": "I42",
+        "uiCell": "L42"
+      },
+      "sourceScreenText": "- 슬롯3 아래 샘플 카드가 생기고 아래 DAL-e Delivery 아이콘이 붙는다. \n- 슬롯2: 목적지 B검수실과 예약 시간이 순서대로 나타난다. 이동 애니메이션 대신 점선 경로를 표시.",
+      "sourceAssetText": "DAL-e Delivery 아이콘 / 예약 카드",
+      "sourceUiText": "",
+      "sourceVoText": "오후 두 시 검수에 맞춰, DAL-e Delivery가 도착한 제품을 B검수실로 가져가도록 연결해둘게요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "오후 두 시 검수에 맞춰, DAL-e Delivery가 도착한 제품을 B검수실로 가져가도록 연결해둘게요.",
+        "status": "source_text",
+        "sourceRange": "I42",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_breath",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-4.3-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "zone_map",
+          "region": "slot2",
+          "text": [
+            {
+              "value": "B검수실",
+              "status": "source_text",
+              "sourceCell": "G42"
+            }
+          ],
+          "note": "",
+          "id": "S2-4.3-ui02",
+          "boundsPct": [
+            5,
+            52,
+            29,
+            34
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "delivery_booking",
+          "region": "slot3",
+          "text": [
+            {
+              "value": "DAL-e Delivery",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "14:00 · B검수실",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "배송 예약",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-4.3-ui03",
+          "boundsPct": [
+            68,
+            39,
+            27,
+            46
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "candidate_paths",
+          "region": "slot2",
+          "text": [],
+          "note": "",
+          "id": "S2-4.3-ui04",
+          "boundsPct": [
+            5,
+            52,
+            29,
+            34
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "agent_wave",
+          "region": "wave",
+          "text": [],
+          "note": "",
+          "id": "S2-4.3-ui05",
+          "boundsPct": [
+            43,
+            91,
+            16,
+            4
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "샘플 카드 아래 DAL-e Delivery 아이콘",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "지도에 B검수실 → 예약 시간 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "입고 구역부터 B까지 점선 경로 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "원문 지정대로 이동 애니메이션 없이 예약 경로만. 예약을 배송 완료로 표현하지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image12.png",
+          "sourceAnchor": "F42",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "인체 점군, 컨디션, 업무 카드, 작업 지도 유지. 주차 완료·충전 중 상태는 작은 요약으로 보존. 4.1 이후 B검수실 배정 유지. 4.3 이후 배송 예약 유지."
+      ],
+      "endState": "입고 구역부터 B까지 점선 경로 유지"
+    },
+    {
+      "id": "S2-4.5",
+      "scenario": 2,
+      "scene": 4,
+      "cut": "4.5",
+      "order": 21,
+      "title": "X-ble Waist 준비 제안",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 43,
+        "screenCell": "G43",
+        "assetCell": "H43",
+        "voCell": "I43",
+        "uiCell": "L43"
+      },
+      "sourceScreenText": "- 다른 슬롯을 낮추고 미러 옆에 용기→작업대 작은 도해. 인체 허리 부위에 X-ble Waist의 승인된 실루엣을 겹친다. 착용 전 제안 상태.\n- 작업미러: 인체점군이 무언가를 들어올리는 애니메이션 루프",
+      "sourceAssetText": "X-ble Waist 승인 제품 이미지 / 용기·작업대 도해",
+      "sourceUiText": "",
+      "sourceVoText": "오후에는 샘플 케이스를 작업대에 올리는 일이 있어요. 평소처럼 허리 부담을 덜어줄 X-ble Waist도 준비해둘까요?",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "오후에는 샘플 케이스를 작업대에 올리는 일이 있어요. 평소처럼 허리 부담을 덜어줄 X-ble Waist도 준비해둘까요?",
+        "status": "source_text",
+        "sourceRange": "I43",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_lift",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-4.5-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "equipment_outline",
+          "region": "mirror",
+          "text": [
+            {
+              "value": "X-ble Waist",
+              "status": "source_text",
+              "sourceCell": "G43"
+            }
+          ],
+          "note": "허리 부위에 점선 장비 윤곽.",
+          "id": "S2-4.5-ui02",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "equipment_proposal",
+          "region": "slot3",
+          "text": [
+            {
+              "value": "장비 준비",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "나중에",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-4.5-ui03",
+          "boundsPct": [
+            68,
+            39,
+            27,
+            46
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "case_to_workbench",
+          "region": "slot2",
+          "text": [],
+          "note": "",
+          "id": "S2-4.5-ui04",
+          "boundsPct": [
+            5,
+            52,
+            29,
+            34
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "agent_wave",
+          "region": "wave",
+          "text": [],
+          "note": "",
+          "id": "S2-4.5-ui05",
+          "boundsPct": [
+            43,
+            91,
+            16,
+            4
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "다른 슬롯 명암 낮추기",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "용기→작업대 도해와 인체 들어올리기 루프",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "허리에 장비 점선 실루엣과 준비 제안",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "제품 형태는 승인 에셋 슬롯으로 둔다. 임의로 정교한 제품 모형을 만들어 공식 형태처럼 보이지 않게 한다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image2.png",
+          "sourceAnchor": "F43",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "인체 점군, 컨디션, 업무 카드, 작업 지도 유지. 주차 완료·충전 중 상태는 작은 요약으로 보존. 4.1 이후 B검수실 배정 유지. 4.3 이후 배송 예약 유지."
+      ],
+      "endState": "허리에 장비 점선 실루엣과 준비 제안"
+    },
+    {
+      "id": "S2-4.6",
+      "scenario": 2,
+      "scene": 4,
+      "cut": "4.6",
+      "order": 22,
+      "title": "장비 준비 요청 완료",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 44,
+        "screenCell": "G44",
+        "assetCell": "H44",
+        "voCell": "I44",
+        "uiCell": "L44"
+      },
+      "sourceScreenText": "- 슬롯3: 선택 링이 '장비 준비'에 닿고 체크 표시. 장비 실루엣이 제안 점선에서 확정 실선으로 바뀐다. 착용 장면 대신 준비 상태만 표시.",
+      "sourceAssetText": "확인 체크 / 장비 실루엣 상태 2종",
+      "sourceUiText": "",
+      "sourceVoText": "좋아요. X-ble Waist 준비를 요청했어요. 오후 작업 전에 착용 상태만 확인하면 돼요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "좋아요. X-ble Waist 준비를 요청했어요. 오후 작업 전에 착용 상태만 확인하면 돼요.",
+        "status": "source_text",
+        "sourceRange": "I44",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_breath",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-4.6-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "equipment_outline",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-4.6-ui02",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "equipment_status",
+          "region": "slot3",
+          "text": [
+            {
+              "value": "장비 준비",
+              "status": "source_text",
+              "sourceCell": "G44"
+            }
+          ],
+          "note": "",
+          "id": "S2-4.6-ui03",
+          "boundsPct": [
+            68,
+            39,
+            27,
+            46
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "slot3",
+          "text": [
+            {
+              "value": "준비 요청 완료",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "착용 상태 확인 예정",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-4.6-ui04",
+          "boundsPct": [
+            68,
+            39,
+            27,
+            46
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "agent_wave",
+          "region": "wave",
+          "text": [],
+          "note": "",
+          "id": "S2-4.6-ui05",
+          "boundsPct": [
+            43,
+            91,
+            16,
+            4
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "장비 준비로 선택 링 이동",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "확인 체크 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "허리 장비 점선이 실선으로 전환",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "장비 준비 요청 상태. 착용 완료 또는 실제 착용 장면으로 바꾸지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image24.png",
+          "sourceAnchor": "F44",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "인체 점군, 컨디션, 업무 카드, 작업 지도 유지. 주차 완료·충전 중 상태는 작은 요약으로 보존. 4.1 이후 B검수실 배정 유지. 4.3 이후 배송 예약 유지."
+      ],
+      "endState": "허리 장비 점선이 실선으로 전환"
+    },
+    {
+      "id": "S2-5.1",
+      "scenario": 2,
+      "scene": 5,
+      "cut": "5.1",
+      "order": 23,
+      "title": "업무 준비 상태 정돈",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 45,
+        "screenCell": "G45",
+        "assetCell": "H45",
+        "voCell": "I45",
+        "uiCell": "L45"
+      },
+      "sourceScreenText": "- 화면 전체 슬롯이 가득 참. 오후 예약과 장비 준비 상태가 정돈된다. \n- 차량 슬롯은 주차 완료·충전 중 그대로하고, 전체적으로 톤이 다 밝아짐.",
+      "sourceAssetText": "공통 레이아웃 / 각 슬롯 최종 상태",
+      "sourceUiText": "",
+      "sourceVoText": "오늘 업무 일정에 맞춰 샘플 배송과 장비 준비까지 연결해뒀어요. 이제 오전 일을 시작하면 돼요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "오늘 업무 일정에 맞춰 샘플 배송과 장비 준비까지 연결해뒀어요. 이제 오전 일을 시작하면 돼요.",
+        "status": "source_text",
+        "sourceRange": "I45",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_breath",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-5.1-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "schedule",
+          "region": "slot1",
+          "text": [
+            {
+              "value": "14:00 · B검수실",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-5.1-ui02",
+          "boundsPct": [
+            5,
+            13,
+            29,
+            32
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "zone_map",
+          "region": "slot2",
+          "text": [
+            {
+              "value": "B검수실",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-5.1-ui03",
+          "boundsPct": [
+            5,
+            52,
+            29,
+            34
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "condition_card",
+          "region": "condition",
+          "text": [
+            {
+              "value": "조금 피곤해요",
+              "status": "source_text",
+              "sourceCell": "G37"
+            }
+          ],
+          "note": "",
+          "id": "S2-5.1-ui04",
+          "boundsPct": [
+            68,
+            12,
+            27,
+            20
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "service_summary",
+          "region": "slot3",
+          "text": [
+            {
+              "value": "샘플 배송 · 예약",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "장비 준비 · 요청 완료",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "주차 · 완료",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "충전 · 진행 중",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-5.1-ui05",
+          "boundsPct": [
+            68,
+            39,
+            27,
+            46
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "agent_wave",
+          "region": "wave",
+          "text": [],
+          "note": "",
+          "id": "S2-5.1-ui06",
+          "boundsPct": [
+            43,
+            91,
+            16,
+            4
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "네 슬롯 모두 채워진 상태로 정돈",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "오후 예약·장비 준비 상태 강조",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "전체 명암 밝아짐",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "완료 체크를 일괄 적용하지 않는다. 주차만 완료, 배송은 예약, 충전은 진행 중."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image14.png",
+          "sourceAnchor": "F45",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "주차 완료·충전 중, 오후 14:00 B검수실, 배송 예약·장비 준비 요청 상태 유지. 5.2 오전 업무 강조. 5.3만 전체 UI 퇴장."
+      ],
+      "endState": "전체 명암 밝아짐"
+    },
+    {
+      "id": "S2-5.2",
+      "scenario": 2,
+      "scene": 5,
+      "cut": "5.2",
+      "order": 24,
+      "title": "기존 샘플 기록 열기",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 46,
+        "screenCell": "G46",
+        "assetCell": "H46",
+        "voCell": "I46",
+        "uiCell": "L46"
+      },
+      "sourceScreenText": "오후 카드는 '예정'으로 접힌다. '기존 샘플 기록 확인'만 앞으로 나오고 식물 기록 썸네일이 열리기 시작한다.",
+      "sourceAssetText": "업무 시작 표시",
+      "sourceUiText": "",
+      "sourceVoText": "늘 하던 대로, 샘플 기록부터 확인해 볼까요?",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "늘 하던 대로, 샘플 기록부터 확인해 볼까요?",
+        "status": "source_text",
+        "sourceRange": "I46",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_breath",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-5.2-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "schedule",
+          "region": "slot1",
+          "text": [
+            {
+              "value": "예정",
+              "status": "source_text",
+              "sourceCell": "G46"
+            },
+            {
+              "value": "기존 샘플 기록 확인",
+              "status": "source_text",
+              "sourceCell": "G46"
+            }
+          ],
+          "note": "",
+          "id": "S2-5.2-ui02",
+          "boundsPct": [
+            5,
+            13,
+            29,
+            32
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "plant_records",
+          "region": "slot3",
+          "text": [],
+          "note": "",
+          "id": "S2-5.2-ui03",
+          "boundsPct": [
+            68,
+            39,
+            27,
+            46
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "agent_wave",
+          "region": "wave",
+          "text": [],
+          "note": "",
+          "id": "S2-5.2-ui04",
+          "boundsPct": [
+            43,
+            91,
+            16,
+            4
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "오후 업무를 예정 태그로 접기",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "오전 기존 샘플 기록 확인 전면화",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "식물 기록 썸네일 펼침",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image29.png",
+          "sourceAnchor": "F46",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "주차 완료·충전 중, 오후 14:00 B검수실, 배송 예약·장비 준비 요청 상태 유지. 5.2 오전 업무 강조. 5.3만 전체 UI 퇴장."
+      ],
+      "endState": "식물 기록 썸네일 펼침"
+    },
+    {
+      "id": "S2-5.3",
+      "scenario": 2,
+      "scene": 5,
+      "cut": "5.3",
+      "order": 25,
+      "title": "업무 시작·OS 마감",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 47,
+        "screenCell": "G47",
+        "assetCell": "H47",
+        "voCell": "I47",
+        "uiCell": "L47"
+      },
+      "sourceScreenText": "- 첫 업무가 '시작'으로 전환. 점군이 몸 방향을 미세하게 돌리며 흩어진다. \n- 슬롯은 작아져 사라지고 에이전트 파형이 OS 로고로 정리된다.",
+      "sourceAssetText": "점군 디졸브 / 에이전트 파형 / OS 로고",
+      "sourceUiText": "",
+      "sourceVoText": "오늘도 당신의 속도로 시작합니다.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "오늘도 당신의 속도로 시작합니다.",
+        "status": "source_text",
+        "sourceRange": "I47",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "work_mirror",
+      "elements": [
+        {
+          "kind": "body_dissolve",
+          "region": "mirror",
+          "text": [],
+          "note": "",
+          "id": "S2-5.3-ui01",
+          "boundsPct": [
+            39,
+            8,
+            24,
+            80
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "slot1",
+          "text": [
+            {
+              "value": "시작",
+              "status": "source_text",
+              "sourceCell": "G47"
+            }
+          ],
+          "note": "",
+          "id": "S2-5.3-ui02",
+          "boundsPct": [
+            5,
+            13,
+            29,
+            32
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "agent_wave",
+          "region": "wave",
+          "text": [],
+          "note": "",
+          "id": "S2-5.3-ui03",
+          "boundsPct": [
+            43,
+            91,
+            16,
+            4
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "os_logo",
+          "region": "center_card",
+          "text": [
+            {
+              "value": "OS",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S2-5.3-ui04",
+          "boundsPct": [
+            28,
+            31,
+            44,
+            36
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "첫 업무 상태가 시작으로 전환",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "인체가 미세하게 회전하며 흩어짐; 슬롯 축소",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "에이전트 파형을 OS 로고로 정리",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "F47 예시는 슬롯 유지 화면이지만 G47 본문은 디졸브·OS 마감. 기본안은 본문을 따른다."
+      ],
+      "issues": [
+        "F47/G47 종료 상태 불일치. 또한 I47의 마지막 대사는 J36:J46 통합 대본 범위 밖이므로 컷별 I열을 우선한다."
+      ],
+      "sourceComments": [],
+      "referenceImages": [
+        {
+          "path": "references/image15.png",
+          "sourceAnchor": "F47",
+          "role": "screen_example",
+          "status": "source_reference_not_final_ui"
+        }
+      ],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "주차 완료·충전 중, 오후 14:00 B검수실, 배송 예약·장비 준비 요청 상태 유지. 5.2 오전 업무 강조. 5.3만 전체 UI 퇴장."
+      ],
+      "endState": "에이전트 파형을 OS 로고로 정리"
+    },
+    {
+      "id": "S3-3.1",
+      "scenario": 3,
+      "scene": 3,
+      "cut": "3.1",
+      "order": 26,
+      "title": "SHUCLE 도착·하차",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 52,
+        "screenCell": "G52",
+        "assetCell": "H52",
+        "voCell": "I52",
+        "uiCell": "L52"
+      },
+      "sourceScreenText": "유럽풍 시내 거리. / 버스정류장에 SHUCLE이 부드럽게 정차.\n문이 열리고 시민이 내림. / 화면 한쪽에는 얇은 HUD로 ARRIVED / CITY ACCESS POINT 정도만 뜸.",
+      "sourceAssetText": "메타휴먼 D",
+      "sourceUiText": "",
+      "sourceVoText": "셔클이 목적지에서 가까운 정류장에 도착했어요. 바로 돌아가기 전에, 잠시 쉬어갈 수 있는 장소로 안내할게요.",
+      "sourceReferenceText": "\n\n셔클이 목적지에서 가까운 정류장에 도착했어요. 바로 돌아가기 전에, 잠시 쉬어갈 수 있는 장소로 안내할게요. 이곳은 방문자들이 자주 머무는 공용 공간이에요. 지금은 가장 많이 연결되는 도시 버전이 열려 있네요. 지금 보이는 건 모두가 함께 사용하는 실제 공간이에요. 같은 장소 위에, 다른 버전의 도시를 열어볼 수 있죠. 이곳 방문자들이 가장 자주 연결하는 건 ACTIVITY Layer예요. 같은 공원이, 활기찬 이벤트 공간으로 열립니다. 조금 활기차긴 하지만… 지금의 당신에게는 다소 분주하게 느껴질 수도 있겠네요. 필요하다면, 같은 장소를 조금 더 조용한 버전으로 바꿔볼게요. 이제 QUIET Layer로 전환할게요. 같은 장소지만, 지금은 쉬어갈 수 있는 버전으로 열립니다. 이렇게 하면 조금 더 숨을 고르기 좋죠. 잠시 이 분위기대로 머물러볼까요? 지금의 QUIET Layer에 맞춰, 가까운 PBV를 개인 휴식 라운지로 연결할게요. 산책길 끝에서 바로 이용할 수 있도록 준비해둘게요. 오늘의 귀가 흐름도 함께 맞춰두었습니다. 휴식이 끝나면, 이 PBV로 그대로 귀가를 이어갈게요. ",
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "셔클이 목적지에서 가까운 정류장에 도착했어요. 바로 돌아가기 전에, 잠시 쉬어갈 수 있는 장소로 안내할게요.",
+        "status": "source_text",
+        "sourceRange": "I52",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "walking_pov",
+      "elements": [
+        {
+          "kind": "street",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S3-3.1-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "shucle_stop",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-3.1-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "ARRIVED",
+              "status": "source_text",
+              "sourceCell": "G52"
+            },
+            {
+              "value": "CITY ACCESS POINT",
+              "status": "source_text",
+              "sourceCell": "G52"
+            }
+          ],
+          "note": "",
+          "id": "S3-3.1-ui03",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "버스 정차와 문 열림을 단순 도형으로 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "하차 시점을 보행 높이로 전환",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "얇은 도착 HUD 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "G52 댓글 답변에 도보 1인칭 명시. 실제 인물 3인칭 컷으로 바꾸지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [
+        {
+          "cell": "G52",
+          "kind": "threaded",
+          "text": "이것도 시민 1인칭 시점?",
+          "done": "0",
+          "parentId": null,
+          "timestamp": "2026-10-03T02:16:00.00"
+        },
+        {
+          "cell": "G52",
+          "kind": "threaded",
+          "text": "옙옙 도보1인칭",
+          "done": null,
+          "parentId": "{3f76a03e-305d-4ca8-8b6f-3458d942c44d}",
+          "timestamp": "2026-10-03T07:09:50.00"
+        }
+      ],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "같은 보행자 시점으로 정류장→공원 이동. 가상 레이어는 4.1부터."
+      ],
+      "endState": "얇은 도착 HUD 표시"
+    },
+    {
+      "id": "S3-3.2",
+      "scenario": 3,
+      "scene": 3,
+      "cut": "3.2",
+      "order": 27,
+      "title": "공용 공원 접근",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 53,
+        "screenCell": "G53",
+        "assetCell": "H53",
+        "voCell": "I53",
+        "uiCell": "L53"
+      },
+      "sourceScreenText": "시민 1인칭 시점으로 정류장에서 내려 공원 쪽으로 걸어감.\n전방에 광장형 공원이 보이고, 중앙 오픈 스페이스가 드러남.\n공원 입구에 다다를수록 POPULAR LAYER: ACTIVITY 같은 작은 안내 배지가 나타남.",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "이곳은 방문자들이 자주 머무는 공용 공간이에요. 지금은 가장 많이 연결되는 도시 버전이 열려 있네요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "이곳은 방문자들이 자주 머무는 공용 공간이에요. 지금은 가장 많이 연결되는 도시 버전이 열려 있네요.",
+        "status": "source_text",
+        "sourceRange": "I53",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "walking_pov",
+      "elements": [
+        {
+          "kind": "park",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S3-3.2-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "walking_path",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-3.2-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "POPULAR LAYER: ACTIVITY",
+              "status": "source_text",
+              "sourceCell": "G53"
+            }
+          ],
+          "note": "",
+          "id": "S3-3.2-ui03",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "정류장에서 공원 입구 방향으로 이동",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "공원 중앙 오픈 스페이스가 드러남",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "입구 가까이 안내 배지 페이드 인",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "같은 보행자 시점으로 정류장→공원 이동. 가상 레이어는 4.1부터."
+      ],
+      "endState": "입구 가까이 안내 배지 페이드 인"
+    },
+    {
+      "id": "S3-3.3",
+      "scenario": 3,
+      "scene": 3,
+      "cut": "3.3",
+      "order": 28,
+      "title": "실제 공간·레이어 준비",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 54,
+        "screenCell": "G54",
+        "assetCell": "H54",
+        "voCell": "I54",
+        "uiCell": "L54"
+      },
+      "sourceScreenText": "시민이 공원 중앙 혹은 메인 포인트에 멈춤.\n- 지나가는 보행자 / 서비스 로봇 or 일반 도시 흐름 ( >> 이거 빈 공간이어도 걍 약간 공원 대화소음 같은 거로 처리해도 될듯)",
+      "sourceAssetText": "아직은 완전 평범한 공원.\nHUD에는 PHYSICAL SPACE CONFIRMED / LAYER READY.",
+      "sourceUiText": "",
+      "sourceVoText": "지금 보이는 건 모두가 함께 사용하는 실제 공간이에요. 같은 장소 위에, 다른 버전의 도시를 열어볼 수 있죠.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "지금 보이는 건 모두가 함께 사용하는 실제 공간이에요. 같은 장소 위에, 다른 버전의 도시를 열어볼 수 있죠.",
+        "status": "source_text",
+        "sourceRange": "I54",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "walking_pov",
+      "elements": [
+        {
+          "kind": "park",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S3-3.3-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "PHYSICAL SPACE CONFIRMED",
+              "status": "source_text",
+              "sourceCell": "H54"
+            },
+            {
+              "value": "LAYER READY",
+              "status": "source_text",
+              "sourceCell": "H54"
+            }
+          ],
+          "note": "",
+          "id": "S3-3.3-ui02",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "공원 중심에서 시점 정지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "실제 공간 윤곽 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "공간 확인 → 레이어 준비 상태 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "물리 공간을 먼저 보여준다. 이 컷에 가상무대·나무를 앞당겨 넣지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "같은 보행자 시점으로 정류장→공원 이동. 가상 레이어는 4.1부터."
+      ],
+      "endState": "공간 확인 → 레이어 준비 상태 표시"
+    },
+    {
+      "id": "S3-4.1",
+      "scenario": 3,
+      "scene": 4,
+      "cut": "4.1",
+      "order": 29,
+      "title": "ACTIVITY Layer 활성화",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 55,
+        "screenCell": "G55",
+        "assetCell": "H55",
+        "voCell": "I55",
+        "uiCell": "L55"
+      },
+      "sourceScreenText": "빈 바닥 위로:- 가상 공연 무대, 스포트라이트, 마이크? 스피커 에셋 등",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "이곳 방문자들이 가장 자주 연결하는 건 ACTIVITY Layer예요. 같은 공원이, 활기찬 이벤트 공간으로 열립니다.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "이곳 방문자들이 가장 자주 연결하는 건 ACTIVITY Layer예요. 같은 공원이, 활기찬 이벤트 공간으로 열립니다.",
+        "status": "source_text",
+        "sourceRange": "I55",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "park_layers",
+      "elements": [
+        {
+          "kind": "park",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S3-4.1-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "virtual_stage",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-4.1-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "spotlight",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-4.1-ui03",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "ACTIVITY Layer",
+              "status": "source_text",
+              "sourceCell": "I55"
+            }
+          ],
+          "note": "",
+          "id": "S3-4.1-ui04",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "고정된 공원 위 가상 무대 윤곽 등장",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "스피커·스포트라이트 요소 점등",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "ACTIVITY 레이어 활성 상태 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "물리 공간 앵커는 다음 QUIET 컷에서도 동일하게 유지."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "공원 지형과 바닥 앵커 고정. 4.1/4.2 ACTIVITY, 4.3부터 QUIET만 활성."
+      ],
+      "endState": "ACTIVITY 레이어 활성 상태 유지"
+    },
+    {
+      "id": "S3-4.2",
+      "scenario": 3,
+      "scene": 4,
+      "cut": "4.2",
+      "order": 30,
+      "title": "활동 레이어·조용한 버전 제안",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 56,
+        "screenCell": "G56",
+        "assetCell": "H56",
+        "voCell": "I56",
+        "uiCell": "L56"
+      },
+      "sourceScreenText": "개인 음향처럼 공연 사운드가 들어오기 시작~\n스포트라이트 지점에 퍼포머는 없는데 공연 선택 카드가 팝업되어도 좋을듯?",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "조금 활기차긴 하지만… 지금의 당신에게는 다소 분주하게 느껴질 수도 있겠네요. 필요하다면, 같은 장소를 조금 더 조용한 버전으로 바꿔볼게요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "조금 활기차긴 하지만… 지금의 당신에게는 다소 분주하게 느껴질 수도 있겠네요. 필요하다면, 같은 장소를 조금 더 조용한 버전으로 바꿔볼게요.",
+        "status": "source_text",
+        "sourceRange": "I56",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "park_layers",
+      "elements": [
+        {
+          "kind": "park",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S3-4.2-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "virtual_stage",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-4.2-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "performance_card",
+          "region": "panel_right",
+          "text": [
+            {
+              "value": "공연 선택",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "조용한 버전으로 전환",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "G56의 선택 카드 자체가 제안형 표현. 공연 제목은 미정.",
+          "id": "S3-4.2-ui03",
+          "boundsPct": [
+            65,
+            16,
+            30,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "audio_wave",
+          "region": "bottom_strip",
+          "text": [],
+          "note": "",
+          "id": "S3-4.2-ui04",
+          "boundsPct": [
+            8,
+            81,
+            84,
+            12
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "ACTIVITY 레이어 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "개인 음향을 파형으로만 시각화",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "공연 카드와 조용한 버전 전환 제안 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "실제 공연 사운드·곡·퍼포머는 제공되지 않음. 자동 오디오 재생 없음."
+      ],
+      "issues": [
+        "공연 선택 카드 채택 여부와 내용은 원문 미정. 선택 카드 없는 대안도 가능."
+      ],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "공원 지형과 바닥 앵커 고정. 4.1/4.2 ACTIVITY, 4.3부터 QUIET만 활성."
+      ],
+      "endState": "공연 카드와 조용한 버전 전환 제안 표시"
+    },
+    {
+      "id": "S3-4.3",
+      "scenario": 3,
+      "scene": 4,
+      "cut": "4.3",
+      "order": 31,
+      "title": "QUIET Layer 전환",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 57,
+        "screenCell": "G57",
+        "assetCell": "H57",
+        "voCell": "I57",
+        "uiCell": "L57"
+      },
+      "sourceScreenText": "가상무대 레이어 사라지고, 같은 자리 위에 가상 나무, 화단, 산책길 라인, 잔잔한 햇빛 광선? 바람/새소리 분위기 들어옴",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "이제 QUIET Layer로 전환할게요. 같은 장소지만, 지금은 쉬어갈 수 있는 버전으로 열립니다.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "이제 QUIET Layer로 전환할게요. 같은 장소지만, 지금은 쉬어갈 수 있는 버전으로 열립니다.",
+        "status": "source_text",
+        "sourceRange": "I57",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "park_layers",
+      "elements": [
+        {
+          "kind": "park",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S3-4.3-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "quiet_garden",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-4.3-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "walking_path",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-4.3-ui03",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "QUIET Layer",
+              "status": "source_text",
+              "sourceCell": "I57"
+            }
+          ],
+          "note": "",
+          "id": "S3-4.3-ui04",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "같은 카메라·바닥 앵커 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "가상 무대 레이어 페이드 아웃",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "가상 나무·화단·산책길 라인 페이드 인",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "도시나 공원 자체를 교체하지 않는다. 같은 공간 위 레이어의 교체를 보여준다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "공원 지형과 바닥 앵커 고정. 4.1/4.2 ACTIVITY, 4.3부터 QUIET만 활성."
+      ],
+      "endState": "가상 나무·화단·산책길 라인 페이드 인"
+    },
+    {
+      "id": "S3-4.4",
+      "scenario": 3,
+      "scene": 4,
+      "cut": "4.4",
+      "order": 32,
+      "title": "QUIET 유지·산책",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 58,
+        "screenCell": "G58",
+        "assetCell": "H58",
+        "voCell": "I58",
+        "uiCell": "L58"
+      },
+      "sourceScreenText": "시민이 산책길을 따라 천천히 몇 걸음 이동하거나, 벤치 근처에서 멈춤.\n가상 산책길은 실제 걸을 수 있는 보행로와 겹침.\nHUD에는 QUIET ACTIVE.",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "이렇게 하면 조금 더 숨을 고르기 좋죠. 잠시 이 분위기대로 머물러볼까요?",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "이렇게 하면 조금 더 숨을 고르기 좋죠. 잠시 이 분위기대로 머물러볼까요?",
+        "status": "source_text",
+        "sourceRange": "I58",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "park_layers",
+      "elements": [
+        {
+          "kind": "park",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S3-4.4-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "quiet_garden",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-4.4-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "walking_path",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-4.4-ui03",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "QUIET ACTIVE",
+              "status": "source_text",
+              "sourceCell": "G58"
+            }
+          ],
+          "note": "",
+          "id": "S3-4.4-ui04",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "QUIET 배경 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "실제 보행로와 겹친 산책길 라인",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "느린 이동 후 벤치 부근 정지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "가상 산책길을 실제로 통과 불가능한 위치에 그리지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "공원 지형과 바닥 앵커 고정. 4.1/4.2 ACTIVITY, 4.3부터 QUIET만 활성."
+      ],
+      "endState": "느린 이동 후 벤치 부근 정지"
+    },
+    {
+      "id": "S3-5.1",
+      "scenario": 3,
+      "scene": 5,
+      "cut": "5.1",
+      "order": 33,
+      "title": "PBV 휴식 공간 연결",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 59,
+        "screenCell": "G59",
+        "assetCell": "H59",
+        "voCell": "I59",
+        "uiCell": "L59"
+      },
+      "sourceScreenText": "QUIET Layer가 유지된 상태. 산책길 끝 지점에 PBV REST SPACE AVAILABLE 표시. 멀리 실제 PBV 한 대가 대기 중이거나, 조용히 접근해 정차함. 가상 레이어의 무드와 실제 서비스가 연결되는 느낌을 강조.",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "지금의 QUIET Layer에 맞춰, 가까운 PBV를 개인 휴식 라운지로 연결할게요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "지금의 QUIET Layer에 맞춰, 가까운 PBV를 개인 휴식 라운지로 연결할게요.",
+        "status": "source_text",
+        "sourceRange": "I59",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "park_layers",
+      "elements": [
+        {
+          "kind": "quiet_garden",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-5.1-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "pbv",
+          "region": "door_tag",
+          "text": [],
+          "note": "",
+          "id": "S3-5.1-ui02",
+          "boundsPct": [
+            60,
+            34,
+            32,
+            24
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "door_tag",
+          "text": [
+            {
+              "value": "PBV REST SPACE AVAILABLE",
+              "status": "source_text",
+              "sourceCell": "G59"
+            }
+          ],
+          "note": "",
+          "id": "S3-5.1-ui03",
+          "boundsPct": [
+            60,
+            34,
+            32,
+            24
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "QUIET 레이어 유지",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "산책길 끝에 PBV 실루엣 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "PBV 휴식 공간 안내 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "배경의 가상 레이어와 실제 PBV 서비스가 구분되도록 형태·선종류를 다르게 한다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "QUIET 상태 유지하며 실제 PBV에 접근. 5.3에서는 PBV 내부 시점."
+      ],
+      "endState": "PBV 휴식 공간 안내 표시"
+    },
+    {
+      "id": "S3-5.2",
+      "scenario": 3,
+      "scene": 5,
+      "cut": "5.2",
+      "order": 34,
+      "title": "휴식·귀가 경로 준비",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 60,
+        "screenCell": "G60",
+        "assetCell": "H60",
+        "voCell": "I60",
+        "uiCell": "L60"
+      },
+      "sourceScreenText": "시민이 산책길을 따라 PBV 쪽으로 걸어감.\nPBV는 너무 과장된 미래차보다, 실제 존재 가능한 휴식형 모빌리티처럼 보임.\n가까이 갈수록 문 주변 UI가 반응:- REST MODE READY\n- RETURN ROUTE PREPARED",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "산책길 끝에서 바로 이용할 수 있도록 준비해둘게요. 오늘의 귀가 흐름도 함께 맞춰두었습니다.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "산책길 끝에서 바로 이용할 수 있도록 준비해둘게요. 오늘의 귀가 흐름도 함께 맞춰두었습니다.",
+        "status": "source_text",
+        "sourceRange": "I60",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "walking_pov",
+      "elements": [
+        {
+          "kind": "pbv",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S3-5.2-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "door_tag",
+          "text": [
+            {
+              "value": "REST MODE READY",
+              "status": "source_text",
+              "sourceCell": "G60"
+            },
+            {
+              "value": "RETURN ROUTE PREPARED",
+              "status": "source_text",
+              "sourceCell": "G60"
+            }
+          ],
+          "note": "",
+          "id": "S3-5.2-ui02",
+          "boundsPct": [
+            60,
+            34,
+            32,
+            24
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "시민 시점으로 PBV에 접근",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "문 근처에 휴식 준비 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "귀가 경로 준비 표시 추가",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "PBV는 실제 에셋 교체 가능 슬롯으로. 과장된 미래차 형태를 새로 설계하지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "QUIET 상태 유지하며 실제 PBV에 접근. 5.3에서는 PBV 내부 시점."
+      ],
+      "endState": "귀가 경로 준비 표시 추가"
+    },
+    {
+      "id": "S3-5.3",
+      "scenario": 3,
+      "scene": 5,
+      "cut": "5.3",
+      "order": 35,
+      "title": "PBV 휴식 후 귀가",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 61,
+        "screenCell": "G61",
+        "assetCell": "H61",
+        "voCell": "I61",
+        "uiCell": "L61"
+      },
+      "sourceScreenText": "시민이 앉으면 내부 UI가 간단히 켜짐.\nREST SESSION / RETURN HOME / ROUTE READY\nPBV가 귀환 모드로 전환하면서 지도 경로 팝업. pbv 슬며시 출발함",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "휴식이 끝나면, 이 PBV로 그대로 귀가를 이어갈게요. ",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "휴식이 끝나면, 이 PBV로 그대로 귀가를 이어갈게요. ",
+        "status": "source_text",
+        "sourceRange": "I61",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "pbv_interior",
+      "elements": [
+        {
+          "kind": "pbv_interior",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S3-5.3-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "REST SESSION",
+              "status": "source_text",
+              "sourceCell": "G61"
+            },
+            {
+              "value": "RETURN HOME",
+              "status": "source_text",
+              "sourceCell": "G61"
+            },
+            {
+              "value": "ROUTE READY",
+              "status": "source_text",
+              "sourceCell": "G61"
+            }
+          ],
+          "note": "",
+          "id": "S3-5.3-ui02",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "route_map",
+          "region": "map_right",
+          "text": [],
+          "note": "",
+          "id": "S3-5.3-ui03",
+          "boundsPct": [
+            69,
+            56,
+            26,
+            35
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "착석 후 내부 UI 점등; REST SESSION 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "휴식 이후 단계로 전환; RETURN HOME 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "ROUTE READY와 지도 경로 등장 후 출발 암시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "세 상태를 동시에 활성화하지 않는다."
+      ],
+      "issues": [
+        "G61은 곧 출발하지만 I61은 휴식이 끝나면 귀가. 휴식 종료 트리거/시간 생략 연출 미정. 시안은 휴식 후 전환이라는 제안으로 표시."
+      ],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "QUIET 상태 유지하며 실제 PBV에 접근. 5.3에서는 PBV 내부 시점."
+      ],
+      "endState": "ROUTE READY와 지도 경로 등장 후 출발 암시"
+    },
+    {
+      "id": "S4-3.1",
+      "scenario": 4,
+      "scene": 3,
+      "cut": "3.1",
+      "order": 36,
+      "title": "오늘 랜드마크 운영 마감",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 66,
+        "screenCell": "G66",
+        "assetCell": "H66",
+        "voCell": "I66",
+        "uiCell": "L66"
+      },
+      "sourceScreenText": "1인칭 운영자 화면. 영업 종료 직후 랜드마크 내부를 배경으로 운영 콘솔이 켜짐.\n주변으로 오늘의 데이터가 순차적으로 정리됨.",
+      "sourceAssetText": "메타휴먼 E",
+      "sourceUiText": "- TODAY VISITORS 1,284\n- NEW VISITORS 38%\n- CAFE OCCUPANCY 82%\n- EXHIBITION ENGAGEMENT 74%\n- AVG. STAY 47 MIN\n- ENERGY / MOBILITY / SERVICE STATUS\n- 운영 완료 체크\n마지막엔 TODAY OPERATION COMPLETE.",
+      "sourceVoText": "수고 많았어요! 영업 마감을 시작할게요. 오늘 랜드마크가 어떻게 운영됐는지 방문자와 공간 이용 현황을 정리해볼게요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "수고 많았어요! 영업 마감을 시작할게요. 오늘 랜드마크가 어떻게 운영됐는지 방문자와 공간 이용 현황을 정리해볼게요.",
+        "status": "source_text",
+        "sourceRange": "I66",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "operator_console",
+      "elements": [
+        {
+          "kind": "landmark_interior",
+          "region": "full",
+          "text": [],
+          "note": "",
+          "id": "S4-3.1-ui01",
+          "boundsPct": [
+            0,
+            0,
+            100,
+            100
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "metrics_grid",
+          "region": "main",
+          "text": [
+            {
+              "value": "TODAY VISITORS 1,284",
+              "status": "source_text",
+              "sourceCell": "L66"
+            },
+            {
+              "value": "NEW VISITORS 38%",
+              "status": "source_text",
+              "sourceCell": "L66"
+            },
+            {
+              "value": "CAFE OCCUPANCY 82%",
+              "status": "source_text",
+              "sourceCell": "L66"
+            },
+            {
+              "value": "EXHIBITION ENGAGEMENT 74%",
+              "status": "source_text",
+              "sourceCell": "L66"
+            },
+            {
+              "value": "AVG. STAY 47 MIN",
+              "status": "source_text",
+              "sourceCell": "L66"
+            },
+            {
+              "value": "ENERGY / MOBILITY / SERVICE STATUS",
+              "status": "source_text",
+              "sourceCell": "L66"
+            }
+          ],
+          "note": "",
+          "id": "S4-3.1-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "bottom_strip",
+          "text": [
+            {
+              "value": "TODAY OPERATION COMPLETE",
+              "status": "source_text",
+              "sourceCell": "L66"
+            }
+          ],
+          "note": "",
+          "id": "S4-3.1-ui03",
+          "boundsPct": [
+            8,
+            81,
+            84,
+            12
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "운영 콘솔 점등",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "오늘 데이터 카드 순차 정리",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "서비스 상태와 운영 완료 체크",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "수치는 스토리보드 표기값이며 실제 운영 데이터로 주장하지 않는다. I66 메모의 대체 V.O는 참고안."
+      ],
+      "issues": [],
+      "sourceComments": [
+        {
+          "cell": "I66",
+          "kind": "note",
+          "text": "오늘 운영이 마무리됐어요.\n총 1,284명의 시민이 방문했고, 카페 이용률은 높았지만 전시 공간의 신규 방문 비율은 지난주보다 조금 낮아졌네요.\n전체 서비스와 에너지 운영은 정상적으로 종료됐습니다."
+        }
+      ],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "오늘 운영 데이터→후보지도→문화 생활권 선택의 상태 누적."
+      ],
+      "endState": "서비스 상태와 운영 완료 체크"
+    },
+    {
+      "id": "S4-3.2",
+      "scenario": 4,
+      "scene": 3,
+      "cut": "3.2",
+      "order": 37,
+      "title": "내일 거점 세 곳 제안",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 67,
+        "screenCell": "G67",
+        "assetCell": "H67",
+        "voCell": "I67",
+        "uiCell": "L67"
+      },
+      "sourceScreenText": "-오늘 리포트가 축소됨\n-도시 전체 2D/3D 맵 등장\n-현재 랜드마크 위치에서 세 곳 팝업",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "운영 데이터를 바탕으로 내일의 거점 후보가 세 곳 제안됐어요. 그대로 머물거나, 새로운 운영 목표에 맞춰 랜드마크를 이동할 수 있습니다.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "운영 데이터를 바탕으로 내일의 거점 후보가 세 곳 제안됐어요. 그대로 머물거나, 새로운 운영 목표에 맞춰 랜드마크를 이동할 수 있습니다.",
+        "status": "source_text",
+        "sourceRange": "I67",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "operator_map",
+      "elements": [
+        {
+          "kind": "city_map",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S4-3.2-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "report_compact",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "오늘 운영 요약",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S4-3.2-ui02",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "candidate_cards",
+          "region": "three_cards",
+          "text": [
+            {
+              "value": "TRANSIT DISTRICT",
+              "status": "source_note",
+              "sourceCell": "L67:note"
+            },
+            {
+              "value": "RESIDENTIAL DISTRICT",
+              "status": "source_note",
+              "sourceCell": "L67:note"
+            },
+            {
+              "value": "CULTURE DISTRICT",
+              "status": "source_note",
+              "sourceCell": "L67:note"
+            }
+          ],
+          "note": "",
+          "id": "S4-3.2-ui03",
+          "boundsPct": [
+            7,
+            25,
+            86,
+            46
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "오늘 리포트가 상단으로 축소",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "도시 지도와 현재 랜드마크 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "세 후보 팝업 및 비교 항목 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "후보 이름·지표는 L67 셀 본문이 아닌 메모에 있음. 메모 기반임을 명세에 표기."
+      ],
+      "issues": [],
+      "sourceComments": [
+        {
+          "cell": "I67",
+          "kind": "note",
+          "text": "오늘의 운영 데이터를 바탕으로, 랜드마크 서비스 AI가 내일의 거점 전환을 제안했어요.\n그대로 머물 수도 있고, 새로운 운영 목표에 맞춰 세 곳 중 하나로 이동할 수도 있습니다. 환승 생활권에서는 더 많은 신규 시민을 만날 수 있고,\n주거 생활권에서는 장기 체류와 커뮤니티 이용을 늘릴 수 있어요.\n문화 생활권으로 이동하면, 전시와 프로그램 중심의 운영 비중을 더 높일 수 있고요."
+        },
+        {
+          "cell": "L67",
+          "kind": "note",
+          "text": "후보 A — TRANSIT DISTRICT\nVISITOR REACH ↑↑\nREVENUE ↑\nNEW CITIZENS ↑\n→ 유동인구와 신규 시민 확보에 좋음.\n후보 B — RESIDENTIAL DISTRICT\nCOMMUNITY USE ↑↑\nAVG. STAY ↑\nREVENUE →\n→ 주민 장기 이용 / 커뮤니티 기능 강화.\n후보 C — CULTURE DISTRICT\nCULTURAL ENGAGEMENT ↑↑\nVISITOR DIVERSITY ↑↑\nNEW PROGRAM POTENTIAL ↑\n→ 전시·문화 중심으로 랜드마크 역할 자체를 바꿀 수 있음."
+        }
+      ],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "candidateDetailsSourceNote": "후보 A — TRANSIT DISTRICT\nVISITOR REACH ↑↑\nREVENUE ↑\nNEW CITIZENS ↑\n→ 유동인구와 신규 시민 확보에 좋음.\n후보 B — RESIDENTIAL DISTRICT\nCOMMUNITY USE ↑↑\nAVG. STAY ↑\nREVENUE →\n→ 주민 장기 이용 / 커뮤니티 기능 강화.\n후보 C — CULTURE DISTRICT\nCULTURAL ENGAGEMENT ↑↑\nVISITOR DIVERSITY ↑↑\nNEW PROGRAM POTENTIAL ↑\n→ 전시·문화 중심으로 랜드마크 역할 자체를 바꿀 수 있음.",
+      "carryOverNotes": [
+        "오늘 운영 데이터→후보지도→문화 생활권 선택의 상태 누적."
+      ],
+      "endState": "세 후보 팝업 및 비교 항목 표시",
+      "candidateCards": [
+        {
+          "name": "TRANSIT DISTRICT",
+          "metrics": [
+            "VISITOR REACH ↑↑",
+            "REVENUE ↑",
+            "NEW CITIZENS ↑"
+          ],
+          "status": "source_note",
+          "source": "L67:note"
+        },
+        {
+          "name": "RESIDENTIAL DISTRICT",
+          "metrics": [
+            "COMMUNITY USE ↑↑",
+            "AVG. STAY ↑",
+            "REVENUE →"
+          ],
+          "status": "source_note",
+          "source": "L67:note"
+        },
+        {
+          "name": "CULTURE DISTRICT",
+          "metrics": [
+            "CULTURAL ENGAGEMENT ↑↑",
+            "VISITOR DIVERSITY ↑↑",
+            "NEW PROGRAM POTENTIAL ↑"
+          ],
+          "status": "source_note",
+          "source": "L67:note"
+        }
+      ]
+    },
+    {
+      "id": "S4-3.3",
+      "scenario": 4,
+      "scene": 3,
+      "cut": "3.3",
+      "order": 38,
+      "title": "문화 생활권 선택·운영 비중 변경",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 68,
+        "screenCell": "G68",
+        "assetCell": "H68",
+        "voCell": "I68",
+        "uiCell": "L68"
+      },
+      "sourceScreenText": "CULTURE DISTRICT 선택\n> 선택 순간 후보지 카드가 확장",
+      "sourceAssetText": "",
+      "sourceUiText": "오늘: CAFE 40 / EXHIBITION 35 / LOUNGE 25\n↓\n내일: CAFE 20 / EXHIBITION 55 / LOUNGE 25",
+      "sourceVoText": "문화 생활권으로 정했군요.\n좋아요. 내일은 전시 프로그램의 비중을 높이고, 새로운 시민 유입을 중심으로 운영 목표를 전환할게요. 그럼 지금부터, 내일 첫 운영에 맞춰 이동 계획을 구성하겠습니다.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 12,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "문화 생활권으로 정했군요.\n좋아요. 내일은 전시 프로그램의 비중을 높이고, 새로운 시민 유입을 중심으로 운영 목표를 전환할게요. 그럼 지금부터, 내일 첫 운영에 맞춰 이동 계획을 구성하겠습니다.",
+        "status": "source_text",
+        "sourceRange": "I68",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "operator_map",
+      "elements": [
+        {
+          "kind": "candidate_selected",
+          "region": "panel_right",
+          "text": [
+            {
+              "value": "CULTURE DISTRICT",
+              "status": "source_text",
+              "sourceCell": "G68"
+            }
+          ],
+          "note": "",
+          "id": "S4-3.3-ui01",
+          "boundsPct": [
+            65,
+            16,
+            30,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "allocation_chart",
+          "region": "map_left",
+          "text": [
+            {
+              "value": "오늘: CAFE 40 / EXHIBITION 35 / LOUNGE 25",
+              "status": "source_text",
+              "sourceCell": "L68"
+            },
+            {
+              "value": "내일: CAFE 20 / EXHIBITION 55 / LOUNGE 25",
+              "status": "source_text",
+              "sourceCell": "L68"
+            }
+          ],
+          "note": "",
+          "id": "S4-3.3-ui02",
+          "boundsPct": [
+            5,
+            16,
+            56,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "문화 생활권 후보에 선택 링",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "선택 카드 확장; 나머지 후보 축소",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "오늘/내일 비중 막대 길이 변경",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "원문에 % 단위는 없음. 값과 합계 100을 보존하되 임의로 확정 단위를 추가하지 않는다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "오늘 운영 데이터→후보지도→문화 생활권 선택의 상태 누적."
+      ],
+      "endState": "오늘/내일 비중 막대 길이 변경"
+    },
+    {
+      "id": "S4-4.1",
+      "scenario": 4,
+      "scene": 4,
+      "cut": "4.1",
+      "order": 39,
+      "title": "소형 자산·구조 모듈 분류",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 69,
+        "screenCell": "G69",
+        "assetCell": "H69",
+        "voCell": "I69",
+        "uiCell": "L69"
+      },
+      "sourceScreenText": "EXHIBITION / CAFE / LOUNGE\n세 개의 구조 모듈.그 안에 작은 이동 대상들이 별도 표시됨.\n- 전시물/식물/장비/이동형 가구\n화면에서 자동으로 두 그룹으로 분류.\nSMALL ASSETS → Spot / MobED\nSTRUCTURAL MODULES→ Heavy Transport Platform",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "먼저 이동 대상을 나눌게요. . 전시물과 식물, 소형 장비는 구조 모듈보다 먼저 운송시킬게요.",
+      "sourceReferenceText": "먼저 작은 물품과 구조 모듈을 나눌게요. 전시물과 식물, 소형 장비는 구조 모듈보다 먼저 이동합니다.\n공간 내부가 비워지면 전시실, 카페, 라운지 모듈을 차례로 분리할게요.",
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "먼저 이동 대상을 나눌게요. . 전시물과 식물, 소형 장비는 구조 모듈보다 먼저 운송시킬게요.",
+        "status": "source_text",
+        "sourceRange": "I69",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "asset_split",
+      "elements": [
+        {
+          "kind": "module_blocks",
+          "region": "map_left",
+          "text": [
+            {
+              "value": "EXHIBITION",
+              "status": "source_text",
+              "sourceCell": "G69"
+            },
+            {
+              "value": "CAFE",
+              "status": "source_text",
+              "sourceCell": "G69"
+            },
+            {
+              "value": "LOUNGE",
+              "status": "source_text",
+              "sourceCell": "G69"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.1-ui01",
+          "boundsPct": [
+            5,
+            16,
+            56,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "classification",
+          "region": "panel_right",
+          "text": [
+            {
+              "value": "SMALL ASSETS → Spot / MobED",
+              "status": "source_text",
+              "sourceCell": "G69"
+            },
+            {
+              "value": "STRUCTURAL MODULES→ Heavy Transport Platform",
+              "status": "source_text",
+              "sourceCell": "G69"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.1-ui02",
+          "boundsPct": [
+            65,
+            16,
+            30,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "세 구조 모듈과 내부 작은 자산 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "자산들이 소형/구조 두 그룹으로 분리",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "각 그룹에 운송 담당 라벨 연결",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "I69의 중복 마침표도 원문 데이터에는 보존. 화면용 정리와 원문을 분리한다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "목적지는 문화 생활권으로 고정. 자산/구조 분류, 선행 점검, 확정 경로의 결과 누적."
+      ],
+      "endState": "각 그룹에 운송 담당 라벨 연결"
+    },
+    {
+      "id": "S4-4.2",
+      "scenario": 4,
+      "scene": 4,
+      "cut": "4.2",
+      "order": 40,
+      "title": "Spot 선행 경로·부지 점검",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 70,
+        "screenCell": "G70",
+        "assetCell": "H70",
+        "voCell": "I70",
+        "uiCell": "L70"
+      },
+      "sourceScreenText": "현재 위치 → 문화 생활권까지 도시 지도.\nSpot 노드가 선행 출발.\nSpot 1인칭 LiDAR 데이터 컷과 운영 맵을 동시에 보여줌.",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "Spot이 이동 경로와 새 운영 부지를 점검합니다.\n도로 폭과 경사, 노면 상태를 확인해서 큰 구조 모듈이 통과하기 어려운 구간은 미리 제외할게요.",
+      "sourceReferenceText": "Spot이 이동 경로와 새 부지를 먼저 확인합니다. 통과하기 어려운 구간은 미리 제외할게요",
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "Spot이 이동 경로와 새 운영 부지를 점검합니다.\n도로 폭과 경사, 노면 상태를 확인해서 큰 구조 모듈이 통과하기 어려운 구간은 미리 제외할게요.",
+        "status": "source_text",
+        "sourceRange": "I70",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "spot_split_view",
+      "elements": [
+        {
+          "kind": "spot_lidar_pov",
+          "region": "map_left",
+          "text": [],
+          "note": "",
+          "id": "S4-4.2-ui01",
+          "boundsPct": [
+            5,
+            16,
+            56,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "route_map",
+          "region": "panel_right",
+          "text": [
+            {
+              "value": "현재 위치",
+              "status": "proposed_copy",
+              "sourceCell": null
+            },
+            {
+              "value": "문화 생활권",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S4-4.2-ui02",
+          "boundsPct": [
+            65,
+            16,
+            30,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "route_checks",
+          "region": "bottom_strip",
+          "text": [
+            {
+              "value": "도로 폭",
+              "status": "source_text",
+              "sourceCell": "I70"
+            },
+            {
+              "value": "경사",
+              "status": "source_text",
+              "sourceCell": "I70"
+            },
+            {
+              "value": "노면 상태",
+              "status": "source_text",
+              "sourceCell": "I70"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.2-ui03",
+          "boundsPct": [
+            8,
+            81,
+            84,
+            12
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "왼쪽 Spot 1인칭 점군과 오른쪽 운영 맵 동시 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "지도에서 Spot 노드 선행 이동",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "통과 불가 후보 구간을 점선/X로 제외",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "좌우 분할 비율은 제안. Spot 영상과 지도 마커가 같은 진행 상태를 가리켜야 한다."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "목적지는 문화 생활권으로 고정. 자산/구조 분류, 선행 점검, 확정 경로의 결과 누적."
+      ],
+      "endState": "통과 불가 후보 구간을 점선/X로 제외"
+    },
+    {
+      "id": "S4-4.3",
+      "scenario": 4,
+      "scene": 4,
+      "cut": "4.3",
+      "order": 41,
+      "title": "자산 운송 순서·로봇 분담",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 71,
+        "screenCell": "G71",
+        "assetCell": "H71",
+        "voCell": "I71",
+        "uiCell": "L71"
+      },
+      "sourceScreenText": "경로가 확정되면 랜드마크 내부 자산에 이동 순서 번호가 붙음.",
+      "sourceAssetText": "",
+      "sourceUiText": "01 EXHIBITION ASSET\n02 PLANTS\n03 EQUIPMENT\nMobED가 전시물/식물 운반.\nMobED 상판에는:\nLEVEL CONTROL ACTIVE\nSpot에는 작은 적재 페이로드.\n두 로봇의 목적지가 다른 색의 노드로 표시.\nMobED → FLAT ROUTE\nSpot → STEP / UNEVEN ROUTE",
+      "sourceVoText": "작은 물품은 MobED와 Spot이 나눠 맡습니다.\nMobED는 전시물과 식물을 수평으로 유지하며 이동하고, Spot은 계단이나 노면이 고르지 않은 구간을 담당할게요.",
+      "sourceReferenceText": "MobED는 흔들리면 안 되는 물품을, Spot은 고르지 않은 구간의 장비를 맡습니다. 이후 구조 모듈 이동을 이어갈게요.",
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 12,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "작은 물품은 MobED와 Spot이 나눠 맡습니다.\nMobED는 전시물과 식물을 수평으로 유지하며 이동하고, Spot은 계단이나 노면이 고르지 않은 구간을 담당할게요.",
+        "status": "source_text",
+        "sourceRange": "I71",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "robot_dispatch",
+      "elements": [
+        {
+          "kind": "asset_queue",
+          "region": "panel_left",
+          "text": [
+            {
+              "value": "01 EXHIBITION ASSET",
+              "status": "source_text",
+              "sourceCell": "L71"
+            },
+            {
+              "value": "02 PLANTS",
+              "status": "source_text",
+              "sourceCell": "L71"
+            },
+            {
+              "value": "03 EQUIPMENT",
+              "status": "source_text",
+              "sourceCell": "L71"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.3-ui01",
+          "boundsPct": [
+            5,
+            16,
+            28,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "route_map",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S4-4.3-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "robot_routes",
+          "region": "panel_right",
+          "text": [
+            {
+              "value": "LEVEL CONTROL ACTIVE",
+              "status": "source_text",
+              "sourceCell": "L71"
+            },
+            {
+              "value": "MobED → FLAT ROUTE",
+              "status": "source_text",
+              "sourceCell": "L71"
+            },
+            {
+              "value": "Spot → STEP / UNEVEN ROUTE",
+              "status": "source_text",
+              "sourceCell": "L71"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.3-ui03",
+          "boundsPct": [
+            65,
+            16,
+            30,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "확정 경로 표시; 자산에 01/02/03 순서 부여",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "MobED와 Spot 경로 분기",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "각 로봇 노드가 지정 구간으로 이동",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "다른 색 노드는 이번 모노톤 시안에서 서로 다른 기호·선종류로 구분."
+      ],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "목적지는 문화 생활권으로 고정. 자산/구조 분류, 선행 점검, 확정 경로의 결과 누적."
+      ],
+      "endState": "각 로봇 노드가 지정 구간으로 이동"
+    },
+    {
+      "id": "S4-4.4",
+      "scenario": 4,
+      "scene": 4,
+      "cut": "4.4",
+      "order": 42,
+      "title": "야간 운송·인프라 계획",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 72,
+        "screenCell": "G72",
+        "assetCell": "H72",
+        "voCell": "I72",
+        "uiCell": "L72"
+      },
+      "sourceScreenText": "[지도 위 세 연결 포인트]\n- POWER / WATER / DATA\n[작업 타임라인] \n22:30 SMALL ASSET MOVE\n→ 23:40 MODULE RELEASE\n→ 00:20 TRANSPORT\n→ 03:10 RECONNECT\n→ 06:00 SYSTEM CHECK\n→ 09:00 OPEN",
+      "sourceAssetText": "",
+      "sourceUiText": "ROAD AUTHORITY ✓\nTRAFFIC CONTROL ✓\nINFRA CONNECTION ✓\nMOVE WINDOW 00:20–03:10",
+      "sourceVoText": "모듈 이동은 야간 저속 운송으로 배정하고, 일반 차량은 우회시킬게요. 새 거점의 전력과 데이터 연결도 함께 확인하고 있어요. 장거리 운송 구간에는 HTWO 기반 에너지 지원도 연결해둘게요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 12,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "모듈 이동은 야간 저속 운송으로 배정하고, 일반 차량은 우회시킬게요. 새 거점의 전력과 데이터 연결도 함께 확인하고 있어요. 장거리 운송 구간에는 HTWO 기반 에너지 지원도 연결해둘게요.",
+        "status": "source_text",
+        "sourceRange": "I72",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "transport_schedule",
+      "elements": [
+        {
+          "kind": "city_map",
+          "region": "main",
+          "text": [],
+          "note": "",
+          "id": "S4-4.4-ui01",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "infra_nodes",
+          "region": "map_left",
+          "text": [
+            {
+              "value": "POWER",
+              "status": "source_text",
+              "sourceCell": "G72"
+            },
+            {
+              "value": "WATER",
+              "status": "source_text",
+              "sourceCell": "G72"
+            },
+            {
+              "value": "DATA",
+              "status": "source_text",
+              "sourceCell": "G72"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.4-ui02",
+          "boundsPct": [
+            5,
+            16,
+            56,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "approval_status",
+          "region": "panel_right",
+          "text": [
+            {
+              "value": "ROAD AUTHORITY ✓",
+              "status": "source_text",
+              "sourceCell": "L72"
+            },
+            {
+              "value": "TRAFFIC CONTROL ✓",
+              "status": "source_text",
+              "sourceCell": "L72"
+            },
+            {
+              "value": "INFRA CONNECTION ✓",
+              "status": "source_text",
+              "sourceCell": "L72"
+            },
+            {
+              "value": "MOVE WINDOW 00:20–03:10",
+              "status": "source_text",
+              "sourceCell": "L72"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.4-ui03",
+          "boundsPct": [
+            65,
+            16,
+            30,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "timeline",
+          "region": "timeline",
+          "text": [
+            {
+              "value": "22:30 SMALL ASSET MOVE",
+              "status": "source_text",
+              "sourceCell": "G72"
+            },
+            {
+              "value": "23:40 MODULE RELEASE",
+              "status": "source_text",
+              "sourceCell": "G72"
+            },
+            {
+              "value": "00:20 TRANSPORT",
+              "status": "source_text",
+              "sourceCell": "G72"
+            },
+            {
+              "value": "03:10 RECONNECT",
+              "status": "source_text",
+              "sourceCell": "G72"
+            },
+            {
+              "value": "06:00 SYSTEM CHECK",
+              "status": "source_text",
+              "sourceCell": "G72"
+            },
+            {
+              "value": "09:00 OPEN",
+              "status": "source_text",
+              "sourceCell": "G72"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.4-ui04",
+          "boundsPct": [
+            7,
+            79,
+            86,
+            15
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "energy_support",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "HTWO 기반 에너지 지원",
+              "status": "proposed_copy",
+              "sourceCell": null
+            }
+          ],
+          "note": "",
+          "id": "S4-4.4-ui05",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "POWER/WATER/DATA 연결 지점 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "작업 타임라인 왼쪽에서 오른쪽 순차 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "우회 경로·에너지 지원 및 승인 상태 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "자정을 넘는 순서를 유지한다. 22:30/23:40 다음날 00:20 순서."
+      ],
+      "issues": [
+        "L72 승인 체크와 다음 I73의 도로·교통 승인 대기가 충돌. 원문 보기에서는 보존하고 시안에는 불일치 표시. 최종 상태 확정 전 자동 교정 금지."
+      ],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "목적지는 문화 생활권으로 고정. 자산/구조 분류, 선행 점검, 확정 경로의 결과 누적."
+      ],
+      "endState": "우회 경로·에너지 지원 및 승인 상태 표시"
+    },
+    {
+      "id": "S4-4.5",
+      "scenario": 4,
+      "scene": 4,
+      "cut": "4.5",
+      "order": 43,
+      "title": "이동 계획 정리·운영자 승인 대기",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 73,
+        "screenCell": "G73",
+        "assetCell": "H73",
+        "voCell": "I73",
+        "uiCell": "L73"
+      },
+      "sourceScreenText": "복잡했던 모든 후보선이 사라지고 확정된 계획만 남음.\n중앙에 깔끔한 하나의 플로우:\nPACK\n→ ROBOT DELIVERY\n→ MODULE TRANSPORT\n→ RECONNECT\n→ RECONFIGURE\n→ OPEN\n왼쪽:\nRISK : LOW\nROUTE : CONFIRMED\nENERGY : READY\nNEW SITE : READY\n오른쪽에는 내일 운영 목표:\nCULTURAL ENGAGEMENT ↑\nNEW CITIZEN REACH ↑\n그리고:\nREADY FOR OPERATOR APPROVAL",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "정리된 이동 계획을 도시 운영망에 등록 중입니다. 도로와 교통 승인이 끝나면 야간 이동을 시작할 수 있어요! ",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "정리된 이동 계획을 도시 운영망에 등록 중입니다. 도로와 교통 승인이 끝나면 야간 이동을 시작할 수 있어요! ",
+        "status": "source_text",
+        "sourceRange": "I73",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "approval_summary",
+      "elements": [
+        {
+          "kind": "flow",
+          "region": "flow",
+          "text": [
+            {
+              "value": "PACK",
+              "status": "source_text",
+              "sourceCell": "G73"
+            },
+            {
+              "value": "ROBOT DELIVERY",
+              "status": "source_text",
+              "sourceCell": "G73"
+            },
+            {
+              "value": "MODULE TRANSPORT",
+              "status": "source_text",
+              "sourceCell": "G73"
+            },
+            {
+              "value": "RECONNECT",
+              "status": "source_text",
+              "sourceCell": "G73"
+            },
+            {
+              "value": "RECONFIGURE",
+              "status": "source_text",
+              "sourceCell": "G73"
+            },
+            {
+              "value": "OPEN",
+              "status": "source_text",
+              "sourceCell": "G73"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.5-ui01",
+          "boundsPct": [
+            34,
+            17,
+            31,
+            62
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "panel_left",
+          "text": [
+            {
+              "value": "RISK : LOW",
+              "status": "source_text",
+              "sourceCell": "G73"
+            },
+            {
+              "value": "ROUTE : CONFIRMED",
+              "status": "source_text",
+              "sourceCell": "G73"
+            },
+            {
+              "value": "ENERGY : READY",
+              "status": "source_text",
+              "sourceCell": "G73"
+            },
+            {
+              "value": "NEW SITE : READY",
+              "status": "source_text",
+              "sourceCell": "G73"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.5-ui02",
+          "boundsPct": [
+            5,
+            16,
+            28,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "goals",
+          "region": "panel_right",
+          "text": [
+            {
+              "value": "CULTURAL ENGAGEMENT ↑",
+              "status": "source_text",
+              "sourceCell": "G73"
+            },
+            {
+              "value": "NEW CITIZEN REACH ↑",
+              "status": "source_text",
+              "sourceCell": "G73"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.5-ui03",
+          "boundsPct": [
+            65,
+            16,
+            30,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "approval",
+          "region": "bottom_strip",
+          "text": [
+            {
+              "value": "READY FOR OPERATOR APPROVAL",
+              "status": "source_text",
+              "sourceCell": "G73"
+            }
+          ],
+          "note": "",
+          "id": "S4-4.5-ui04",
+          "boundsPct": [
+            8,
+            81,
+            84,
+            12
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "후보선 제거",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "중앙 확정 플로우·좌측 상태·우측 목표 정돈",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "운영자 승인 대기 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "운영자 승인과 도로/교통 승인을 서로 다른 상태로 관리."
+      ],
+      "issues": [
+        "I73은 도시 운영망 등록 중·도로/교통 승인 대기, G73은 경로/부지 준비·운영자 승인 대기. 완료 조건과 다음 컷 예약 전환 트리거 확인 필요."
+      ],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "목적지는 문화 생활권으로 고정. 자산/구조 분류, 선행 점검, 확정 경로의 결과 누적."
+      ],
+      "endState": "운영자 승인 대기 표시"
+    },
+    {
+      "id": "S4-5.1",
+      "scenario": 4,
+      "scene": 5,
+      "cut": "5.1",
+      "order": 44,
+      "title": "야간 이전 예약·내일 업무 생성",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 74,
+        "screenCell": "G74",
+        "assetCell": "H74",
+        "voCell": "I74",
+        "uiCell": "L74"
+      },
+      "sourceScreenText": "RELOCATION SCHEDULED\nOVERNIGHT EXECUTION\nNEXT OPEN 09:00\n그리고 내일 업무 카드 생성:\nTOMORROW\nNEW SITE OPENING\nCULTURE DISTRICT\n09:00\n그 아래:\n- Opening Check\n- Exhibition Setup\n- Visitor Forecast\n- New Site Operation Profile",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "오늘 밤 이전과 재연결을 마치고, 내일 오전부터 문화 생활권에서 새로운 운영을 시작하겠습니다.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "오늘 밤 이전과 재연결을 마치고, 내일 오전부터 문화 생활권에서 새로운 운영을 시작하겠습니다.",
+        "status": "source_text",
+        "sourceRange": "I74",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "next_day_schedule",
+      "elements": [
+        {
+          "kind": "status",
+          "region": "top_badge",
+          "text": [
+            {
+              "value": "RELOCATION SCHEDULED",
+              "status": "source_text",
+              "sourceCell": "G74"
+            },
+            {
+              "value": "OVERNIGHT EXECUTION",
+              "status": "source_text",
+              "sourceCell": "G74"
+            },
+            {
+              "value": "NEXT OPEN 09:00",
+              "status": "source_text",
+              "sourceCell": "G74"
+            }
+          ],
+          "note": "",
+          "id": "S4-5.1-ui01",
+          "boundsPct": [
+            5,
+            5,
+            43,
+            9
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "tomorrow_card",
+          "region": "center_card",
+          "text": [
+            {
+              "value": "TOMORROW",
+              "status": "source_text",
+              "sourceCell": "G74"
+            },
+            {
+              "value": "NEW SITE OPENING",
+              "status": "source_text",
+              "sourceCell": "G74"
+            },
+            {
+              "value": "CULTURE DISTRICT",
+              "status": "source_text",
+              "sourceCell": "G74"
+            },
+            {
+              "value": "09:00",
+              "status": "source_text",
+              "sourceCell": "G74"
+            },
+            {
+              "value": "Opening Check",
+              "status": "source_text",
+              "sourceCell": "G74"
+            },
+            {
+              "value": "Exhibition Setup",
+              "status": "source_text",
+              "sourceCell": "G74"
+            },
+            {
+              "value": "Visitor Forecast",
+              "status": "source_text",
+              "sourceCell": "G74"
+            },
+            {
+              "value": "New Site Operation Profile",
+              "status": "source_text",
+              "sourceCell": "G74"
+            }
+          ],
+          "note": "",
+          "id": "S4-5.1-ui02",
+          "boundsPct": [
+            28,
+            31,
+            44,
+            36
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "이전 예약 상태 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "내일 새 거점 오픈 카드 생성",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "내일 작업 항목 순차 등장",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [
+        "현재 예약 상태와 미래 야간 실행을 구분한다. 실제 운송 완료 연출을 넣지 않는다."
+      ],
+      "issues": [
+        "직전 컷 승인 대기→예약 확정 사이 승인 행동이 원문에 없음. 컷 진입 시 예약 상태만 재현하고 승인 장면을 임의로 추가하지 않는다."
+      ],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "이전과 오픈은 예약된 미래 상태. 오늘 운영 마감과 내일 업무를 구분."
+      ],
+      "endState": "내일 작업 항목 순차 등장"
+    },
+    {
+      "id": "S4-5.2",
+      "scenario": 4,
+      "scene": 5,
+      "cut": "5.2",
+      "order": 45,
+      "title": "내일 출근·업무 예약 마감",
+      "titleStatus": "editorial_summary",
+      "source": {
+        "sheet": "전면 스토리보드",
+        "row": 75,
+        "screenCell": "G75",
+        "assetCell": "H75",
+        "voCell": "I75",
+        "uiCell": "L75"
+      },
+      "sourceScreenText": "오늘의 운영 콘솔이 하나씩 접힘.\n그 대신 작은 예약 카드 두 개.\nCOMMUTE BRIEF — SCHEDULED\nWORK BOARD — SCHEDULED\n내일 출근 경로 위에 새 랜드마크 위치가 표시.\nHOME → NEW LANDMARK\n새 지점의 예상 방문객 / 운영 특성 / 첫 업무가 프리뷰로 살짝 보였다가 접힘.\n화면 마지막:\nTODAY OPERATION COMPLETE\nSEE YOU TOMORROW",
+      "sourceAssetText": "",
+      "sourceUiText": "",
+      "sourceVoText": "새 랜드마크의 운영 특성과 첫 방문 예측을 반영한 업무 보드도 준비해둘게요! 그럼, 내일 새로운 거점에서 뵐게요.",
+      "sourceReferenceText": null,
+      "duration": {
+        "sourceSeconds": null,
+        "previewSeconds": 8,
+        "status": "proposed_preview_only"
+      },
+      "vo": {
+        "displayText": "새 랜드마크의 운영 특성과 첫 방문 예측을 반영한 업무 보드도 준비해둘게요! 그럼, 내일 새로운 거점에서 뵐게요.",
+        "status": "source_text",
+        "sourceRange": "I75",
+        "continuityGroup": null,
+        "audioPath": null,
+        "wordTiming": null
+      },
+      "layout": "commute_preview",
+      "elements": [
+        {
+          "kind": "scheduled_cards",
+          "region": "panel_left",
+          "text": [
+            {
+              "value": "COMMUTE BRIEF — SCHEDULED",
+              "status": "source_text",
+              "sourceCell": "G75"
+            },
+            {
+              "value": "WORK BOARD — SCHEDULED",
+              "status": "source_text",
+              "sourceCell": "G75"
+            }
+          ],
+          "note": "",
+          "id": "S4-5.2-ui01",
+          "boundsPct": [
+            5,
+            16,
+            28,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "route_map",
+          "region": "main",
+          "text": [
+            {
+              "value": "HOME → NEW LANDMARK",
+              "status": "source_text",
+              "sourceCell": "G75"
+            }
+          ],
+          "note": "",
+          "id": "S4-5.2-ui02",
+          "boundsPct": [
+            8,
+            12,
+            84,
+            74
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "preview",
+          "region": "panel_right",
+          "text": [
+            {
+              "value": "예상 방문객",
+              "status": "source_text",
+              "sourceCell": "G75"
+            },
+            {
+              "value": "운영 특성",
+              "status": "source_text",
+              "sourceCell": "G75"
+            },
+            {
+              "value": "첫 업무",
+              "status": "source_text",
+              "sourceCell": "G75"
+            }
+          ],
+          "note": "미정 수치·내용을 임의 생성하지 않는다.",
+          "id": "S4-5.2-ui03",
+          "boundsPct": [
+            65,
+            16,
+            30,
+            65
+          ],
+          "placementStatus": "proposed_coordinates"
+        },
+        {
+          "kind": "status",
+          "region": "bottom_strip",
+          "text": [
+            {
+              "value": "TODAY OPERATION COMPLETE",
+              "status": "source_text",
+              "sourceCell": "G75"
+            },
+            {
+              "value": "SEE YOU TOMORROW",
+              "status": "source_text",
+              "sourceCell": "G75"
+            }
+          ],
+          "note": "",
+          "id": "S4-5.2-ui04",
+          "boundsPct": [
+            8,
+            81,
+            84,
+            12
+          ],
+          "placementStatus": "proposed_coordinates"
+        }
+      ],
+      "timeline": [
+        {
+          "atNormalized": 0,
+          "action": "오늘 콘솔을 접고 예약 카드 두 개 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.35,
+          "action": "집→새 랜드마크 출근 경로와 업무 프리뷰",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        },
+        {
+          "atNormalized": 0.7,
+          "action": "프리뷰 접기; 오늘 운영 완료 문구 표시",
+          "timingStatus": "proposed",
+          "scope": "cut_state"
+        }
+      ],
+      "productionNotes": [],
+      "issues": [],
+      "sourceComments": [],
+      "referenceImages": [],
+      "initialStateRule": "Reconstruct from prior cuts in the same scenario; never depend on having played them. Use this cut timeline at t=0 after deterministic carry-over.",
+      "carryOverNotes": [
+        "이전과 오픈은 예약된 미래 상태. 오늘 운영 마감과 내일 업무를 구분."
+      ],
+      "endState": "프리뷰 접기; 오늘 운영 완료 문구 표시"
+    }
+  ]
+}

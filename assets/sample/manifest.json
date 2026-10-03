@@ -1,0 +1,120 @@
+{
+  "images": {
+    "body": "assets/sample/body.webp",
+    "delivery": "assets/sample/delivery.webp",
+    "car": "assets/sample/car.webp",
+    "plant": "assets/sample/plant.webp",
+    "agent": "assets/sample/agent.webp",
+    "spot": "assets/sample/spot.webp",
+    "city_map": "assets/sample/city_map.webp",
+    "xble": "assets/sample/xble.webp"
+  },
+  "graphics": {
+    "0": [
+      {
+        "file": "assets/sample/s1-0-0.svg",
+        "parent": "visual road-full"
+      }
+    ],
+    "1": [
+      {
+        "file": "assets/sample/s1-1-0.svg",
+        "parent": "visual map-large"
+      }
+    ],
+    "2": [
+      {
+        "file": "assets/sample/s1-2-0.svg",
+        "parent": "visual road-full"
+      },
+      {
+        "file": "assets/sample/s1-2-1.svg",
+        "parent": "mini-map"
+      }
+    ],
+    "3": [
+      {
+        "file": "assets/sample/s1-3-0.svg",
+        "parent": "visual road-full"
+      },
+      {
+        "file": "assets/sample/s1-3-1.svg",
+        "parent": "mini-map"
+      }
+    ],
+    "4": [
+      {
+        "file": "assets/sample/s1-4-0.svg",
+        "parent": "visual road-full"
+      },
+      {
+        "file": "assets/sample/s1-4-1.svg",
+        "parent": "mini-map"
+      }
+    ],
+    "5": [
+      {
+        "file": "assets/sample/s1-5-0.svg",
+        "parent": "visual plaza-main"
+      }
+    ],
+    "6": [
+      {
+        "file": "assets/sample/s1-6-0.svg",
+        "parent": "visual plaza-main"
+      },
+      {
+        "file": "assets/sample/s1-6-1.svg",
+        "parent": "graph-block"
+      }
+    ],
+    "7": [
+      {
+        "file": "assets/sample/s1-7-0.svg",
+        "parent": "visual plaza-main"
+      },
+      {
+        "file": "assets/sample/s1-7-1.svg",
+        "parent": "graph-block dimmed"
+      }
+    ],
+    "8": [
+      {
+        "file": "assets/sample/s1-8-0.svg",
+        "parent": "visual plaza-main"
+      },
+      {
+        "file": "assets/sample/s1-8-1.svg",
+        "parent": "visual insert-strip"
+      },
+      {
+        "file": "assets/sample/s1-8-2.svg",
+        "parent": "unit-diagram"
+      }
+    ],
+    "9": [
+      {
+        "file": "assets/sample/s1-9-0.svg",
+        "parent": "visual network-main"
+      }
+    ],
+    "10": [
+      {
+        "file": "assets/sample/s1-10-0.svg",
+        "parent": "visual network-main"
+      }
+    ],
+    "11": [
+      {
+        "file": "assets/sample/s1-11-0.svg",
+        "parent": "visual road-full"
+      }
+    ],
+    "12": [
+      {
+        "file": "assets/sample/s1-12-0.svg",
+        "parent": "visual road-full"
+      }
+    ]
+  }
+}

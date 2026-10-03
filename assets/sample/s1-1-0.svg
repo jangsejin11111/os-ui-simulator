@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="sim-svg map-sim" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><style>.svg-line{stroke:#bcbcbc;stroke-width:2;fill:none}.svg-line.thin{stroke-width:1}.svg-soft{stroke:#666;stroke-width:1.4;fill:none}.svg-fill{fill:#bcbcbc}.svg-route{stroke:#ddd;stroke-width:4;stroke-dasharray:10 15;fill:none}.map-blocks rect,.plaza-zones rect{fill:#202020;stroke:#777;stroke-width:1.5}.graph-line{stroke:#ccc;stroke-width:4;fill:none}.network-candidate{stroke:#777;stroke-width:2;stroke-dasharray:8 9}.network-final{stroke:#ddd;stroke-width:4}.svg-node,.request-node{fill:#bbb}.network-particle{fill:#ddd}.broadcast-waves circle{fill:none;stroke:#aaa;stroke-width:2}.response{fill:#444;stroke:#ccc;stroke-width:2}*{animation:none!important}</style>
+      <defs>
+        <pattern id="3-2-2-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+          <circle cx="2" cy="2" r="1.4" fill="rgba(255,255,255,.58)"></circle>
+          <circle cx="8" cy="7" r=".8" fill="rgba(255,255,255,.25)"></circle>
+        </pattern>
+        <pattern id="3-2-2-fine" width="8" height="8" patternUnits="userSpaceOnUse">
+          <circle cx="1.5" cy="1.5" r=".8" fill="rgba(255,255,255,.32)"></circle>
+        </pattern>
+        <filter id="3-2-2-glow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+          <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+        </filter>
+      </defs>
+      
+      <rect width="1000" height="600" fill="#0d0d0d"></rect>
+      <g opacity=".35"><path d="M0 100H1000 M0 200H1000 M0 300H1000 M0 400H1000 M0 500H1000 M100 0V600 M200 0V600 M300 0V600 M400 0V600 M500 0V600 M600 0V600 M700 0V600 M800 0V600 M900 0V600" class="svg-soft thin"></path></g>
+      
+      <g class="map-blocks">
+        <rect x="70" y="70" width="210" height="120" rx="18"></rect>
+        <rect x="330" y="55" width="190" height="155" rx="18"></rect>
+        <rect x="590" y="70" width="300" height="115" rx="18"></rect>
+        <rect x="80" y="285" width="260" height="190" rx="18"></rect>
+        <rect x="405" y="290" width="180" height="160" rx="18"></rect>
+        <rect x="650" y="280" width="260" height="205" rx="18"></rect>
+      </g>
+      <path id="3-2-2-pickup" d="M720 120 C610 170 650 270 520 330 S330 390 270 430" class="svg-route route-flow" fill="none"></path>
+      <g transform="translate(250 410)"><circle r="22" class="svg-line" fill="rgba(255,255,255,.04)"></circle><circle r="7" class="svg-fill"></circle><path d="M0 22 L-8 38 L8 38 Z" class="svg-fill"></path></g>
+      <g class="car-on-path">
+        <path d="M-25 10 L-16 -10 Q-12 -18 0 -18 H18 Q28 -18 32 -10 L40 10 Z" class="svg-line" fill="rgba(255,255,255,.08)"></path>
+        <circle cx="-12" cy="12" r="6" class="svg-line"></circle><circle cx="27" cy="12" r="6" class="svg-line"></circle>
+        
+      </g>
+    
+    </svg>

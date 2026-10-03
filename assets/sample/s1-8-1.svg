@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="sim-svg insets-sim" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid meet" aria-hidden="true"><style>.svg-line{stroke:#bcbcbc;stroke-width:2;fill:none}.svg-line.thin{stroke-width:1}.svg-soft{stroke:#666;stroke-width:1.4;fill:none}.svg-fill{fill:#bcbcbc}.svg-route{stroke:#ddd;stroke-width:4;stroke-dasharray:10 15;fill:none}.map-blocks rect,.plaza-zones rect{fill:#202020;stroke:#777;stroke-width:1.5}.graph-line{stroke:#ccc;stroke-width:4;fill:none}.network-candidate{stroke:#777;stroke-width:2;stroke-dasharray:8 9}.network-final{stroke:#ddd;stroke-width:4}.svg-node,.request-node{fill:#bbb}.network-particle{fill:#ddd}.broadcast-waves circle{fill:none;stroke:#aaa;stroke-width:2}.response{fill:#444;stroke:#ccc;stroke-width:2}*{animation:none!important}</style>
+      <defs>
+        <pattern id="4-2-1-insets-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+          <circle cx="2" cy="2" r="1.4" fill="rgba(255,255,255,.58)"></circle>
+          <circle cx="8" cy="7" r=".8" fill="rgba(255,255,255,.25)"></circle>
+        </pattern>
+        <pattern id="4-2-1-insets-fine" width="8" height="8" patternUnits="userSpaceOnUse">
+          <circle cx="1.5" cy="1.5" r=".8" fill="rgba(255,255,255,.32)"></circle>
+        </pattern>
+        <filter id="4-2-1-insets-glow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+          <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+        </filter>
+      </defs>
+      
+      <rect width="760" height="240" fill="#0d0d0d"></rect>
+      <g transform="translate(170 120)">
+        <circle r="68" class="svg-line" fill="rgba(255,255,255,.03)"></circle>
+        <circle r="40" class="svg-line" fill="none"></circle>
+        <circle r="13" class="svg-fill"></circle>
+        <path d="M-18 0H18 M0-18V18" class="svg-line"></path>
+      </g>
+      <g transform="translate(530 120)">
+        <rect x="-90" y="-60" width="180" height="120" rx="18" class="svg-line" fill="rgba(255,255,255,.03)"></rect>
+        <path d="M-20 -30 H25 Q45 -30 45 -5 V10 Q45 30 20 30 H-10" class="svg-line" fill="none"></path>
+        <circle cx="-35" cy="0" r="15" class="svg-line"></circle>
+        <path d="M-35 -9 V9 M-44 0 H-26" class="svg-line"></path>
+      </g>
+    
+    </svg>
